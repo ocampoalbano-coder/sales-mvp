@@ -1,0 +1,330 @@
+2025-08-18 22:45:27 | ERROR | MercuryAI | Exception on /ejecutar [GET]
+Traceback (most recent call last):
+  File "C:\Users\ocamp\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\ocamp\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\ocamp\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\ocamp\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\ocamp\OneDrive\Desktop\MiPrimerScript\app\app.py", line 424, in ejecutar
+    return render_template("ejecutar.html")
+  File "C:\Users\ocamp\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\templating.py", line 150, in render_template
+    return _render(app, template, context)
+  File "C:\Users\ocamp\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\templating.py", line 131, in _render
+    rv = template.render(context)
+  File "C:\Users\ocamp\AppData\Local\Programs\Python\Python313\Lib\site-packages\jinja2\environment.py", line 1295, in render
+    self.environment.handle_exception()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\ocamp\AppData\Local\Programs\Python\Python313\Lib\site-packages\jinja2\environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\ocamp\OneDrive\Desktop\MiPrimerScript\app\templates\ejecutar.html", line 2, in top-level template code
+    {% extends "base.html" %}
+  File "C:\Users\ocamp\OneDrive\Desktop\MiPrimerScript\app\templates\base.html", line 32, in top-level template code
+    {% block content %}{% endblock %}
+    ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ocamp\OneDrive\Desktop\MiPrimerScript\app\templates\ejecutar.html", line 58, in block 'content'
+    {% for c in muestra_errores.columns %}<th>{{ c }}</th>{% endfor %}
+    ^^^^^^^^^^^^^^^
+  File "C:\Users\ocamp\AppData\Local\Programs\Python\Python313\Lib\site-packages\jinja2\environment.py", line 490, in getattr
+    return getattr(obj, attribute)
+jinja2.exceptions.UndefinedError: 'muestra_errores' is undefined
+2025-08-18 22:45:27 | ERROR | MercuryAI | Error 500 no controlado
+Traceback (most recent call last):
+  File "C:\Users\ocamp\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\ocamp\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\ocamp\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\ocamp\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\ocamp\OneDrive\Desktop\MiPrimerScript\app\app.py", line 424, in ejecutar
+    return render_template("ejecutar.html")
+  File "C:\Users\ocamp\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\templating.py", line 150, in render_template
+    return _render(app, template, context)
+  File "C:\Users\ocamp\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\templating.py", line 131, in _render
+    rv = template.render(context)
+  File "C:\Users\ocamp\AppData\Local\Programs\Python\Python313\Lib\site-packages\jinja2\environment.py", line 1295, in render
+    self.environment.handle_exception()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\ocamp\AppData\Local\Programs\Python\Python313\Lib\site-packages\jinja2\environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\ocamp\OneDrive\Desktop\MiPrimerScript\app\templates\ejecutar.html", line 2, in top-level template code
+    {% extends "base.html" %}
+  File "C:\Users\ocamp\OneDrive\Desktop\MiPrimerScript\app\templates\base.html", line 32, in top-level template code
+    {% block content %}{% endblock %}
+    ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ocamp\OneDrive\Desktop\MiPrimerScript\app\templates\ejecutar.html", line 58, in block 'content'
+    {% for c in muestra_errores.columns %}<th>{{ c }}</th>{% endfor %}
+    ^^^^^^^^^^^^^^^
+  File "C:\Users\ocamp\AppData\Local\Programs\Python\Python313\Lib\site-packages\jinja2\environment.py", line 490, in getattr
+    return getattr(obj, attribute)
+jinja2.exceptions.UndefinedError: 'muestra_errores' is undefined
+2025-08-18 22:45:46 | ERROR | MercuryAI | Exception on /ejecutar [GET]
+Traceback (most recent call last):
+  File "C:\Users\ocamp\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\ocamp\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\ocamp\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\ocamp\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\ocamp\OneDrive\Desktop\MiPrimerScript\app\app.py", line 424, in ejecutar
+    return render_template("ejecutar.html")
+  File "C:\Users\ocamp\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\templating.py", line 150, in render_template
+    return _render(app, template, context)
+  File "C:\Users\ocamp\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\templating.py", line 131, in _render
+    rv = template.render(context)
+  File "C:\Users\ocamp\AppData\Local\Programs\Python\Python313\Lib\site-packages\jinja2\environment.py", line 1295, in render
+    self.environment.handle_exception()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\ocamp\AppData\Local\Programs\Python\Python313\Lib\site-packages\jinja2\environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\ocamp\OneDrive\Desktop\MiPrimerScript\app\templates\ejecutar.html", line 2, in top-level template code
+    {% extends "base.html" %}
+  File "C:\Users\ocamp\OneDrive\Desktop\MiPrimerScript\app\templates\base.html", line 32, in top-level template code
+    {% block content %}{% endblock %}
+    ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ocamp\OneDrive\Desktop\MiPrimerScript\app\templates\ejecutar.html", line 58, in block 'content'
+    {% for c in muestra_errores.columns %}<th>{{ c }}</th>{% endfor %}
+    ^^^^^^^^^^^^^^^
+  File "C:\Users\ocamp\AppData\Local\Programs\Python\Python313\Lib\site-packages\jinja2\environment.py", line 490, in getattr
+    return getattr(obj, attribute)
+jinja2.exceptions.UndefinedError: 'muestra_errores' is undefined
+2025-08-18 22:45:46 | ERROR | MercuryAI | Error 500 no controlado
+Traceback (most recent call last):
+  File "C:\Users\ocamp\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\ocamp\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\ocamp\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\ocamp\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\ocamp\OneDrive\Desktop\MiPrimerScript\app\app.py", line 424, in ejecutar
+    return render_template("ejecutar.html")
+  File "C:\Users\ocamp\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\templating.py", line 150, in render_template
+    return _render(app, template, context)
+  File "C:\Users\ocamp\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\templating.py", line 131, in _render
+    rv = template.render(context)
+  File "C:\Users\ocamp\AppData\Local\Programs\Python\Python313\Lib\site-packages\jinja2\environment.py", line 1295, in render
+    self.environment.handle_exception()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\ocamp\AppData\Local\Programs\Python\Python313\Lib\site-packages\jinja2\environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\ocamp\OneDrive\Desktop\MiPrimerScript\app\templates\ejecutar.html", line 2, in top-level template code
+    {% extends "base.html" %}
+  File "C:\Users\ocamp\OneDrive\Desktop\MiPrimerScript\app\templates\base.html", line 32, in top-level template code
+    {% block content %}{% endblock %}
+    ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ocamp\OneDrive\Desktop\MiPrimerScript\app\templates\ejecutar.html", line 58, in block 'content'
+    {% for c in muestra_errores.columns %}<th>{{ c }}</th>{% endfor %}
+    ^^^^^^^^^^^^^^^
+  File "C:\Users\ocamp\AppData\Local\Programs\Python\Python313\Lib\site-packages\jinja2\environment.py", line 490, in getattr
+    return getattr(obj, attribute)
+jinja2.exceptions.UndefinedError: 'muestra_errores' is undefined
+2025-08-18 22:50:04 | ERROR | MercuryAI | Error generando Excel
+Traceback (most recent call last):
+  File "C:\Users\ocamp\OneDrive\Desktop\MiPrimerScript\app\app.py", line 419, in ejecutar
+    ruta_excel = generar_excel_ext(  # type: ignore
+        df_limpio=df_limpio,
+    ...<3 lines>...
+        parametros=parametros_dict,
+    )
+  File "C:\Users\ocamp\OneDrive\Desktop\MiPrimerScript\app\core\generador_reportes.py", line 57, in generar_excel
+    resumen = _resumen_estadistico(df_limpio)
+  File "C:\Users\ocamp\OneDrive\Desktop\MiPrimerScript\app\core\generador_reportes.py", line 11, in _resumen_estadistico
+    describe = df.describe(include="all", datetime_is_numeric=True).T
+               ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: NDFrame.describe() got an unexpected keyword argument 'datetime_is_numeric'
+2025-08-18 22:56:11 | ERROR | MercuryAI | Exception on /ejecutar [POST]
+Traceback (most recent call last):
+  File "C:\Users\ocamp\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\ocamp\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\ocamp\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\ocamp\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\ocamp\OneDrive\Desktop\MiPrimerScript\app\app.py", line 358, in ejecutar
+    errores, muestras = _validaciones_avanzadas(df_limpio, columna_categoria)
+                        ^^^^^^^^^^^^^^^^^^^^^^^
+NameError: name '_validaciones_avanzadas' is not defined
+2025-08-18 22:56:11 | ERROR | MercuryAI | Error 500 no controlado
+Traceback (most recent call last):
+  File "C:\Users\ocamp\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\ocamp\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\ocamp\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\ocamp\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\ocamp\OneDrive\Desktop\MiPrimerScript\app\app.py", line 358, in ejecutar
+    errores, muestras = _validaciones_avanzadas(df_limpio, columna_categoria)
+                        ^^^^^^^^^^^^^^^^^^^^^^^
+NameError: name '_validaciones_avanzadas' is not defined
+2025-08-18 22:56:21 | ERROR | MercuryAI | Exception on /ejecutar [POST]
+Traceback (most recent call last):
+  File "C:\Users\ocamp\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\ocamp\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\ocamp\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\ocamp\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\ocamp\OneDrive\Desktop\MiPrimerScript\app\app.py", line 358, in ejecutar
+    errores, muestras = _validaciones_avanzadas(df_limpio, columna_categoria)
+                        ^^^^^^^^^^^^^^^^^^^^^^^
+NameError: name '_validaciones_avanzadas' is not defined
+2025-08-18 22:56:21 | ERROR | MercuryAI | Error 500 no controlado
+Traceback (most recent call last):
+  File "C:\Users\ocamp\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\ocamp\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\ocamp\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\ocamp\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\ocamp\OneDrive\Desktop\MiPrimerScript\app\app.py", line 358, in ejecutar
+    errores, muestras = _validaciones_avanzadas(df_limpio, columna_categoria)
+                        ^^^^^^^^^^^^^^^^^^^^^^^
+NameError: name '_validaciones_avanzadas' is not defined
+2025-08-18 22:56:48 | ERROR | MercuryAI | Exception on /ejecutar [POST]
+Traceback (most recent call last):
+  File "C:\Users\ocamp\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\ocamp\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\ocamp\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\ocamp\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\ocamp\OneDrive\Desktop\MiPrimerScript\app\app.py", line 358, in ejecutar
+    errores, muestras = _validaciones_avanzadas(df_limpio, columna_categoria)
+                        ^^^^^^^^^^^^^^^^^^^^^^^
+NameError: name '_validaciones_avanzadas' is not defined
+2025-08-18 22:56:48 | ERROR | MercuryAI | Error 500 no controlado
+Traceback (most recent call last):
+  File "C:\Users\ocamp\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\ocamp\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\ocamp\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\ocamp\AppData\Local\Programs\Python\Python313\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\ocamp\OneDrive\Desktop\MiPrimerScript\app\app.py", line 358, in ejecutar
+    errores, muestras = _validaciones_avanzadas(df_limpio, columna_categoria)
+                        ^^^^^^^^^^^^^^^^^^^^^^^
+NameError: name '_validaciones_avanzadas' is not defined
+2025-08-18 23:02:04 | ERROR | MercuryAI | Error generando PDF
+Traceback (most recent call last):
+  File "C:\Users\ocamp\AppData\Local\Programs\Python\Python313\Lib\site-packages\fpdf\fpdf.py", line 4910, in normalize_text
+    return text.encode(self.core_fonts_encoding).decode("latin-1")
+           ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'latin-1' codec can't encode character '\u2013' in position 11: ordinal not in range(256)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ocamp\OneDrive\Desktop\MiPrimerScript\app\app.py", line 375, in ejecutar
+    ruta_pdf = _generar_pdf_resumen(
+        df_limpio=df_limpio,
+    ...<3 lines>...
+        columna_categoria=columna_categoria,
+    )
+  File "C:\Users\ocamp\OneDrive\Desktop\MiPrimerScript\app\app.py", line 239, in _generar_pdf_resumen
+    pdf.cell(0, 10, "Mercury AI – Resumen de Reporte", ln=1)
+    ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ocamp\AppData\Local\Programs\Python\Python313\Lib\site-packages\fpdf\fpdf.py", line 221, in wrapper
+    return fn(self, *args, **kwargs)
+  File "C:\Users\ocamp\AppData\Local\Programs\Python\Python313\Lib\site-packages\fpdf\deprecation.py", line 32, in wrapper
+    return fn(self, *args, **kwargs)
+  File "C:\Users\ocamp\AppData\Local\Programs\Python\Python313\Lib\site-packages\fpdf\fpdf.py", line 3253, in cell
+    text = self.normalize_text(text)
+  File "C:\Users\ocamp\AppData\Local\Programs\Python\Python313\Lib\site-packages\fpdf\fpdf.py", line 4912, in normalize_text
+    raise FPDFUnicodeEncodingException(
+    ...<3 lines>...
+    ) from error
+fpdf.errors.FPDFUnicodeEncodingException: Character "–" at index 11 in text is outside the range of characters supported by the font used: "helveticaB". Please consider using a Unicode font.
+2025-08-18 23:07:33 | ERROR | MercuryAI | Error generando PDF
+Traceback (most recent call last):
+  File "C:\Users\ocamp\OneDrive\Desktop\MiPrimerScript\app\app.py", line 471, in ejecutar
+    ruta_pdf = _generar_pdf_resumen(
+        df_limpio=df_limpio,
+    ...<3 lines>...
+        columna_categoria=columna_categoria,
+    )
+  File "C:\Users\ocamp\OneDrive\Desktop\MiPrimerScript\app\app.py", line 329, in _generar_pdf_resumen
+    pdf.set_font(family, "B" if has_unicode else "B", 16)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ocamp\AppData\Local\Programs\Python\Python313\Lib\site-packages\fpdf\fpdf.py", line 2250, in set_font
+    raise FPDFException(
+    ...<2 lines>...
+    )
+fpdf.errors.FPDFException: Undefined font: uB - Use built-in fonts or FPDF.add_font() beforehand
+2025-08-18 23:07:39 | ERROR | MercuryAI | Error generando PDF
+Traceback (most recent call last):
+  File "C:\Users\ocamp\OneDrive\Desktop\MiPrimerScript\app\app.py", line 471, in ejecutar
+    ruta_pdf = _generar_pdf_resumen(
+        df_limpio=df_limpio,
+    ...<3 lines>...
+        columna_categoria=columna_categoria,
+    )
+  File "C:\Users\ocamp\OneDrive\Desktop\MiPrimerScript\app\app.py", line 329, in _generar_pdf_resumen
+    pdf.set_font(family, "B" if has_unicode else "B", 16)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ocamp\AppData\Local\Programs\Python\Python313\Lib\site-packages\fpdf\fpdf.py", line 2250, in set_font
+    raise FPDFException(
+    ...<2 lines>...
+    )
+fpdf.errors.FPDFException: Undefined font: uB - Use built-in fonts or FPDF.add_font() beforehand
+2025-08-18 23:08:09 | ERROR | MercuryAI | Error generando PDF
+Traceback (most recent call last):
+  File "C:\Users\ocamp\OneDrive\Desktop\MiPrimerScript\app\app.py", line 471, in ejecutar
+    ruta_pdf = _generar_pdf_resumen(
+        df_limpio=df_limpio,
+    ...<3 lines>...
+        columna_categoria=columna_categoria,
+    )
+  File "C:\Users\ocamp\OneDrive\Desktop\MiPrimerScript\app\app.py", line 329, in _generar_pdf_resumen
+    pdf.set_font(family, "B" if has_unicode else "B", 16)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ocamp\AppData\Local\Programs\Python\Python313\Lib\site-packages\fpdf\fpdf.py", line 2250, in set_font
+    raise FPDFException(
+    ...<2 lines>...
+    )
+fpdf.errors.FPDFException: Undefined font: uB - Use built-in fonts or FPDF.add_font() beforehand
+2025-08-19 18:25:49 | ERROR | MercuryAI | Error generando PDF
+Traceback (most recent call last):
+  File "C:\Users\ocamp\OneDrive\Desktop\MiPrimerScript\app\app.py", line 723, in ejecutar
+    ruta_pdf = _generar_pdf_resumen(
+        df_limpio=df_limpio,
+    ...<3 lines>...
+        columna_categoria=_infer_categoria_col(df_limpio, columna_categoria),
+    )
+  File "C:\Users\ocamp\OneDrive\Desktop\MiPrimerScript\app\app.py", line 584, in _generar_pdf_resumen
+    pdf.set_font(family, "B", 16)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\ocamp\AppData\Local\Programs\Python\Python313\Lib\site-packages\fpdf\fpdf.py", line 2250, in set_font
+    raise FPDFException(
+    ...<2 lines>...
+    )
+fpdf.errors.FPDFException: Undefined font: uB - Use built-in fonts or FPDF.add_font() beforehand

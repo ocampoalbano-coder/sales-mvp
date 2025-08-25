@@ -1,0 +1,4 @@
+ID,Nombre,Edad,Ingreso_Mensual,Fecha_Registro,Suscripcion_Activa,Puntaje
+1,Usuario_1,56,4000,2020-01-01,True,37.32
+2,Usuario_2,46,7000,2020-03-31,True,54.34
+3,Usuario_3,32,4000,2020-06-29,True,72.59

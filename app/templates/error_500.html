@@ -1,0 +1,7 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>500 — Error interno</h1>
+<p>Ocurrió un error en la aplicación.</p>
+{% if error %}<pre class="error">{{ error }}</pre>{% endif %}
+<a class="btn" href="{{ url_for('main.index') }}">Volver al inicio</a>
+{% endblock %}

@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>Automatización de Reportes</h1>
+<div class="grid">
+  <section class="card">
+    <h2>Cargar CSV y generar reporte</h2>
+    <p>Subí tu archivo CSV para limpiar datos y obtener Excel/PDF.</p>
+    <a class="btn" href="{{ url_for('main.ejecutar') }}">Ir a Ejecutar</a>
+  </section>
+  <section class="card">
+    <h2>Historial</h2>
+    <p>Descargá reportes generados anteriormente.</p>
+    <a class="btn secondary" href="{{ url_for('main.historial') }}">Ver Historial</a>
+  </section>
+</div>
+{% endblock %}

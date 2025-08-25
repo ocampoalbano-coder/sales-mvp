@@ -1,0 +1,41 @@
+:root{
+  --bg:#0f172a;        /* slate-900 */
+  --card:#111827;      /* gray-900 */
+  --muted:#94a3b8;     /* slate-400 */
+  --text:#e5e7eb;      /* gray-200 */
+  --accent:#22c55e;    /* green-500 */
+  --accent-2:#38bdf8;  /* sky-400 */
+  --warn:#f59e0b;      /* amber-500 */
+  --err:#ef4444;       /* red-500 */
+}
+
+*{box-sizing:border-box}
+body{margin:0;background:linear-gradient(180deg,#0b1222,#0f172a);color:var(--text);font:16px/1.5 system-ui,Segoe UI,Roboto,Arial}
+a{color:var(--accent-2);text-decoration:none}
+.container{max-width:980px;margin:0 auto;padding:24px}
+.topbar{background:rgba(255,255,255,.04);backdrop-filter:blur(6px);border-bottom:1px solid rgba(255,255,255,.06)}
+.topbar .brand{font-weight:700;color:#fff;margin-right:16px}
+.topbar nav a{margin-right:12px}
+.footer{border-top:1px solid rgba(255,255,255,.06);opacity:.8}
+
+h1{font-size:28px;margin:16px 0 12px}
+h2{font-size:20px;margin:0 0 8px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px}
+.card{background:var(--card);border:1px solid rgba(255,255,255,.08);border-radius:16px;padding:16px;box-shadow:0 10px 30px rgba(0,0,0,.25)}
+.form .field{margin-bottom:12px}
+.field.inline{display:flex;gap:8px;align-items:center}
+input[type="text"], input[type="file"]{
+  width:100%;padding:10px;border-radius:10px;border:1px solid rgba(255,255,255,.15);background:rgba(255,255,255,.04);color:#fff
+}
+.btn{display:inline-block;padding:10px 14px;border-radius:10px;background:var(--accent);color:#0b1222;font-weight:700;margin-right:8px}
+.btn.secondary{background:var(--accent-2);color:#03101d}
+.flash-stack{display:grid;gap:8px;margin:16px 0}
+.flash{padding:10px 12px;border-radius:10px}
+.flash.ok{background:#052e1a;border:1px solid #1a8f52}
+.flash.warn{background:#382b08;border:1px solid #d79a12}
+.flash.error{background:#3b0b0b;border:1px solid #c23b3b}
+.table{width:100%;border-collapse:collapse}
+.table th,.table td{padding:10px;border-bottom:1px solid rgba(255,255,255,.08);text-align:left}
+.chips{margin-top:8px;display:flex;flex-wrap:wrap;gap:8px}
+.chip{padding:6px 10px;border-radius:999px;background:rgba(56,189,248,.1);border:1px solid rgba(56,189,248,.35);color:#cdeeff}
+.error{white-space:pre-wrap;background:#1e293b;padding:12px;border-radius:10px;border:1px solid rgba(255,255,255,.08)}

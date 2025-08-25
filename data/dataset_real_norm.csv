@@ -1,0 +1,2021 @@
+order_id,Nombre,Edad,revenue,order_date,Suscripcion_Activa,category,Puntaje,status,region,product_name
+566,"Compañía ""ACME""_566",56,0.0,2021-11-09,SI, c ,67.34,Completado,N/A,N/A
+1763,García_1763,36,0.0,2020-09-15,False,,83.94,Completado,N/A,N/A
+725,Lía_725,49,6717.0,2024-07-18,NO, Z ,59.88,Completado,N/A,N/A
+1780,Sofía_1780,56,0.0,13/08/2019,False,a,66.76,Completado,N/A,N/A
+1456,O'Connor-1456,56,7599.0,31/02/2022,False,A,51.29,Completado,N/A,N/A
+1702,François-1702,31,0.0,2021-09-24,True,c,"96,93",Completado,N/A,N/A
+1397,Müller-1397,29,2938.36,24-06-2020,T,D,73.17,Completado,N/A,N/A
+747,Ana 747,32,4872.0,15-11-2020,True,C,66.04,Completado,N/A,N/A
+656,André 656,63,0.0,2024-03-28T00:00:00,true,Z,105.26,Completado,N/A,N/A
+841,García 841,36,0.0,2021-10-26,False,,84.28,Completado,N/A,N/A
+109,García 109,35,0.0,0000-00-00,1,Z,109.67,Completado,N/A,N/A
+1854,García 1854,51,0.0,21/03/2023,true,c,68.02,Completado,N/A,N/A
+992,André-992,31,2223.0,2019-08-08,0, c ,31.15,Completado,N/A,N/A
+949,José_949,,3367.0,02-10-2024,true,D ,99.89,Completado,N/A,N/A
+1739, Usuario_1739 ,62,0.0,15/10/2024,T,c,97.03,Completado,N/A,N/A
+1939,Lía-1939,24,2068.0,31/02/2022,true,A,106.47,Completado,N/A,N/A
+1542,Lía_1542,43,7147.0,2023-09-28,False,D,80.89,Completado,N/A,N/A
+1561,García 1561,28,5175.0,2022-01-03T00:00:00,SI,B,80.71,Completado,N/A,N/A
+1285, Ana_1285 ,58,0.0,2020-11-08T00:00:00,true,C,"46,23",Completado,N/A,N/A
+305,Tech–Labs_305,46,0.0,2021-06-21,true,D ,67.01,Completado,N/A,N/A
+547,"Compañía ""ACME""_547",121,7906.28,0000-00-00,T,D,"57,25",Completado,N/A,N/A
+1036, Ana 1036 ,41,0.0,2024-08-24,NO,,61.0,Completado,N/A,N/A
+1020, Müller_1020 ,68,7014.0,2022-10-07,NO,D,58.62,Completado,N/A,N/A
+1960,Niño-1960,27,5118.0,31-03-2021,True,D,63.88,Completado,N/A,N/A
+536,Niño-536,35,8856.0,13-04-2023,True,,43.75,Completado,N/A,N/A
+1348, Renée_1348 ,51,4178.0,2020-12-04,NO, b ,"76,86",Completado,N/A,N/A
+1050,María-1050,52,7586.99,10/06/2025,True,A,34.99,Completado,N/A,N/A
+606, Sofía-606 ,19,6424.0,22/01/2023,true,A,88.44,Completado,N/A,N/A
+315, Müller 315 ,56,0.0,2024/08/02,True,a,61.92,Completado,N/A,N/A
+1395,Usuario 1395,59,0.0,0000-00-00,False,A,96.97,Completado,N/A,N/A
+1297,O'Connor 1297,32,8904.0,2023-12-08,True, ,96.62,Completado,N/A,N/A
+1879,Renée 1879,32,5364.0,2025-05-29,1,Z,77.27,Completado,N/A,N/A
+207,José 207,54,7853.0,2021-06-23,false,D ,64.89,Completado,N/A,N/A
+1437,André 1437,66,3159.0,2020-02-25T00:00:00,True,D,60.1,Completado,N/A,N/A
+1498,Usuario-1498,0,3363.0,2020-02-17,SI,C,59.64,Completado,N/A,N/A
+1447,Ana 1447,50,0.0,2021-10-15,True,Z,"75,54",Completado,N/A,N/A
+1200,Niño 1200,47,8349.0,0000-00-00,True,c,"67,73",Completado,N/A,N/A
+1800,Ana_1800,59,3362.0,2024/10/03,NO,C,90.72,Completado,N/A,N/A
+1625,"Compañía ""ACME"" 1625",121,0.0,27/05/2023,False,B,83.7,Completado,N/A,N/A
+954," Compañía ""ACME""-954 ",36,0.0,2020-10-14,0,D ,83.9,Completado,N/A,N/A
+337,Niño-337,28,2821.0,2020-03-30,0,a,30.46,Completado,N/A,N/A
+1080,Tech–Labs-1080,30,0.0,30-11-2024,1, B ,"65,53",Completado,N/A,N/A
+1192,Müller-1192,66,2835.0,24-02-2025,0, b ,50.51,Completado,N/A,N/A
+267,André 267,41,3007.0,11-09-2022,False, b ,52.67,Completado,N/A,N/A
+441,O'Connor_441,36,0.0,2024-03-16,False, a ,41.92,Completado,N/A,N/A
+989, Sofía_989 ,48,6675.0,,F, b ,51.16,Completado,N/A,N/A
+1506, José 1506 ,23,4602.0,23-01-2019,SI, ,36.94,Completado,N/A,N/A
+1003,María_1003,34,3517.0,,True,B,49.67,Completado,N/A,N/A
+1156,Tech–Labs-1156,25,2069.0,2024-10-05,0,,48.93,Completado,N/A,N/A
+1540, Lía_1540 ,66,4747.0,31/02/2022,True,Z,52.81,Completado,N/A,N/A
+1280,"Compañía ""ACME"" 1280",43,6453.0,25-05-2022,True,,100.17,Completado,N/A,N/A
+976, María 976 ,21,0.0,2020-04-01,T,D,37.89,Completado,N/A,N/A
+1999,Renée 1999,62,2814.07,,NO, D ,88.58,Completado,N/A,N/A
+1588,José 1588,63,2941.0,2025-04-15T00:00:00,True,Z,73.73,Completado,N/A,N/A
+13,Tech–Labs-13,-5,8873.0,,true,,61.61,Completado,N/A,N/A
+1582,María_1582,30,0.0,2022-06-01,T,B,102.67,Completado,N/A,N/A
+1512,Ñandú_1512,41,7406.0,30-08-2025,NO,C,90.51,Completado,N/A,N/A
+1900,"Compañía ""ACME"" 1900",121,0.0,2024-03-20,1,c,78.64,Completado,N/A,N/A
+1342,François-1342,55,8789.0,28-09-2024,false,Z,66.09,Completado,N/A,N/A
+565, Lía-565 ,51,3708.0,31/02/2022,F, a ,89.67,Completado,N/A,N/A
+1876, Tech–Labs-1876 ,69,6244.0,31/02/2022,0, N/A ,55.94,Completado,N/A,N/A
+92,Müller-92,42,0.0,02/02/2025,False,,34.28,Completado,N/A,N/A
+1125,"Compañía ""ACME"" 1125",34,8731.0,26/06/2019,F, N/A ,54.98,Completado,N/A,N/A
+974,Müller-974,55,2672.0,2023-11-07,NO,A,"61,34",Completado,N/A,N/A
+548,Renée_548,48,8538.0,31/02/2022,1, C ,"84,17",Completado,N/A,N/A
+616,Lía_616,-5,5866.52,2023-09-02T00:00:00,T,A,91.61,Completado,N/A,N/A
+1990, José_1990 ,64,0.0,2020-06-10,NO,,34.31,Completado,N/A,N/A
+1190,Ana-1190,56,0.0,05-05-2021,1,c,76.66,Completado,N/A,N/A
+1299,María_1299,56,4225.86,20-06-2025,false,,66.62,Completado,N/A,N/A
+1700,Ñandú 1700,41,4588.0,2024-07-23,NO,,53.26,Completado,N/A,N/A
+484,O'Connor 484,,3910.0,2021-10-09,SI,,83.43,Completado,N/A,N/A
+842,Niño_842,55,0.0,02/02/2025,False,,"52,53",Completado,N/A,N/A
+44, García-44 ,69,4049.0,2022-08-20,true,a,"107,23",Completado,N/A,N/A
+754,Niño_754,65,4854.0,2023-02-12,True,C,71.44,Completado,N/A,N/A
+1697,José-1697,46,6483.13,26-07-2024,F,D,81.58,Completado,N/A,N/A
+1571,Niño_1571,47,0.0,2022-03-05,NO,A,81.47,Completado,N/A,N/A
+1877,O'Connor-1877,49,4106.0,18/10/2021,NO,,93.42,Completado,N/A,N/A
+1954,Müller_1954,35,0.0,14/07/2020,False,a,94.37,Completado,N/A,N/A
+1354,Usuario_1354,58,3865.0,2022-04-30,True,D ,86.19,Completado,N/A,N/A
+1724,François_1724,49,0.0,2021-11-20,true,A,70.02,Completado,N/A,N/A
+1392,José_1392,53,2495.0,2021-11-13,False,C,105.5,Completado,N/A,N/A
+450,Renée 450,23,3900.0,2022/12/20,NO,D,98.22,Completado,N/A,N/A
+396,Tech–Labs_396,55,3508.0,2023-05-17,SI,c,82.33,Completado,N/A,N/A
+1635,François_1635,68,3754.82,27/07/2022,false,D,"68,08",Completado,N/A,N/A
+1810,Usuario 1810,58,0.0,2023-11-07,true, a ,107.51,Completado,N/A,N/A
+1510,Niño-1510,29,8411.0,04-07-2020,F,C,65.05,Completado,N/A,N/A
+1737,Niño 1737,20,6472.85,2023-05-05T00:00:00,SI,D,59.83,Completado,N/A,N/A
+801, Niño-801 ,,0.0,2020-08-06,NO,Z,65.18,Completado,N/A,N/A
+785,Ana-785,61,3448.58,27/09/2021,F,,"35,58",Completado,N/A,N/A
+1186,Müller-1186,42,5681.0,2022-12-14T00:00:00,F,a,80.31,Completado,N/A,N/A
+1229, María 1229 ,53,7157.58,2024-08-04,1,C,87.45,Completado,N/A,N/A
+1642,José-1642,64,7769.0,26-06-2023,False,,39.01,Completado,N/A,N/A
+302, André 302 ,-5,0.0,11/04/2024,false,B,99.75,Completado,N/A,N/A
+595,François-595,46,0.0,31/02/2022,False,c,35.02,Completado,N/A,N/A
+1286,Ana-1286,50,0.0,2020-08-25,True,D,51.94,Completado,N/A,N/A
+904,Tech–Labs_904,44,8215.0,17/03/2024,true,,71.05,Completado,N/A,N/A
+1216,Usuario-1216,24,5625.0,20/09/2024,SI,Z,105.39,Completado,N/A,N/A
+869,O'Connor 869,34,0.0,04/03/2020,SI, ,97.27,Completado,N/A,N/A
+557,André-557,49,6163.0,31/02/2022,T,Z,"73,34",Completado,N/A,N/A
+1759,Sofía-1759,68,6114.0,2022/07/04,0,Z,30.43,Completado,N/A,N/A
+65,Lía-65,68,0.0,2021-04-13,True, N/A ,65.08,Completado,N/A,N/A
+1369, Ana-1369 ,29,0.0,2022-05-13,True, B ,32.51,Completado,N/A,N/A
+1580,Niño 1580,39,7832.0,22/05/2019,F,a,83.84,Completado,N/A,N/A
+810,Sofía_810,32,8094.0,2023/03/07,False,C,97.21,Completado,N/A,N/A
+1586,Renée-1586,32,4651.0,14-03-2023,true,C,85.3,Completado,N/A,N/A
+1174,Lía-1174,59,3798.39,2020-02-20,false,D,53.84,Completado,N/A,N/A
+967,François_967,0,4476.0,2021-03-01,True, C ,55.44,Completado,N/A,N/A
+544,Lía-544,61,5134.0,2024-09-01,NO,a,55.51,Completado,N/A,N/A
+1958,Ana 1958,20,7913.0,20-12-2023,true, b ,95.86,Completado,N/A,N/A
+1279,Tech–Labs-1279,33,2148.0,13-03-2020,True, N/A ,88.95,Completado,N/A,N/A
+1358,André 1358,38,3428.0,2019-10-10T00:00:00,false,,"105,77",Completado,N/A,N/A
+1723,José_1723,54,7088.26,,False,D,"75,89",Completado,N/A,N/A
+1744,O'Connor 1744,18,8403.0,19-06-2024,1,a,87.7,Completado,N/A,N/A
+286,José 286,57,8949.73,2021-04-27,1,A,82.02,Completado,N/A,N/A
+929,María_929,59,0.0,08-06-2025,F, B ,34.8,Completado,N/A,N/A
+1809,José_1809,23,4198.0,2025-04-06T00:00:00,0,D ,81.28,Completado,N/A,N/A
+1289,Sofía_1289,19,0.0,26/02/2022,False,D,36.19,Completado,N/A,N/A
+1310,Tech–Labs 1310,66,7875.47,26/08/2019,NO,a,67.36,Completado,N/A,N/A
+274," Compañía ""ACME"" 274 ",50,0.0,23/07/2020,SI,A,30.08,Completado,N/A,N/A
+458,María-458,20,0.0,18/10/2024,False,C,"40,17",Completado,N/A,N/A
+257,José 257,-5,3711.0,06-03-2021,0, C ,36.09,Completado,N/A,N/A
+1953,François_1953,38,8900.0,2025-03-09,True,Z,47.26,Completado,N/A,N/A
+1665,"Compañía ""ACME""_1665",60,7121.72,29-05-2024,F,D ,80.43,Completado,N/A,N/A
+309,García-309,53,3441.0,2023-12-03,true,D ,82.4,Completado,N/A,N/A
+1010,"Compañía ""ACME""_1010",64,6041.44,24/06/2019,T,D,103.79,Completado,N/A,N/A
+29,Ana-29,45,4237.0,09-11-2022,False,D,48.23,Completado,N/A,N/A
+1317,José-1317,59,5932.0,2025-04-26,SI,C,80.14,Completado,N/A,N/A
+479,André-479,26,0.0,2020-04-12,NO, ,74.63,Completado,N/A,N/A
+1029, Tech–Labs 1029 ,35,0.0,08/11/2023,1, b ,"50,29",Completado,N/A,N/A
+467,André 467,23,8985.0,2021-05-02T00:00:00,0,B,"41,28",Completado,N/A,N/A
+1324, Müller 1324 ,46,0.0,2021/06/23,True,C,"57,38",Completado,N/A,N/A
+828,Usuario_828,33,4805.0,22/12/2020,False, D ,71.03,Completado,N/A,N/A
+523,Tech–Labs-523,65,0.0,2020-12-01,True,D,30.44,Completado,N/A,N/A
+857, José-857 ,65,0.0,01/04/2019,SI,Z,104.52,Completado,N/A,N/A
+1159, Tech–Labs-1159 ,69,0.0,2019/01/25,True,c,39.54,Completado,N/A,N/A
+1609,Müller-1609,43,3423.0,15/05/2022,SI,B,"71,62",Completado,N/A,N/A
+652,Usuario 652,68,4635.0,2025-05-18,F,C,"97,17",Completado,N/A,N/A
+52,Renée-52,61,0.0,2024/11/05,False,,52.56,Completado,N/A,N/A
+1451,Lía 1451,44,2743.0,07/04/2020,false,A,34.81,Completado,N/A,N/A
+307, Usuario-307 ,54,3387.0,13/08/2021,false,A,33.21,Completado,N/A,N/A
+230,Renée-230,0,0.0,2019-09-07,True,Z,55.03,Completado,N/A,N/A
+105,Ana 105,25,0.0,2025/08/31,NO,D ,76.67,Completado,N/A,N/A
+861, O'Connor 861 ,55,0.0,2023-03-18T00:00:00,true, a ,89.11,Completado,N/A,N/A
+422,Müller-422,56,3256.0,05-01-2025,False,c,90.4,Completado,N/A,N/A
+1352,André 1352,54,0.0,2019-12-22,False,D,109.68,Completado,N/A,N/A
+1460, André_1460 ,33,5575.0,15/06/2019,False,D ,63.1,Completado,N/A,N/A
+525,Sofía_525,38,0.0,18-10-2022,1,A,33.55,Completado,N/A,N/A
+703, O'Connor-703 ,-5,4704.0,21/04/2021,T,a,30.67,Completado,N/A,N/A
+1802,"Compañía ""ACME""-1802",45,0.0,2024-12-26,SI,D ,73.0,Completado,N/A,N/A
+358,Tech–Labs 358,27,0.0,2023-05-04,False,B,88.95,Completado,N/A,N/A
+762,Usuario 762,19,0.0,,1,,106.68,Completado,N/A,N/A
+1009,François-1009,65,4476.0,2019/05/28,NO, N/A ,44.32,Completado,N/A,N/A
+190,García-190,46,6757.0,12/01/2025,F,A,"47,01",Completado,N/A,N/A
+1501,Tech–Labs_1501,44,8020.0,2020-12-30,F,D ,49.99,Completado,N/A,N/A
+1333,Usuario_1333,51,2596.99,,0,A,81.5,Completado,N/A,N/A
+1018,François 1018,25,6086.0,11-03-2025,F,Z,100.37,Completado,N/A,N/A
+64,O'Connor-64,53,4368.0,04/02/2020,false,,34.06,Completado,N/A,N/A
+210,Tech–Labs-210,62,7877.0,25-07-2022,True,Z,96.79,Completado,N/A,N/A
+924,José 924,,2320.0,2020-07-12,SI,C,46.83,Completado,N/A,N/A
+95,O'Connor 95,52,4938.0,31/02/2022,true,D ,93.33,Completado,N/A,N/A
+945,Renée-945,31,0.0,2022/10/10,true, Z ,58.53,Completado,N/A,N/A
+1916,O'Connor_1916,55,0.0,25/03/2021,F, b ,91.79,Completado,N/A,N/A
+642,André-642,54,3636.0,2025-01-27,F,,33.68,Completado,N/A,N/A
+716,Sofía-716,55,4467.0,2023-07-01,False,,104.9,Completado,N/A,N/A
+183,Usuario 183,,0.0,20-04-2022,False,a,"97,00",Completado,N/A,N/A
+383,Tech–Labs 383,52,6225.0,17-12-2023,False, ,75.84,Completado,N/A,N/A
+735,Renée_735,45,0.0,2019-01-19,true,a,84.32,Completado,N/A,N/A
+1357,García-1357,42,3460.0,2022-11-17,true,D ,79.9,Completado,N/A,N/A
+430,Niño-430,25,0.0,2020-03-24,True,D,52.23,Completado,N/A,N/A
+955," Compañía ""ACME"" 955 ",39,4158.0,2024/05/26,False, ,93.72,Completado,N/A,N/A
+1002,Ana 1002,33,4999.0,2019-11-02T00:00:00,SI,A,43.59,Completado,N/A,N/A
+872,Ñandú 872,23,8713.48,2020-02-11,true,,72.53,Completado,N/A,N/A
+1550, José-1550 ,48,8600.0,31/02/2022,T,a,75.19,Completado,N/A,N/A
+222,Ana 222,26,0.0,01/06/2025,False,a,"88,26",Completado,N/A,N/A
+407,"Compañía ""ACME""-407",51,8869.0,2025/02/25,true, b ,48.16,Completado,N/A,N/A
+156, Usuario 156 ,21,2224.0,2020-06-15,0,,49.39,Completado,N/A,N/A
+1579,María 1579,30,4587.0,02/09/2019,True, N/A ,60.62,Completado,N/A,N/A
+490,O'Connor-490,38,7077.0,2022-02-28,false, B ,100.39,Completado,N/A,N/A
+111,Renée_111,41,7127.0,2022-02-19,True,c,45.05,Completado,N/A,N/A
+1713,Sofía 1713,37,3708.89,2022-01-15T00:00:00,false,,69.06,Completado,N/A,N/A
+328,Sofía 328,62,3969.0,0000-00-00,False,C,42.99,Completado,N/A,N/A
+438,Ana 438,27,7891.0,2019/07/07,1,,93.54,Completado,N/A,N/A
+1034,Ñandú-1034,62,0.0,31/02/2022,1,A,36.53,Completado,N/A,N/A
+1623,André_1623,62,0.0,27-04-2024,true,,76.71,Completado,N/A,N/A
+1294, Renée_1294 ,41,7611.0,2024-01-11T00:00:00,False,a,103.19,Completado,N/A,N/A
+1251,Usuario-1251,29,7065.0,28/07/2025,true,c,61.74,Completado,N/A,N/A
+601,Tech–Labs_601,38,7220.0,0000-00-00,True, b ,106.06,Completado,N/A,N/A
+997,Ana_997,121,5138.0,22/06/2021,false,,51.65,Completado,N/A,N/A
+946,María 946,36,4237.0,10/03/2021,T,A,98.09,Completado,N/A,N/A
+51,André-51,31,5987.07,2022-03-04,true,C,87.68,Completado,N/A,N/A
+1107,María_1107,60,5644.0,06/05/2025,SI,B,83.71,Completado,N/A,N/A
+1210, Sofía 1210 ,43,5957.0,2023-03-12,SI,D,31.02,Completado,N/A,N/A
+1304,Niño 1304,36,7759.0,2019-11-03T00:00:00,False, b ,40.43,Completado,N/A,N/A
+1238, François_1238 ,,0.0,2022/01/06,true, ,95.18,Completado,N/A,N/A
+961,García_961,45,7351.71,2023-01-06,true, a ,"40,86",Completado,N/A,N/A
+1479,Ñandú 1479,66,3772.0,2021-04-18,False, b ,62.87,Completado,N/A,N/A
+357, Lía 357 ,43,0.0,2019/05/26,SI,,91.33,Completado,N/A,N/A
+1408,María 1408,20,5083.0,14/06/2022,0, A ,56.53,Completado,N/A,N/A
+1203,Renée-1203,56,0.0,13-10-2022,1,D,58.15,Completado,N/A,N/A
+1027, François 1027 ,23,0.0,2024/05/18,NO, N/A ,55.5,Completado,N/A,N/A
+327,O'Connor-327,56,8638.0,,True,,41.17,Completado,N/A,N/A
+132, François-132 ,27,0.0,10/03/2019,NO, b ,108.4,Completado,N/A,N/A
+1293,Müller-1293,62,8638.0,2019/02/15,false,,91.97,Completado,N/A,N/A
+143,Lía-143,43,4125.0,2019-12-31,SI,Z,34.99,Completado,N/A,N/A
+411,Sofía_411,57,0.0,02/08/2023,False,,107.66,Completado,N/A,N/A
+67,François_67,39,0.0,2021-12-13T00:00:00,NO,c,72.97,Completado,N/A,N/A
+1424,O'Connor_1424,36,7423.0,2022-02-12T00:00:00,False,Z,78.54,Completado,N/A,N/A
+404,María 404,121,4672.0,2019-04-15,False, D ,38.17,Completado,N/A,N/A
+903,Sofía_903,65,3356.03,2023-11-17,NO,B,73.54,Completado,N/A,N/A
+799,"Compañía ""ACME"" 799",51,4411.0,31/12/2023,NO, C ,68.0,Completado,N/A,N/A
+1477,Tech–Labs_1477,36,4228.0,24-03-2019,T,Z,107.64,Completado,N/A,N/A
+205, Müller 205 ,46,0.0,0000-00-00,False, A ,50.75,Completado,N/A,N/A
+567,Tech–Labs 567,-5,0.0,27/10/2020,SI,,108.48,Completado,N/A,N/A
+658, Tech–Labs_658 ,53,5607.0,2019-10-17,false, ,100.07,Completado,N/A,N/A
+311, Renée_311 ,62,0.0,2021/03/04,False,,87.27,Completado,N/A,N/A
+1343,José-1343,41,0.0,14/09/2021,False,c,45.39,Completado,N/A,N/A
+1629,Niño 1629,32,2773.0,24-05-2020,SI, ,"65,44",Completado,N/A,N/A
+329,François 329,38,3799.0,2022-10-13,True,,99.45,Completado,N/A,N/A
+1687,Ñandú-1687,64,0.0,2020-04-08,0,Z,43.0,Completado,N/A,N/A
+1355,Tech–Labs 1355,68,3238.0,13-04-2021,1,D,84.42,Completado,N/A,N/A
+778,José_778,60,2514.0,2022-05-16,F,C,63.19,Completado,N/A,N/A
+1292,O'Connor-1292,54,6631.83,04-04-2024,False, b ,"32,64",Completado,N/A,N/A
+1245,Sofía 1245,42,5395.0,2021-03-24,false,a,97.59,Completado,N/A,N/A
+1823,García_1823,59,2272.0,23-03-2022,False,Z,38.16,Completado,N/A,N/A
+310,"Compañía ""ACME""-310",68,3269.0,28/09/2020,NO, ,46.85,Completado,N/A,N/A
+240,François 240,33,3262.0,2025-08-21T00:00:00,1,B,91.46,Completado,N/A,N/A
+1413,Usuario-1413,29,6763.0,2025-08-24,NO,B,30.1,Completado,N/A,N/A
+87,Ana-87,0,0.0,2020-11-06,1, B ,44.2,Completado,N/A,N/A
+1303,Niño-1303,47,4040.0,2020-03-14,false,a,38.37,Completado,N/A,N/A
+236,María 236,66,2920.0,2019-01-16,false,A,64.15,Completado,N/A,N/A
+779,Usuario 779,27,2067.0,2023-05-16T00:00:00,1,D ,81.07,Completado,N/A,N/A
+1965,Ñandú-1965,64,0.0,25/02/2022,true,a,"108,28",Completado,N/A,N/A
+1488,O'Connor_1488,55,8372.0,2020-07-26,1, b ,47.64,Completado,N/A,N/A
+591,García 591,49,8555.0,2021-10-08,SI,Z,54.26,Completado,N/A,N/A
+1730,François 1730,58,0.0,19-11-2020,True,a,39.4,Completado,N/A,N/A
+786, Müller_786 ,39,0.0,18-02-2025,True, D ,44.35,Completado,N/A,N/A
+261, García-261 ,50,0.0,2019-12-29,True,C,49.1,Completado,N/A,N/A
+1325,Tech–Labs_1325,20,3560.0,2022-03-10,True,Z,102.49,Completado,N/A,N/A
+1835, Tech–Labs 1835 ,25,3525.0,0000-00-00,1,,44.05,Completado,N/A,N/A
+773,Niño 773,44,4505.0,14-01-2023,false,,109.81,Completado,N/A,N/A
+1234, Ana_1234 ,121,7739.0,,false, D ,54.76,Completado,N/A,N/A
+1795,Sofía_1795,69,0.0,2023-02-06,1,a,73.97,Completado,N/A,N/A
+855,José_855,121,4925.0,05/08/2021,NO,C,88.71,Completado,N/A,N/A
+1996,García-1996,38,0.0,,0,D,32.96,Completado,N/A,N/A
+1736,"Compañía ""ACME"" 1736",-5,0.0,2023/12/02,True,A,37.38,Completado,N/A,N/A
+115,María_115,22,8593.0,2019-01-10,False,Z,104.62,Completado,N/A,N/A
+1138, Ñandú 1138 ,30,0.0,2020-06-07,NO, b ,97.37,Completado,N/A,N/A
+808,Ana-808,59,2225.0,2021/02/15,False,,"45,26",Completado,N/A,N/A
+1798, Ñandú_1798 ,52,8645.0,2022-07-31T00:00:00,1,D,101.72,Completado,N/A,N/A
+843,María 843,30,0.0,2022/06/05,False, b ,79.82,Completado,N/A,N/A
+654,Tech–Labs-654,38,0.0,2022/11/23,True,,73.56,Completado,N/A,N/A
+1261,Niño_1261,59,7419.0,0000-00-00,1,D,43.07,Completado,N/A,N/A
+104, Sofía_104 ,62,3243.0,2021-12-17,1, C ,89.28,Completado,N/A,N/A
+373,Tech–Labs_373,40,6725.04,2024-06-26,False, N/A ,104.16,Completado,N/A,N/A
+382,Renée 382,20,7043.0,14/03/2019,F,Z,55.8,Completado,N/A,N/A
+701,O'Connor-701,62,0.0,2019-03-24,T,Z,"106,61",Completado,N/A,N/A
+776,Usuario 776,47,0.0,2019-06-15,0,Z,31.37,Completado,N/A,N/A
+1925, André_1925 ,24,3406.0,0000-00-00,0, b ,81.43,Completado,N/A,N/A
+1611, Ñandú 1611 ,25,3306.73,30/07/2025,T,A,71.74,Completado,N/A,N/A
+708,José 708,50,6164.0,2025-06-04,0, b ,49.8,Completado,N/A,N/A
+1316,Lía-1316,46,4509.0,2021-07-09T00:00:00,True,c,50.57,Completado,N/A,N/A
+219,Müller-219,57,6193.0,2019-02-24,NO,D,83.09,Completado,N/A,N/A
+651,Ana 651,62,7699.0,09/12/2020,false,Z,87.53,Completado,N/A,N/A
+451,Renée-451,43,7468.0,31/02/2022,True, D ,64.81,Completado,N/A,N/A
+1372, García_1372 ,33,2331.0,04/07/2020,SI,,"107,05",Completado,N/A,N/A
+1547,Sofía-1547,51,3289.53,2024-02-19,F,a,61.88,Completado,N/A,N/A
+22,François_22,64,5840.04,2020-05-17,T,Z,91.68,Completado,N/A,N/A
+1377,Ñandú-1377,33,8617.0,2023-04-14,SI,,90.71,Completado,N/A,N/A
+1196,Müller-1196,0,0.0,07/12/2020,SI, Z ,85.77,Completado,N/A,N/A
+1005,"Compañía ""ACME""_1005",30,3819.0,2022-09-04,False,a,83.63,Completado,N/A,N/A
+453,García-453,67,4839.0,05/02/2024,false,c,34.58,Completado,N/A,N/A
+1638,Lía_1638,48,4817.0,02-08-2024,SI,C,41.59,Completado,N/A,N/A
+120,Sofía 120,23,4756.0,2023/07/27,True,D ,109.73,Completado,N/A,N/A
+614,García-614,69,6266.0,09/01/2021,0,,33.33,Completado,N/A,N/A
+699,Sofía_699,32,0.0,2022/06/25,SI,D,"77,01",Completado,N/A,N/A
+76,Müller-76,66,7053.0,2020-03-28,SI,c,67.93,Completado,N/A,N/A
+1023,François_1023,59,0.0,2025-07-22,True,D ,50.89,Completado,N/A,N/A
+43,Müller_43,47,0.0,31-12-2024,F,,95.38,Completado,N/A,N/A
+278,O'Connor_278,61,0.0,08/06/2025,true,Z,63.58,Completado,N/A,N/A
+113,José 113,44,0.0,31/02/2022,True,Z,84.78,Completado,N/A,N/A
+1441,Ana_1441,68,0.0,04-04-2021,True,a,64.1,Completado,N/A,N/A
+1104,Renée 1104,22,0.0,27-04-2021,NO,,108.5,Completado,N/A,N/A
+385, André-385 ,53,8976.0,2022-02-07,false, ,101.86,Completado,N/A,N/A
+227,François_227,48,3750.0,2023-02-17,False,A,85.38,Completado,N/A,N/A
+1019, Tech–Labs-1019 ,57,5560.0,13-10-2024,SI,D ,58.35,Completado,N/A,N/A
+1225,García-1225,44,3099.0,2024-11-26,NO,A,70.36,Completado,N/A,N/A
+671,María 671,19,5494.0,,True,B,103.68,Completado,N/A,N/A
+1370,Lía-1370,20,4515.0,09/12/2022,0,B,"46,52",Completado,N/A,N/A
+1121,García-1121,35,6654.0,24/11/2024,T,Z,34.36,Completado,N/A,N/A
+1883,Müller_1883,65,0.0,2020-08-08,1,C,82.57,Completado,N/A,N/A
+526,Niño_526,58,0.0,2020/07/06,True, D ,95.46,Completado,N/A,N/A
+1536,Usuario-1536,52,0.0,2020/08/19,False,B,64.71,Completado,N/A,N/A
+1715,Niño_1715,121,5825.0,2021-06-11T00:00:00,True, b ,79.01,Completado,N/A,N/A
+36,O'Connor_36,,7535.0,2025/04/13,T,,83.77,Completado,N/A,N/A
+262,André-262,59,5738.0,2020/11/30,F, b ,42.69,Completado,N/A,N/A
+1662,José-1662,58,7167.0,0000-00-00,false,D ,74.39,Completado,N/A,N/A
+692, Sofía-692 ,27,7922.0,2019-07-27T00:00:00,true,A,80.46,Completado,N/A,N/A
+1363,José 1363,63,0.0,0000-00-00,True, c ,41.44,Completado,N/A,N/A
+743,André-743,45,3847.0,2020-05-19T00:00:00,T, b ,99.93,Completado,N/A,N/A
+521,Usuario-521,34,6357.0,0000-00-00,false,A,41.2,Completado,N/A,N/A
+1517,Ñandú-1517,55,8276.0,2021-12-24T00:00:00,False,C,75.78,Completado,N/A,N/A
+1178,José 1178,121,2989.0,0000-00-00,True, C ,"64,04",Completado,N/A,N/A
+866,"Compañía ""ACME"" 866",39,4158.0,2021/01/30,F,,76.21,Completado,N/A,N/A
+434,Niño 434,34,7752.0,2023-11-14,SI, ,97.36,Completado,N/A,N/A
+149,María-149,39,6007.82,22-03-2023,1, D ,101.97,Completado,N/A,N/A
+1351,François-1351,45,0.0,2019-11-29,1,c,"70,73",Completado,N/A,N/A
+950,Usuario-950,52,3986.64,06/10/2024,true,c,68.12,Completado,N/A,N/A
+1181, Renée-1181 ,69,5383.0,2019-04-09T00:00:00,SI,B,40.7,Completado,N/A,N/A
+244,María 244,41,4234.0,2024/08/03,0, ,93.84,Completado,N/A,N/A
+1591,García_1591,63,0.0,2022-03-02,NO, b ,64.36,Completado,N/A,N/A
+1618,André-1618,57,2973.0,2022-10-30,True,D ,79.07,Completado,N/A,N/A
+148,Usuario 148,37,2066.17,28-11-2024,1,A,76.74,Completado,N/A,N/A
+884,Sofía 884,59,0.0,2023-01-21,False,Z,55.19,Completado,N/A,N/A
+352,María-352,66,8441.0,09/08/2021,T,D ,"107,03",Completado,N/A,N/A
+583,Renée-583,62,4092.0,31/10/2024,True,a,71.81,Completado,N/A,N/A
+116, Ana 116 ,67,7124.0,2021-10-12,SI,a,60.12,Completado,N/A,N/A
+1417,André_1417,47,8206.0,2020-11-17,false, C ,31.22,Completado,N/A,N/A
+1775,André 1775,18,0.0,2019/09/17,NO,a,78.29,Completado,N/A,N/A
+88,Tech–Labs 88,26,4786.0,27-01-2022,False,Z,63.01,Completado,N/A,N/A
+1049,Lía_1049,41,5086.0,2019-08-05,1,,55.9,Completado,N/A,N/A
+1400,García 1400,19,3436.0,2022-03-08,True,Z,92.65,Completado,N/A,N/A
+555,Ana 555,52,7827.0,24/02/2021,true, D ,96.14,Completado,N/A,N/A
+1145, Ñandú 1145 ,63,8665.0,25-09-2020,T, a ,38.11,Completado,N/A,N/A
+121,"Compañía ""ACME"" 121",40,4724.0,2020-12-14,False, C ,97.97,Completado,N/A,N/A
+1738," Compañía ""ACME""_1738 ",26,7041.0,2024-09-17,False,D,76.15,Completado,N/A,N/A
+690,Usuario 690,34,0.0,03/09/2022,True,D ,74.44,Completado,N/A,N/A
+32,Usuario-32,49,5304.51,,false,C,107.74,Completado,N/A,N/A
+1202,Lía-1202,19,6873.0,2019-02-11,False,C,56.34,Completado,N/A,N/A
+760,Müller 760,25,7944.39,2021-08-12,True,a,98.92,Completado,N/A,N/A
+1585,Lía_1585,66,3312.0,27-12-2023,NO,a,106.3,Completado,N/A,N/A
+1657, André 1657 ,23,2567.0,2021-09-08,F, b ,36.37,Completado,N/A,N/A
+1753,Ñandú-1753,32,0.0,2022-10-20,false,,85.16,Completado,N/A,N/A
+1115,Tech–Labs-1115,58,0.0,2020-08-31,true,A,37.18,Completado,N/A,N/A
+168,Ana_168,50,0.0,2024-06-20,True, b ,35.33,Completado,N/A,N/A
+1,Renée_1,56,7390.0,2022-02-04,false,,92.38,Completado,N/A,N/A
+1368,Usuario-1368,36,2920.0,2021-04-04T00:00:00,T,D ,"106,99",Completado,N/A,N/A
+757, Lía 757 ,34,2990.0,2023/12/18,0, b ,82.33,Completado,N/A,N/A
+316,Sofía 316,52,0.0,18-12-2022,F,B,"77,90",Completado,N/A,N/A
+1130,"Compañía ""ACME""_1130",33,0.0,19/09/2022,true,C,73.66,Completado,N/A,N/A
+395,André-395,56,5292.0,2021-03-30,False, C ,82.46,Completado,N/A,N/A
+1944,Müller 1944,59,6412.0,2020/02/02,True,A,101.01,Completado,N/A,N/A
+1785, Niño 1785 ,55,0.0,25-06-2025,0,,60.65,Completado,N/A,N/A
+1519,Ñandú-1519,21,0.0,23-07-2023,False,B,40.43,Completado,N/A,N/A
+62,García 62,26,0.0,2020-06-21,True,c,94.81,Completado,N/A,N/A
+1870,François-1870,35,0.0,2022-10-21T00:00:00,0,a,64.82,Completado,N/A,N/A
+277,André 277,49,7069.0,12/04/2023,T,A,"99,44",Completado,N/A,N/A
+1170,O'Connor 1170,19,6763.0,0000-00-00,NO,a,84.65,Completado,N/A,N/A
+1353,Lía_1353,63,0.0,07-04-2021,1,,46.54,Completado,N/A,N/A
+634,Ñandú_634,28,3546.0,12/05/2021,True, b ,49.36,Completado,N/A,N/A
+684,Tech–Labs_684,28,0.0,31/02/2022,True,D,100.24,Completado,N/A,N/A
+459,Müller_459,67,5141.0,23/11/2022,T, b ,31.75,Completado,N/A,N/A
+1917,José-1917,44,0.0,31/02/2022,False,,41.99,Completado,N/A,N/A
+185,José 185,26,2201.0,2025/06/18,True,B,30.37,Completado,N/A,N/A
+1938,Ñandú-1938,-5,0.0,16/07/2020,true, ,82.13,Completado,N/A,N/A
+554,Ana_554,47,0.0,2025-01-26,False,B,59.98,Completado,N/A,N/A
+534,Tech–Labs-534,50,0.0,29-11-2023,False,A,83.49,Completado,N/A,N/A
+389,Renée 389,31,0.0,2020/01/25,true,,30.03,Completado,N/A,N/A
+1901,Usuario 1901,43,0.0,04/09/2019,SI, b ,30.99,Completado,N/A,N/A
+133, Tech–Labs-133 ,19,5818.0,2019-02-12,false,D,49.21,Completado,N/A,N/A
+130,André-130,55,0.0,2020-06-25,SI, b ,79.77,Completado,N/A,N/A
+1110,García-1110,64,8079.0,25-02-2019,True,D ,76.92,Completado,N/A,N/A
+1769,Sofía-1769,24,8431.21,10-12-2023,F, N/A ,87.52,Completado,N/A,N/A
+723, Tech–Labs-723 ,29,0.0,2023-08-16,False, c ,58.55,Completado,N/A,N/A
+1600,García_1600,34,0.0,14-10-2020,1,D ,78.3,Completado,N/A,N/A
+871, André-871 ,44,4462.0,2022-06-22,True, C ,46.34,Completado,N/A,N/A
+55,Niño-55,65,6642.0,2022-04-30,False,a,81.64,Completado,N/A,N/A
+1047,Renée-1047,20,6689.0,2022-04-30,false,A,80.89,Completado,N/A,N/A
+919,Usuario 919,48,4488.0,31/02/2022,True,D,81.03,Completado,N/A,N/A
+1012,María-1012,,7428.0,03/11/2021,SI,a,96.45,Completado,N/A,N/A
+1083,"Compañía ""ACME""-1083",24,7737.0,,True, Z ,49.89,Completado,N/A,N/A
+1792,Usuario-1792,27,0.0,2019-05-15T00:00:00,false,,77.98,Completado,N/A,N/A
+994,Lía-994,49,0.0,2021/06/08,true,,36.41,Completado,N/A,N/A
+1605,Renée 1605,26,3725.0,0000-00-00,false,,88.36,Completado,N/A,N/A
+1172,José_1172,26,5044.0,2022/11/21,F, A ,81.89,Completado,N/A,N/A
+1066,Ñandú 1066,-5,0.0,2022-07-03T00:00:00,False, b ,30.86,Completado,N/A,N/A
+629, María-629 ,37,0.0,31/02/2022,T,D ,106.63,Completado,N/A,N/A
+739, François_739 ,56,8160.0,31/02/2022,True, b ,61.35,Completado,N/A,N/A
+1735,Usuario-1735,65,4597.21,2024-12-31,SI,B,34.05,Completado,N/A,N/A
+1139,José_1139,47,7190.0,24-04-2020,SI, b ,98.36,Completado,N/A,N/A
+1197,Usuario_1197,39,2753.0,18/07/2023,false,D ,"35,50",Completado,N/A,N/A
+271,Müller-271,34,4752.0,2019-01-22,True,B,79.67,Completado,N/A,N/A
+1517,José_1517,42,3635.0,26-11-2022,False,D,44.83,Completado,N/A,N/A
+1043,François_1043,26,5201.0,0000-00-00,False,D ,79.63,Completado,N/A,N/A
+586,O'Connor_586,64,7409.0,31/05/2025,True,,62.1,Completado,N/A,N/A
+1454, García 1454 ,62,8383.0,0000-00-00,SI,,38.5,Completado,N/A,N/A
+19,"Compañía ""ACME""_19",59,0.0,22/12/2024,T,A,98.0,Completado,N/A,N/A
+854,Tech–Labs 854,69,8589.0,31/02/2022,0, b ,39.35,Completado,N/A,N/A
+344,María-344,23,4411.0,2021-06-09T00:00:00,False, N/A ,"71,70",Completado,N/A,N/A
+1987,Sofía-1987,69,0.0,2021-06-25,T,,44.09,Completado,N/A,N/A
+1945,Sofía 1945,37,3943.0,04-07-2021,0,Z,83.94,Completado,N/A,N/A
+1838, Sofía 1838 ,69,0.0,2024-05-29T00:00:00,1,,31.19,Completado,N/A,N/A
+1051, O'Connor_1051 ,64,0.0,0000-00-00,SI, b ,100.04,Completado,N/A,N/A
+1376,André_1376,35,0.0,2020-03-28,0,a,"40,17",Completado,N/A,N/A
+1195,José-1195,41,0.0,2023/01/24,False, ,"99,15",Completado,N/A,N/A
+1861,Usuario_1861,66,8318.0,30/05/2022,false,,59.06,Completado,N/A,N/A
+1385, García 1385 ,33,0.0,2022/12/18,True,C,36.56,Completado,N/A,N/A
+991,Usuario-991,42,0.0,2023-11-22,True, C ,106.64,Completado,N/A,N/A
+1067,María_1067,66,0.0,2019-03-20,NO, N/A ,"58,58",Completado,N/A,N/A
+499,María_499,31,6646.0,28/01/2020,1,,93.08,Completado,N/A,N/A
+1750,Niño_1750,20,0.0,20/02/2025,false,B,"37,49",Completado,N/A,N/A
+1820, Lía 1820 ,46,7557.0,11-07-2022,False,D ,97.09,Completado,N/A,N/A
+157,Tech–Labs 157,64,0.0,31/02/2022,False,,70.49,Completado,N/A,N/A
+1021,Usuario_1021,60,5534.0,2024-04-24,False,D ,67.74,Completado,N/A,N/A
+1630, André-1630 ,50,7202.0,02-06-2022,0, D ,49.14,Completado,N/A,N/A
+615,François 615,43,5923.0,0000-00-00,false, b ,47.58,Completado,N/A,N/A
+892, María-892 ,121,6051.0,06/01/2025,0,c,92.66,Completado,N/A,N/A
+1075,François 1075,53,4721.0,02-01-2023,false,a,90.23,Completado,N/A,N/A
+806,Tech–Labs 806,22,0.0,2025-04-04T00:00:00,1,D ,54.94,Completado,N/A,N/A
+617,Niño_617,47,0.0,26/10/2023,False, D ,53.46,Completado,N/A,N/A
+320,André-320,37,0.0,2024-07-13,true, ,72.68,Completado,N/A,N/A
+321,Renée_321,66,0.0,2025-01-12T00:00:00,1,D ,99.14,Completado,N/A,N/A
+1673,Ñandú-1673,62,0.0,2023-01-21T00:00:00,False, A ,92.69,Completado,N/A,N/A
+804,María-804,21,8079.0,15/06/2019,True, D ,99.17,Completado,N/A,N/A
+736,Renée 736,57,2448.0,2024-05-02,False,D ,70.01,Completado,N/A,N/A
+211, José 211 ,21,0.0,2021-03-15,0,a,31.47,Completado,N/A,N/A
+253,Lía-253,54,0.0,14/09/2021,False,D,68.13,Completado,N/A,N/A
+298,O'Connor 298,64,4054.0,2020-04-03,False,,101.59,Completado,N/A,N/A
+1098,José_1098,121,7325.0,2021/11/05,False,c,42.79,Completado,N/A,N/A
+1929,Müller 1929,61,2011.0,2022-11-28,SI, Z ,43.69,Completado,N/A,N/A
+1757,María_1757,30,0.0,15/09/2020,True, ,34.43,Completado,N/A,N/A
+668,François-668,26,5551.0,2019/01/10,NO, a ,68.55,Completado,N/A,N/A
+258,Lía-258,34,0.0,2019-11-14,T,A,77.39,Completado,N/A,N/A
+972, Tech–Labs_972 ,69,5158.88,2024-02-16T00:00:00,NO, b ,106.37,Completado,N/A,N/A
+1874, André_1874 ,51,6642.0,2019-09-28,SI,a,57.99,Completado,N/A,N/A
+428, Ñandú 428 ,36,7149.0,2024-01-05,1,,"76,17",Completado,N/A,N/A
+638,Tech–Labs-638,68,0.0,2022-07-20,True,,106.81,Completado,N/A,N/A
+1557,François 1557,28,5347.0,2024-04-23,False,B,103.18,Completado,N/A,N/A
+375,Niño-375,39,0.0,30/03/2022,True,,"78,68",Completado,N/A,N/A
+749,François 749,59,7970.0,03-01-2019,1,A,58.04,Completado,N/A,N/A
+6,José-6,59,4747.0,2021-09-02,1,B,48.62,Completado,N/A,N/A
+681, García_681 ,33,3481.0,2020-03-27,T,a,80.0,Completado,N/A,N/A
+1462, Tech–Labs_1462 ,26,4735.0,31/01/2020,NO,c,91.99,Completado,N/A,N/A
+928,André 928,47,5867.0,2022/01/24,T, D ,48.1,Completado,N/A,N/A
+1056,Niño_1056,121,8322.19,18/12/2021,1,Z,"94,26",Completado,N/A,N/A
+981,Müller-981,61,0.0,23/11/2020,NO,a,45.62,Completado,N/A,N/A
+712,Ana_712,63,2869.0,0000-00-00,T,A,"71,72",Completado,N/A,N/A
+1959,José 1959,25,2319.21,0000-00-00,true,c,49.99,Completado,N/A,N/A
+1264,Tech–Labs_1264,62,7978.93,,true,D,50.6,Completado,N/A,N/A
+73,Sofía_73,65,0.0,27/04/2022,True,D,89.03,Completado,N/A,N/A
+502, Ñandú 502 ,50,5859.0,0000-00-00,True,,76.16,Completado,N/A,N/A
+1852,O'Connor 1852,40,0.0,2024/11/22,True, N/A ,32.31,Completado,N/A,N/A
+1338,Lía 1338,50,0.0,0000-00-00,NO,,60.63,Completado,N/A,N/A
+210,García 210,44,4412.0,2021/08/17,T,c,"70,25",Completado,N/A,N/A
+1058,Sofía_1058,52,0.0,0000-00-00,0,D ,87.4,Completado,N/A,N/A
+1984, Usuario 1984 ,52,7063.0,2023-04-18,True, b ,"32,53",Completado,N/A,N/A
+1943, Renée 1943 ,56,8050.0,31/02/2022,False, D ,76.16,Completado,N/A,N/A
+1254, Ñandú-1254 ,51,4590.0,18/04/2021,T,A,53.72,Completado,N/A,N/A
+14, Ana_14 ,53,6911.0,2020-03-31,True,c,75.64,Completado,N/A,N/A
+1187,Usuario_1187,26,6753.0,0000-00-00,1,Z,82.29,Completado,N/A,N/A
+1073,María_1073,42,5731.0,01/04/2023,1,C,"60,11",Completado,N/A,N/A
+369,Ñandú_369,19,5874.0,2025-07-29,False, b ,65.71,Completado,N/A,N/A
+155,Renée_155,28,0.0,27-07-2023,SI,,44.96,Completado,N/A,N/A
+319,Tech–Labs 319,47,8276.0,0000-00-00,SI,c,"105,89",Completado,N/A,N/A
+1825,Ñandú_1825,48,6600.0,10/02/2021,True,B,97.44,Completado,N/A,N/A
+1466,"Compañía ""ACME""_1466",69,0.0,31/02/2022,False,A,91.97,Completado,N/A,N/A
+1468,María_1468,63,0.0,2022-09-19,False,C,77.62,Completado,N/A,N/A
+1227,Tech–Labs 1227,35,7851.0,2020-11-09,True, b ,"99,80",Completado,N/A,N/A
+908,Usuario-908,40,2969.0,31/02/2022,NO, D ,99.65,Completado,N/A,N/A
+1631,Sofía_1631,38,0.0,17-04-2019,SI,B,55.48,Completado,N/A,N/A
+135, André-135 ,33,6455.0,2023-09-16,T,Z,62.93,Completado,N/A,N/A
+1677,O'Connor 1677,,0.0,2019-05-27,1, b ,108.79,Completado,N/A,N/A
+1059,Usuario 1059,44,0.0,0000-00-00,True,,84.13,Completado,N/A,N/A
+1748,Renée 1748,25,0.0,2019-06-03,false,D ,104.74,Completado,N/A,N/A
+1422, Sofía 1422 ,37,8523.1,2021-05-21,true, a ,99.35,Completado,N/A,N/A
+825, François_825 ,50,0.0,2022/09/13,False,a,103.66,Completado,N/A,N/A
+1253,O'Connor 1253,43,0.0,2024-04-13,false,c,80.54,Completado,N/A,N/A
+16,Ana_16,62,0.0,06/03/2019,1, N/A ,31.25,Completado,N/A,N/A
+648,François 648,46,0.0,31/02/2022,True,,49.23,Completado,N/A,N/A
+1032, Renée-1032 ,36,7618.0,2023/07/23,F, B ,56.19,Completado,N/A,N/A
+559,Ñandú 559,51,6857.0,2019-12-07,NO,D,57.4,Completado,N/A,N/A
+1983,Müller 1983,57,0.0,27/06/2022,SI,,96.63,Completado,N/A,N/A
+788,García 788,67,3135.0,0000-00-00,T,a,85.97,Completado,N/A,N/A
+765,José_765,63,0.0,2023-05-29T00:00:00,true,D ,82.96,Completado,N/A,N/A
+957,Niño-957,43,0.0,2021-11-09T00:00:00,0, b ,82.15,Completado,N/A,N/A
+1146,"Compañía ""ACME"" 1146",20,2882.0,2021-05-20,T,Z,78.05,Completado,N/A,N/A
+1472, García-1472 ,37,3067.0,08-05-2019,NO,,84.89,Completado,N/A,N/A
+131,Sofía-131,68,0.0,2019-05-18,1, Z ,104.13,Completado,N/A,N/A
+279,O'Connor_279,37,8072.68,2022-11-11,SI, Z ,54.96,Completado,N/A,N/A
+1242,Tech–Labs 1242,36,0.0,0000-00-00,0,a,41.15,Completado,N/A,N/A
+1831,Ana_1831,46,2532.0,2020-05-08,NO,c,92.18,Completado,N/A,N/A
+1393, García_1393 ,44,0.0,21/04/2024,True,c,103.18,Completado,N/A,N/A
+1403,Tech–Labs_1403,45,2020.0,2021-11-04,NO,D,"40,88",Completado,N/A,N/A
+250,Müller 250,40,5170.0,2021/11/09,False, D ,109.59,Completado,N/A,N/A
+709,Sofía-709,57,0.0,30/08/2022,NO, b ,77.77,Completado,N/A,N/A
+612,Müller 612,55,4005.0,2020/02/02,F,D,63.09,Completado,N/A,N/A
+197,Tech–Labs_197,68,0.0,24-02-2019,false, b ,105.69,Completado,N/A,N/A
+469,Ñandú 469,68,5157.0,2020-08-10,true,a,34.98,Completado,N/A,N/A
+1888,François_1888,29,7929.0,21/04/2025,false,Z,65.77,Completado,N/A,N/A
+570,Usuario 570,68,0.0,0000-00-00,False, C ,78.17,Completado,N/A,N/A
+948,Usuario_948,44,0.0,22/02/2024,false,C,36.48,Completado,N/A,N/A
+1647, José 1647 ,32,0.0,2019-12-31,1,B,107.44,Completado,N/A,N/A
+1733,O'Connor_1733,50,0.0,2022-06-08,NO,c,45.03,Completado,N/A,N/A
+1881,Renée-1881,69,0.0,09/05/2025,True,c,108.48,Completado,N/A,N/A
+137,André-137,68,7124.0,2023-01-29T00:00:00,1, b ,52.29,Completado,N/A,N/A
+483, José 483 ,-5,7906.0,0000-00-00,SI,Z,"70,42",Completado,N/A,N/A
+234,O'Connor-234,41,8331.0,26/01/2022,0,,100.8,Completado,N/A,N/A
+934,Niño 934,53,7018.0,2022-11-10,NO,A,"83,11",Completado,N/A,N/A
+551," Compañía ""ACME"" 551 ",47,0.0,2024-10-23,SI,A,40.86,Completado,N/A,N/A
+883,José 883,56,5847.0,2021-05-25,1,a,"103,31",Completado,N/A,N/A
+631,"Compañía ""ACME"" 631",22,5645.0,07-03-2025,False, a ,73.75,Completado,N/A,N/A
+204,García 204,27,4198.0,31/02/2022,False,Z,100.12,Completado,N/A,N/A
+815,Usuario 815,66,7074.0,31/02/2022,T,A,71.03,Completado,N/A,N/A
+1496, O'Connor-1496 ,30,6086.0,27-10-2020,T,D ,74.97,Completado,N/A,N/A
+1679,Müller 1679,18,5498.0,2022-12-15,True, b ,45.56,Completado,N/A,N/A
+891,Usuario 891,58,4463.0,2020-12-26T00:00:00,SI, N/A ,95.63,Completado,N/A,N/A
+1218,José-1218,53,0.0,2023-01-29T00:00:00,F,C,53.0,Completado,N/A,N/A
+1812,"Compañía ""ACME""-1812",36,6462.0,2020-07-03,False,D ,101.5,Completado,N/A,N/A
+1991,Niño 1991,68,4552.0,20-07-2021,0, b ,38.31,Completado,N/A,N/A
+1398,André 1398,43,6179.0,,SI, D ,104.66,Completado,N/A,N/A
+814,Müller 814,42,4535.0,2024-04-16,true,D,"101,19",Completado,N/A,N/A
+977,Niño 977,25,6050.0,28/05/2025,NO,,73.22,Completado,N/A,N/A
+1597, O'Connor 1597 ,29,8052.0,25/07/2023,1,a,31.24,Completado,N/A,N/A
+603,"Compañía ""ACME""-603",59,0.0,20/10/2021,F,D,64.62,Completado,N/A,N/A
+317,José 317,-5,5374.0,2025-05-23,False,D ,"48,88",Completado,N/A,N/A
+1957,Ñandú 1957,62,0.0,31/02/2022,true,B,71.64,Completado,N/A,N/A
+1521,Ana-1521,30,0.0,06/12/2020,True,,72.21,Completado,N/A,N/A
+37,José-37,28,0.0,2019-10-21,False, N/A ,59.42,Completado,N/A,N/A
+562,Sofía_562,28,0.0,21/11/2024,1,a,56.07,Completado,N/A,N/A
+680,Tech–Labs 680,23,0.0,2023-02-15,SI, ,"106,20",Completado,N/A,N/A
+1689,María 1689,29,8005.0,2021-08-22,F,A,"76,81",Completado,N/A,N/A
+1612,José 1612,25,0.0,2020/01/08,1, D ,70.3,Completado,N/A,N/A
+964, José_964 ,68,6141.0,2020-08-22T00:00:00,T,,103.93,Completado,N/A,N/A
+1799,Sofía-1799,55,8030.0,2023-04-06T00:00:00,1, D ,100.79,Completado,N/A,N/A
+1927,"Compañía ""ACME""_1927",57,4550.0,,NO, B ,38.09,Completado,N/A,N/A
+798,"Compañía ""ACME""_798",34,2924.0,2024-04-22T00:00:00,true,,74.15,Completado,N/A,N/A
+513,Ana_513,37,0.0,2024-04-12,1, ,83.54,Completado,N/A,N/A
+1360,Lía 1360,57,6994.75,2019-08-19,NO,C,93.3,Completado,N/A,N/A
+966,Müller-966,0,8150.0,2020/01/01,1, C ,54.58,Completado,N/A,N/A
+973,O'Connor-973,58,0.0,2023-02-28,1,Z,76.54,Completado,N/A,N/A
+995, García 995 ,46,7506.0,24-09-2022,0,B,89.38,Completado,N/A,N/A
+918,André-918,26,0.0,2022-03-16,False,A,43.52,Completado,N/A,N/A
+1714,Niño_1714,48,0.0,26/05/2022,true,A,70.46,Completado,N/A,N/A
+1712,Lía 1712,43,7158.0,2022-03-30,NO,D,104.44,Completado,N/A,N/A
+1566,Sofía_1566,55,0.0,2024-11-22,True,a,"30,78",Completado,N/A,N/A
+1489,María 1489,56,0.0,2019-12-25T00:00:00,SI,D,87.16,Completado,N/A,N/A
+1097,André-1097,,8836.0,2024-11-25,True,a,53.12,Completado,N/A,N/A
+464, Renée-464 ,50,2894.0,2025-07-02,true,B,"84,70",Completado,N/A,N/A
+1822, Tech–Labs-1822 ,33,0.0,2020-10-26,True,,87.62,Completado,N/A,N/A
+162,Ñandú 162,61,3908.74,2022-03-06,False, b ,46.4,Completado,N/A,N/A
+1132,Renée-1132,-5,5836.0,,0,A,94.45,Completado,N/A,N/A
+1015, François_1015 ,121,0.0,07/05/2019,T,,63.27,Completado,N/A,N/A
+713,José 713,68,8864.0,2020/01/25,False,,93.98,Completado,N/A,N/A
+276,Ana 276,58,2886.0,2025-01-13,0, b ,53.87,Completado,N/A,N/A
+380,Ana_380,39,0.0,14-07-2020,0,C,39.31,Completado,N/A,N/A
+1143, Tech–Labs 1143 ,38,6517.71,2023-06-30,True,c,83.35,Completado,N/A,N/A
+70,Müller-70,47,2119.0,2021-04-10,False,D ,"64,68",Completado,N/A,N/A
+264,Niño 264,27,0.0,24/04/2023,True,A,42.86,Completado,N/A,N/A
+333,O'Connor_333,121,0.0,31/02/2022,0,B,76.17,Completado,N/A,N/A
+1486,María 1486,28,4243.0,2024-02-10,NO,B,67.74,Completado,N/A,N/A
+1386,Lía 1386,52,5761.0,25-03-2025,T,,52.25,Completado,N/A,N/A
+151,Ana_151,38,7622.03,2025/07/25,1, D ,"43,87",Completado,N/A,N/A
+1541,Ana_1541,58,3465.13,31/02/2022,NO,Z,100.5,Completado,N/A,N/A
+77,Usuario-77,43,0.0,2023-06-24T00:00:00,SI,D ,"43,86",Completado,N/A,N/A
+432,André 432,56,5137.0,2024-11-29T00:00:00,SI, b ,92.7,Completado,N/A,N/A
+1099,Tech–Labs_1099,36,4481.0,31/02/2022,true,c,70.27,Completado,N/A,N/A
+1752,Ñandú 1752,46,7266.0,2019-09-16,true,A,77.44,Completado,N/A,N/A
+1974,Ana 1974,35,0.0,24/06/2019,true,D ,69.81,Completado,N/A,N/A
+170,José-170,24,8697.0,2023-01-11T00:00:00,T,Z,"43,34",Completado,N/A,N/A
+1442,Niño-1442,25,0.0,2025-02-20,1,D,84.61,Completado,N/A,N/A
+1858,François_1858,64,0.0,0000-00-00,True,Z,105.44,Completado,N/A,N/A
+186,Tech–Labs_186,58,8387.0,2020-06-20,0,a,99.08,Completado,N/A,N/A
+66,Renée_66,39,0.0,2022-02-22,false, C ,"97,11",Completado,N/A,N/A
+1127,"Compañía ""ACME""-1127",69,0.0,2021-12-05T00:00:00,true,Z,89.33,Completado,N/A,N/A
+473,François 473,32,8747.0,20/02/2021,F,,49.1,Completado,N/A,N/A
+86,Niño_86,68,5267.0,2021-04-05,0, C ,85.74,Completado,N/A,N/A
+1903,Sofía-1903,51,3421.0,13/11/2020,0, c ,96.73,Completado,N/A,N/A
+1268,José_1268,20,6124.0,0000-00-00,NO, b ,31.97,Completado,N/A,N/A
+1919, Ñandú-1919 ,53,0.0,11/08/2020,False,C,54.69,Completado,N/A,N/A
+167,Usuario-167,57,5762.0,0000-00-00,true,,65.1,Completado,N/A,N/A
+1844,"Compañía ""ACME"" 1844",23,0.0,2024-04-25,False,D ,59.81,Completado,N/A,N/A
+500, Niño 500 ,30,3138.0,2020-10-07,True, a ,83.66,Completado,N/A,N/A
+172, Usuario-172 ,46,3120.0,08/08/2021,SI,c,41.45,Completado,N/A,N/A
+1474,Lía-1474,44,4362.0,2025-02-02T00:00:00,True,D ,91.31,Completado,N/A,N/A
+49,André 49,46,6973.0,2019-12-04,0,A,68.85,Completado,N/A,N/A
+1698, Renée 1698 ,39,0.0,2020-03-27T00:00:00,true,,82.07,Completado,N/A,N/A
+1068,Niño 1068,46,0.0,2023-02-09,False,B,32.66,Completado,N/A,N/A
+98,François-98,-5,2953.0,2023-03-23,1,D,64.09,Completado,N/A,N/A
+1606, Tech–Labs 1606 ,66,3232.24,2020-03-18,1,a,100.26,Completado,N/A,N/A
+1681,O'Connor-1681,33,3025.71,21/12/2022,1,a,63.8,Completado,N/A,N/A
+1508,Lía 1508,41,6039.0,,NO,D ,62.51,Completado,N/A,N/A
+174,O'Connor 174,55,6910.0,2025/03/25,1,D ,66.56,Completado,N/A,N/A
+1144,André-1144,52,7133.09,2024-01-04,True,,72.21,Completado,N/A,N/A
+1109,Müller-1109,38,5168.0,2024-10-22,SI,A,"107,42",Completado,N/A,N/A
+628,André-628,64,6781.0,2023-11-12,1,D,"104,45",Completado,N/A,N/A
+1136," Compañía ""ACME""_1136 ",37,8701.0,2021-06-17,NO,,69.39,Completado,N/A,N/A
+1817,Usuario-1817,47,0.0,2020-07-14T00:00:00,False,,103.74,Completado,N/A,N/A
+335,Niño_335,,8924.0,0000-00-00,0,a,100.28,Completado,N/A,N/A
+645,María 645,53,5318.0,2020/10/28,False,,106.39,Completado,N/A,N/A
+1150, García-1150 ,28,2739.0,26/03/2023,1,,95.05,Completado,N/A,N/A
+896,José_896,62,6590.0,2023-05-29,False,,101.84,Completado,N/A,N/A
+821,Müller_821,29,0.0,02/07/2022,True,B,57.01,Completado,N/A,N/A
+1776,Ñandú-1776,44,0.0,2019-03-11,0,D ,98.47,Completado,N/A,N/A
+1030,María-1030,18,4476.0,22/05/2020,False,Z,"39,74",Completado,N/A,N/A
+1482,María-1482,24,0.0,2024-08-20T00:00:00,True,A,32.88,Completado,N/A,N/A
+1537, Ana-1537 ,,2440.0,2024-02-04,true,B,"52,99",Completado,N/A,N/A
+971,André 971,42,4665.0,21/05/2020,true,,82.78,Completado,N/A,N/A
+848, García-848 ,42,0.0,2022-01-01,1,Z,90.09,Completado,N/A,N/A
+1022, Tech–Labs_1022 ,40,0.0,2022-08-19,1, Z ,32.02,Completado,N/A,N/A
+1339, Niño_1339 ,49,7764.0,31/02/2022,False,B,"96,40",Completado,N/A,N/A
+1295, Renée 1295 ,18,0.0,2023-04-09,0,D ,70.05,Completado,N/A,N/A
+1519,O'Connor-1519,31,5879.0,2021-11-23T00:00:00,false, b ,39.83,Completado,N/A,N/A
+1782,François_1782,121,0.0,2021/05/23,T,B,"74,54",Completado,N/A,N/A
+1287,Tech–Labs-1287,43,3840.42,2020-12-27,false,B,84.96,Completado,N/A,N/A
+1853,O'Connor-1853,49,4682.0,20/12/2021,false, c ,32.59,Completado,N/A,N/A
+683,Müller 683,20,0.0,31/02/2022,True,D ,"73,91",Completado,N/A,N/A
+718,García-718,30,6351.06,24/05/2021,false,B,69.29,Completado,N/A,N/A
+458,Renée 458,37,2874.0,2023-01-04,F,B,57.67,Completado,N/A,N/A
+936,Müller_936,38,0.0,2023-10-18,false,,57.28,Completado,N/A,N/A
+1464,François 1464,69,4277.0,2019-07-01T00:00:00,SI,B,38.23,Completado,N/A,N/A
+750, José-750 ,57,4621.0,0000-00-00,True,D ,59.56,Completado,N/A,N/A
+1406,Sofía-1406,68,6756.0,09/08/2023,NO,C,"34,23",Completado,N/A,N/A
+1420,García_1420,35,8552.0,27/10/2021,0,c,69.46,Completado,N/A,N/A
+173,Müller 173,21,6612.0,2023-07-17,F, C ,"90,37",Completado,N/A,N/A
+793, André_793 ,37,7263.0,30-07-2021,T,C,82.72,Completado,N/A,N/A
+880,"Compañía ""ACME"" 880",64,2807.58,2023-10-10T00:00:00,1,C,"96,18",Completado,N/A,N/A
+1693,Ñandú-1693,32,7625.0,2024-09-06,T,A,63.26,Completado,N/A,N/A
+1682, André 1682 ,30,4022.0,2025-02-20,F,,"59,02",Completado,N/A,N/A
+1267,Renée 1267,46,3017.0,0000-00-00,NO,D ,109.81,Completado,N/A,N/A
+1754,François-1754,53,3100.0,03-11-2020,0,D ,38.0,Completado,N/A,N/A
+1975,Ana_1975,19,6150.0,16-04-2023,F, b ,41.5,Completado,N/A,N/A
+1341,François 1341,50,3777.29,08-09-2023,True, C ,68.87,Completado,N/A,N/A
+1787,Tech–Labs-1787,64,8450.0,26-01-2020,True, B ,103.02,Completado,N/A,N/A
+386,Ana 386,63,4946.0,14-05-2024,0,B,96.02,Completado,N/A,N/A
+1265,François-1265,59,5258.0,2020/04/15,1,Z,95.69,Completado,N/A,N/A
+117,Müller 117,18,7358.0,2025-02-02,SI, b ,60.14,Completado,N/A,N/A
+657,Lía 657,54,0.0,2019-02-09,NO,Z,33.81,Completado,N/A,N/A
+625,García-625,43,4409.56,2019-01-26,True,,97.78,Completado,N/A,N/A
+1387,François 1387,49,0.0,2021-12-25,True,,36.13,Completado,N/A,N/A
+1381,Renée-1381,57,2928.0,2024-05-05,False,,69.35,Completado,N/A,N/A
+780,Niño 780,36,0.0,2022-07-23,T, ,75.56,Completado,N/A,N/A
+1470,Lía-1470,61,2966.0,08/06/2021,False, D ,"64,43",Completado,N/A,N/A
+1298,García 1298,43,0.0,2022-01-03,False, b ,53.38,Completado,N/A,N/A
+702, Lía_702 ,53,4093.0,2020-09-09T00:00:00,NO,,"89,15",Completado,N/A,N/A
+1076,Tech–Labs 1076,63,4374.0,31/02/2022,F,D,86.45,Completado,N/A,N/A
+1310, Sofía 1310 ,55,0.0,,1,c,70.03,Completado,N/A,N/A
+1467,André 1467,37,8792.0,2025-03-18,T,c,72.36,Completado,N/A,N/A
+669,"Compañía ""ACME""-669",34,0.0,17/07/2023,true,,"90,72",Completado,N/A,N/A
+1180,O'Connor 1180,54,8496.0,31/02/2022,False,A,73.07,Completado,N/A,N/A
+152,André 152,26,2242.0,2021-11-29,False,c,85.76,Completado,N/A,N/A
+1946, François_1946 ,47,7351.0,2021-09-02T00:00:00,F,D,"94,24",Completado,N/A,N/A
+1758,Ñandú-1758,40,8081.0,2022-10-20,SI,a,81.18,Completado,N/A,N/A
+268,"Compañía ""ACME""_268",24,3247.0,2021-09-20,false,D ,"57,35",Completado,N/A,N/A
+189, Ana-189 ,24,5572.0,2024-02-23,True,,54.92,Completado,N/A,N/A
+1633,Sofía-1633,35,5062.0,2022-01-01,F, b ,78.88,Completado,N/A,N/A
+1213,José-1213,55,0.0,2024-11-26,NO,A,99.57,Completado,N/A,N/A
+283,María-283,63,0.0,2019-12-15,True,Z,40.5,Completado,N/A,N/A
+475,"Compañía ""ACME"" 475",42,0.0,31/02/2022,true,B,61.26,Completado,N/A,N/A
+836,Usuario 836,44,3344.0,24/11/2024,T,C,94.12,Completado,N/A,N/A
+1731,Ñandú_1731,36,3159.0,2020-01-22T00:00:00,1, N/A ,48.51,Completado,N/A,N/A
+1520, José_1520 ,50,0.0,2019/01/24,SI,B,96.45,Completado,N/A,N/A
+308,García 308,66,8563.0,27-06-2022,False, a ,88.02,Completado,N/A,N/A
+829,Ñandú 829,,8751.0,2020-05-12,True, D ,"61,83",Completado,N/A,N/A
+1371,Niño-1371,57,0.0,2024-05-23,1, A ,"83,54",Completado,N/A,N/A
+1412,Usuario-1412,64,0.0,2019-11-17,True, b ,103.65,Completado,N/A,N/A
+85,Niño_85,34,0.0,2023/06/14,false,C,57.25,Completado,N/A,N/A
+349,Ana_349,52,2105.35,09/08/2023,false,D,61.99,Completado,N/A,N/A
+1862,Lía_1862,48,4396.58,02/08/2020,False,Z,82.07,Completado,N/A,N/A
+968,Lía 968,-5,0.0,2021-12-13,T,a,67.34,Completado,N/A,N/A
+986,García 986,46,3725.0,28-09-2019,false,A,78.83,Completado,N/A,N/A
+1414,André_1414,0,0.0,2024-12-03,1,B,105.83,Completado,N/A,N/A
+142,García_142,69,2638.0,25/02/2019,false,,68.76,Completado,N/A,N/A
+409,Ñandú_409,25,5576.86,31/02/2022,True, C ,35.77,Completado,N/A,N/A
+512,Ñandú_512,63,7886.0,2020-10-22,F, Z ,35.09,Completado,N/A,N/A
+247,María-247,69,0.0,26-08-2022,0, b ,78.62,Completado,N/A,N/A
+655,Niño_655,62,8696.0,0000-00-00,NO,C,77.5,Completado,N/A,N/A
+851,Müller-851,61,0.0,2025-07-26,false,,58.54,Completado,N/A,N/A
+1719,Lía 1719,59,7912.0,2021-09-19,True,,34.9,Completado,N/A,N/A
+376,Müller-376,29,4785.13,2020-04-25,1,B,48.19,Completado,N/A,N/A
+569,François-569,55,0.0,03-02-2020,true,Z,78.46,Completado,N/A,N/A
+1380,Lía-1380,56,4513.0,2023-11-09,SI,c,"34,43",Completado,N/A,N/A
+1432,François 1432,57,0.0,0000-00-00,False,C,60.72,Completado,N/A,N/A
+1509, Ñandú 1509 ,62,0.0,0000-00-00,SI,D,62.86,Completado,N/A,N/A
+529,Sofía 529,36,6551.0,29/07/2024,0,D ,50.65,Completado,N/A,N/A
+911,José-911,69,8424.0,0000-00-00,0,B,58.89,Completado,N/A,N/A
+1207,Müller 1207,46,5875.0,02/11/2022,0,B,50.07,Completado,N/A,N/A
+347,François-347,38,6882.0,31/12/2023,SI,A,"43,31",Completado,N/A,N/A
+679,"Compañía ""ACME""-679",66,4240.0,2023-01-16T00:00:00,false,Z,87.48,Completado,N/A,N/A
+1641,Ana-1641,68,2549.0,2022-02-11T00:00:00,True, b ,88.74,Completado,N/A,N/A
+1727,Tech–Labs-1727,45,0.0,07/04/2019,1,B,83.74,Completado,N/A,N/A
+303,Müller-303,49,0.0,23-10-2020,True, b ,56.59,Completado,N/A,N/A
+1362,Renée_1362,52,7057.0,2020-11-03,F,C,51.88,Completado,N/A,N/A
+38,Ana 38,,3930.15,2020/08/31,F, Z ,"42,06",Completado,N/A,N/A
+1933,Usuario 1933,25,3485.0,2025-08-22T00:00:00,SI,B,44.5,Completado,N/A,N/A
+1529, Tech–Labs-1529 ,58,2145.75,2021-05-23,0,,98.56,Completado,N/A,N/A
+99,García_99,57,0.0,02/05/2022,T,,36.51,Completado,N/A,N/A
+1583,Tech–Labs-1583,69,7387.0,2020-08-18,False, a ,58.79,Completado,N/A,N/A
+1500,Müller-1500,39,6049.0,2023-08-13,False,c,62.82,Completado,N/A,N/A
+1865,Ana-1865,60,0.0,2021/04/03,T,A,109.28,Completado,N/A,N/A
+599," Compañía ""ACME""_599 ",66,0.0,2020-04-15,True,,69.51,Completado,N/A,N/A
+1006,"Compañía ""ACME"" 1006",68,7791.0,21/04/2019,False,Z,63.09,Completado,N/A,N/A
+777, André 777 ,41,2991.0,0000-00-00,false,D,96.97,Completado,N/A,N/A
+1912,Müller 1912,63,0.0,2023-06-07,0,D ,87.25,Completado,N/A,N/A
+667, Sofía-667 ,48,8175.58,18/01/2025,false,c,92.45,Completado,N/A,N/A
+1788,André-1788,58,0.0,2025-05-07,NO,A,96.92,Completado,N/A,N/A
+251,José_251,59,2849.0,31/02/2022,NO,B,42.31,Completado,N/A,N/A
+734,François 734,45,0.0,2019-05-27,True,,56.85,Completado,N/A,N/A
+1228,Usuario 1228,35,0.0,2023-11-25,NO,D,82.8,Completado,N/A,N/A
+1533,José-1533,47,0.0,2022-10-18,False,C,104.68,Completado,N/A,N/A
+163,Renée 163,52,0.0,2024-01-30,True, b ,92.52,Completado,N/A,N/A
+1981,Ana_1981,58,0.0,2020-04-25,false, b ,51.01,Completado,N/A,N/A
+1937,François_1937,-5,0.0,2023-12-03,false,,30.03,Completado,N/A,N/A
+727,García_727,62,2661.0,27-04-2025,False,A,84.16,Completado,N/A,N/A
+879,Usuario 879,30,3151.0,10/05/2024,NO,Z,35.61,Completado,N/A,N/A
+287, O'Connor-287 ,19,2394.63,13/03/2019,SI, b ,67.17,Completado,N/A,N/A
+1473,Ana 1473,121,7986.0,,True,Z,98.16,Completado,N/A,N/A
+1639,Niño-1639,23,4586.0,14/09/2023,True, a ,90.6,Completado,N/A,N/A
+354,María_354,62,4938.0,0000-00-00,False,Z,81.04,Completado,N/A,N/A
+1391,Renée 1391,41,4665.0,31/02/2022,1,c,71.54,Completado,N/A,N/A
+1599,García 1599,33,7019.0,2024-01-17,True,C,101.53,Completado,N/A,N/A
+580,García-580,22,0.0,2019/09/14,True,,97.67,Completado,N/A,N/A
+139,François-139,66,0.0,2025-04-15,False,D,68.49,Completado,N/A,N/A
+454,André_454,63,0.0,2023-06-08,false,,82.56,Completado,N/A,N/A
+1894,José_1894,35,0.0,19-11-2019,False,D ,61.66,Completado,N/A,N/A
+835,Usuario-835,29,7112.0,10-08-2021,0,B,45.13,Completado,N/A,N/A
+675,García_675,64,6287.0,2019-03-06T00:00:00,T, ,54.96,Completado,N/A,N/A
+46,Sofía-46,36,3154.0,2020-02-08,True, B ,100.97,Completado,N/A,N/A
+1701,Lía_1701,20,0.0,2025-07-09,False,c,78.88,Completado,N/A,N/A
+1791,José 1791,59,2427.0,2021-01-01,False,B,107.85,Completado,N/A,N/A
+543,Müller-543,47,3889.0,0000-00-00,true,B,66.01,Completado,N/A,N/A
+259,André-259,20,7985.0,2024-09-18,False,D,75.26,Completado,N/A,N/A
+733, O'Connor 733 ,64,4979.0,04-11-2020,False,,71.54,Completado,N/A,N/A
+1124,"Compañía ""ACME""-1124",66,3716.0,09/07/2024,true,a,102.76,Completado,N/A,N/A
+1060,Renée_1060,50,7603.0,21/01/2025,True, b ,70.89,Completado,N/A,N/A
+1721,María-1721,42,4397.83,2020/01/22,false,C,38.42,Completado,N/A,N/A
+153,"Compañía ""ACME""_153",41,2467.0,0000-00-00,true,a,99.24,Completado,N/A,N/A
+588,María-588,56,0.0,06/04/2023,F,D ,47.17,Completado,N/A,N/A
+959,Ana-959,31,7161.0,15/02/2020,T,a,104.6,Completado,N/A,N/A
+1208,Renée_1208,48,6992.7,16/03/2025,False,D,79.21,Completado,N/A,N/A
+1816,Usuario-1816,0,3316.0,2021/01/03,false, b ,80.96,Completado,N/A,N/A
+1319,José 1319,68,6969.0,2019/11/16,0,C,33.7,Completado,N/A,N/A
+913,Tech–Labs-913,51,0.0,2025/03/18,0, D ,"57,59",Completado,N/A,N/A
+1117,Niño 1117,26,7392.0,2019-04-27T00:00:00,true,D ,75.63,Completado,N/A,N/A
+158,O'Connor_158,53,8402.32,2021-06-20,False, N/A ,56.93,Completado,N/A,N/A
+522,María 522,-5,4140.98,18-12-2022,1, b ,67.58,Completado,N/A,N/A
+1189,María 1189,45,8731.0,15/05/2021,False,a,"67,94",Completado,N/A,N/A
+1675,Sofía-1675,34,5810.0,11/03/2024,False,D,"79,57",Completado,N/A,N/A
+1871,Müller 1871,18,0.0,2020/12/24,F,A,108.48,Completado,N/A,N/A
+164,"Compañía ""ACME""-164",28,8413.0,2024-01-26,False, D ,"43,09",Completado,N/A,N/A
+393,O'Connor 393,52,0.0,2021/06/01,F,B,44.22,Completado,N/A,N/A
+1845,Lía-1845,69,0.0,2025-07-06,True,,55.61,Completado,N/A,N/A
+1516,François_1516,41,0.0,02/12/2021,SI, b ,50.1,Completado,N/A,N/A
+503,Müller 503,37,2423.0,2019-09-27,1,Z,"103,45",Completado,N/A,N/A
+1813, Niño 1813 ,33,3883.7,22-04-2020,NO,D,49.53,Completado,N/A,N/A
+818,María_818,47,3666.0,2022-06-14,0,A,"62,52",Completado,N/A,N/A
+1745,Sofía_1745,58,6102.86,2024/10/17,SI,a,70.03,Completado,N/A,N/A
+34, Sofía 34 ,-5,8363.53,2021-05-04T00:00:00,1,c,52.29,Completado,N/A,N/A
+876,François_876,64,0.0,2024-04-23,NO, B ,"74,05",Completado,N/A,N/A
+1920,Lía_1920,18,0.0,2021-08-06,T, c ,35.12,Completado,N/A,N/A
+622,María_622,51,0.0,2022-05-26,T,B,76.58,Completado,N/A,N/A
+1651,Renée_1651,20,4829.0,2020-03-17T00:00:00,F, Z ,90.29,Completado,N/A,N/A
+1684, Renée-1684 ,,4646.0,08-02-2021,1,a,"84,99",Completado,N/A,N/A
+600, Tech–Labs-600 ,0,5800.0,2021-06-24T00:00:00,False,a,41.13,Completado,N/A,N/A
+1878,François-1878,21,3250.0,,True,,62.94,Completado,N/A,N/A
+238,García_238,30,7727.0,2024-03-29T00:00:00,True, b ,109.83,Completado,N/A,N/A
+1794, García 1794 ,63,4415.0,2022-12-30,0,c,47.94,Completado,N/A,N/A
+1040,François-1040,48,2066.0,2019-07-10,False, N/A ,48.49,Completado,N/A,N/A
+646,Sofía 646,18,0.0,2021/09/06,SI,,37.26,Completado,N/A,N/A
+96,O'Connor 96,56,7161.0,2022/04/24,1,,"34,60",Completado,N/A,N/A
+1440,Usuario_1440,46,0.0,2022-05-05,1,C,32.34,Completado,N/A,N/A
+864,André_864,47,5806.0,2024-06-27,F,Z,49.21,Completado,N/A,N/A
+1476,Tech–Labs-1476,51,5815.53,2025-03-01,false, c ,40.15,Completado,N/A,N/A
+1554,Renée 1554,47,0.0,16/12/2019,F,D,45.78,Completado,N/A,N/A
+1291, O'Connor_1291 ,23,2825.81,22-10-2021,True,C,34.5,Completado,N/A,N/A
+224, Müller_224 ,52,0.0,0000-00-00,SI, A ,51.77,Completado,N/A,N/A
+79,Renée-79,69,8905.0,2023-06-20,NO,A,98.52,Completado,N/A,N/A
+1210,O'Connor_1210,121,0.0,2023-04-03,NO, D ,55.95,Completado,N/A,N/A
+1967,André 1967,28,2762.0,2022-07-27T00:00:00,false, c ,64.0,Completado,N/A,N/A
+518,André_518,24,2771.0,30-11-2022,0,a,92.94,Completado,N/A,N/A
+463,García-463,66,7976.0,31/02/2022,True,c,44.64,Completado,N/A,N/A
+1013,García-1013,61,0.0,2024-02-17T00:00:00,false,,94.84,Completado,N/A,N/A
+1494,André 1494,63,6916.16,31/02/2022,NO,A,44.71,Completado,N/A,N/A
+983,García_983,23,5735.0,31/02/2022,0, B ,63.81,Completado,N/A,N/A
+1176,Usuario 1176,121,5734.0,2022-05-29,True, ,66.02,Completado,N/A,N/A
+217, Lía_217 ,60,6788.0,26-10-2022,F,C,49.63,Completado,N/A,N/A
+394,Lía 394,33,0.0,25-04-2023,1, Z ,95.12,Completado,N/A,N/A
+1480,Usuario 1480,18,4836.0,2019-10-20,False,B,101.31,Completado,N/A,N/A
+598,Sofía-598,44,7571.0,2021-03-29,1,D,64.71,Completado,N/A,N/A
+1209,García 1209,-5,2982.0,2021/07/04,True, D ,73.78,Completado,N/A,N/A
+377, François 377 ,62,2340.0,2024-07-03,1,,49.12,Completado,N/A,N/A
+209,María-209,63,0.0,2020/06/04,False, b ,"73,33",Completado,N/A,N/A
+839,Niño 839,68,3256.0,2024-05-22,0,A,48.75,Completado,N/A,N/A
+1175,Müller-1175,32,3876.0,18/06/2021,0,c,48.06,Completado,N/A,N/A
+492, Tech–Labs 492 ,50,3715.0,10/02/2019,NO,Z,89.17,Completado,N/A,N/A
+1964, Ñandú-1964 ,46,0.0,2021-08-25,SI,a,84.94,Completado,N/A,N/A
+353,Lía_353,21,3845.0,2022-11-09T00:00:00,True, b ,59.88,Completado,N/A,N/A
+1855,O'Connor-1855,69,0.0,03-02-2024,True,B,79.26,Completado,N/A,N/A
+1084,François_1084,18,5888.51,31/02/2022,true,B,86.51,Completado,N/A,N/A
+1913, O'Connor 1913 ,26,3703.0,0000-00-00,1, a ,59.36,Completado,N/A,N/A
+738,María 738,30,6340.0,2021/04/11,False,,104.65,Completado,N/A,N/A
+1972,García 1972,121,0.0,09/04/2024,F,D ,30.66,Completado,N/A,N/A
+1824," Compañía ""ACME"" 1824 ",40,0.0,01-10-2021,T, b ,"37,39",Completado,N/A,N/A
+1038, Niño_1038 ,33,8008.0,2021-12-28,F, c ,66.68,Completado,N/A,N/A
+832,Lía_832,27,6660.0,2025-08-28T00:00:00,True,D ,32.79,Completado,N/A,N/A
+1128,José-1128,33,0.0,2022-02-26,false,C,34.1,Completado,N/A,N/A
+1405, Renée 1405 ,22,2845.0,14/06/2024,0,c,62.59,Completado,N/A,N/A
+862,Ana_862,68,0.0,2023/06/14,SI, b ,93.16,Completado,N/A,N/A
+823,André 823,37,5477.0,31/02/2022,0,,99.65,Completado,N/A,N/A
+647, José-647 ,47,5696.0,01/10/2019,false,,109.4,Completado,N/A,N/A
+1658,Ñandú 1658,44,7069.46,2019-11-21,False,Z,"40,09",Completado,N/A,N/A
+20,Usuario 20,29,6598.0,18/10/2023,1,D,"83,27",Completado,N/A,N/A
+1188,Tech–Labs-1188,51,2771.92,2020-03-04T00:00:00,false,Z,49.4,Completado,N/A,N/A
+585,Niño-585,33,8465.0,,SI,D,62.23,Completado,N/A,N/A
+677,Sofía_677,66,0.0,19/03/2019,SI,c,86.3,Completado,N/A,N/A
+697,Ñandú 697,50,6840.0,06-01-2023,0, b ,51.69,Completado,N/A,N/A
+1949,García-1949,32,3731.0,0000-00-00,True,Z,96.26,Completado,N/A,N/A
+1053, Ana-1053 ,40,5197.0,2024-04-28T00:00:00,T,a,34.3,Completado,N/A,N/A
+304,Niño-304,58,4971.0,0000-00-00,SI,c,84.42,Completado,N/A,N/A
+1001,André-1001,58,0.0,2024-08-10,false,C,56.43,Completado,N/A,N/A
+128,André-128,55,8881.0,22-08-2022,T,a,77.19,Completado,N/A,N/A
+722," Compañía ""ACME""_722 ",62,2802.0,31/02/2022,SI, c ,30.64,Completado,N/A,N/A
+410,Renée_410,41,5088.0,2023-07-27,false, N/A ,70.69,Completado,N/A,N/A
+1273, Ana-1273 ,27,8401.33,2022-04-26,False,,92.74,Completado,N/A,N/A
+449,O'Connor 449,30,3885.0,20/04/2025,0,D,76.92,Completado,N/A,N/A
+1194,Usuario_1194,48,0.0,09/01/2024,False,D ,70.16,Completado,N/A,N/A
+1649, Usuario 1649 ,35,8048.0,28/02/2024,false, b ,91.17,Completado,N/A,N/A
+1215,Tech–Labs 1215,40,4556.0,2022-09-07T00:00:00,false, Z ,105.01,Completado,N/A,N/A
+1796,José 1796,45,5573.0,2022/05/15,0, N/A ,61.53,Completado,N/A,N/A
+1260, Lía_1260 ,54,6574.0,2021/04/11,True,Z,73.63,Completado,N/A,N/A
+1992,Lía 1992,0,4898.01,2024-06-23,False, D ,43.89,Completado,N/A,N/A
+146,Ñandú 146,42,0.0,28/11/2021,1, D ,55.77,Completado,N/A,N/A
+1804,Müller_1804,43,0.0,15/11/2023,F, c ,38.65,Completado,N/A,N/A
+907,María_907,53,0.0,2019-03-17,False, b ,52.99,Completado,N/A,N/A
+179,"Compañía ""ACME""-179",35,0.0,2019/12/22,F,,103.5,Completado,N/A,N/A
+643,François_643,59,4369.54,2021-08-01,NO,D,"37,63",Completado,N/A,N/A
+1361,O'Connor_1361,63,0.0,31/02/2022,True,c,106.18,Completado,N/A,N/A
+1616,François 1616,27,0.0,31/02/2022,False,Z,40.17,Completado,N/A,N/A
+1421,Lía_1421,22,5806.0,2025-08-11,False, b ,60.3,Completado,N/A,N/A
+445,André 445,45,7066.0,,True,,81.41,Completado,N/A,N/A
+447,"Compañía ""ACME""_447",32,4125.0,11-12-2024,True, C ,60.71,Completado,N/A,N/A
+1955,O'Connor-1955,40,3860.0,0000-00-00,1, b ,54.77,Completado,N/A,N/A
+858,Renée-858,45,6967.0,0000-00-00,SI,B,62.87,Completado,N/A,N/A
+726,François-726,56,3236.0,2019-05-17,True,,"36,21",Completado,N/A,N/A
+245,Lía-245,54,6805.38,2023-01-03,F,,100.74,Completado,N/A,N/A
+1934,José 1934,69,5495.0,2021-01-26T00:00:00,1,D,105.09,Completado,N/A,N/A
+1708,Tech–Labs 1708,24,2469.0,2023-09-21,False,Z,43.62,Completado,N/A,N/A
+1365,Renée-1365,121,2340.0,2021/11/09,F,D ,69.92,Completado,N/A,N/A
+579,María 579,42,0.0,2019-05-21,False,Z,90.27,Completado,N/A,N/A
+1199,García-1199,33,0.0,2024-09-15,NO, b ,"98,63",Completado,N/A,N/A
+241,Ñandú_241,42,0.0,2024-08-12T00:00:00,T,a,67.38,Completado,N/A,N/A
+1875,Niño_1875,52,0.0,2019-03-27,True,a,63.87,Completado,N/A,N/A
+759, Niño-759 ,29,5340.0,2025/05/03,False,a,51.68,Completado,N/A,N/A
+82,O'Connor 82,67,3568.0,2021-08-14,SI,a,73.65,Completado,N/A,N/A
+633,"Compañía ""ACME""_633",46,0.0,31/02/2022,true, A ,40.96,Completado,N/A,N/A
+1168,André-1168,65,0.0,24/09/2022,NO,D ,57.46,Completado,N/A,N/A
+275," Compañía ""ACME""_275 ",51,0.0,2024-06-23,T,D ,38.18,Completado,N/A,N/A
+345,Ñandú_345,38,3014.0,2019/12/02,False,C,"81,80",Completado,N/A,N/A
+398, María 398 ,-5,0.0,0000-00-00,NO,C,63.49,Completado,N/A,N/A
+768,Usuario_768,39,0.0,2023/06/03,True,a,74.59,Completado,N/A,N/A
+56, Tech–Labs-56 ,,0.0,2021-12-05T00:00:00,0,A,"103,19",Completado,N/A,N/A
+206,Niño-206,19,5190.0,31/01/2020,true,A,96.45,Completado,N/A,N/A
+1328, François 1328 ,35,7700.0,2019-02-27,SI, b ,35.05,Completado,N/A,N/A
+867,García_867,59,3232.0,,True, A ,101.67,Completado,N/A,N/A
+1065,Ñandú 1065,25,0.0,2021-08-30T00:00:00,true,a,53.86,Completado,N/A,N/A
+187,José-187,55,0.0,2020-02-22,F,A,103.48,Completado,N/A,N/A
+1832,Müller 1832,41,0.0,2019-01-12,False,,34.22,Completado,N/A,N/A
+418,Niño 418,30,8494.15,,True,a,40.25,Completado,N/A,N/A
+693, François 693 ,41,6117.25,2024-05-16,0,c,77.63,Completado,N/A,N/A
+68,Niño-68,54,0.0,05/01/2019,SI,D,"66,58",Completado,N/A,N/A
+587,Müller 587,0,0.0,,true,D ,"55,72",Completado,N/A,N/A
+969,André_969,50,4381.0,2021-03-08,0,Z,"69,94",Completado,N/A,N/A
+1091,Niño_1091,35,0.0,2020-02-02,true, ,83.92,Completado,N/A,N/A
+58,O'Connor 58,50,4300.0,0000-00-00,False,c,51.48,Completado,N/A,N/A
+1487,Renée_1487,33,0.0,2023-07-18T00:00:00,True,C,96.82,Completado,N/A,N/A
+1774,O'Connor-1774,63,2301.0,31/02/2022,false,C,31.95,Completado,N/A,N/A
+1764,María_1764,43,0.0,2024/05/14,False, b ,65.58,Completado,N/A,N/A
+1856,Ñandú-1856,46,8281.79,28/09/2021,True,A,63.24,Completado,N/A,N/A
+1274,Ñandú 1274,48,8819.0,2020-05-16,T,A,104.52,Completado,N/A,N/A
+729,María 729,40,5629.0,2020-05-09T00:00:00,true,A,69.15,Completado,N/A,N/A
+1378,Müller 1378,31,3176.0,2020-02-05,SI,C,67.96,Completado,N/A,N/A
+834,María 834,61,0.0,2022-07-12,False,,56.88,Completado,N/A,N/A
+1095, Müller_1095 ,33,0.0,31-08-2023,NO, N/A ,46.98,Completado,N/A,N/A
+742,"Compañía ""ACME""_742",32,8122.0,04/11/2022,F,,100.53,Completado,N/A,N/A
+894,Müller 894,40,0.0,20-12-2023,False,,35.26,Completado,N/A,N/A
+178,François_178,121,4443.0,2025-03-15T00:00:00,False, c ,"76,90",Completado,N/A,N/A
+387,Ana-387,30,4964.0,2021-08-21,False,,40.81,Completado,N/A,N/A
+686,O'Connor 686,58,8340.0,,NO, b ,59.91,Completado,N/A,N/A
+1760,García_1760,39,4497.0,2023-04-23,F, b ,37.69,Completado,N/A,N/A
+424,André 424,61,6351.0,2020-08-20T00:00:00,true,,90.25,Completado,N/A,N/A
+604,García_604,64,8093.0,31/02/2022,False,C,34.19,Completado,N/A,N/A
+581," Compañía ""ACME"" 581 ",19,0.0,2021-03-12T00:00:00,NO, b ,36.21,Completado,N/A,N/A
+1729,O'Connor 1729,62,0.0,2023-03-17,SI,C,65.55,Completado,N/A,N/A
+235,Müller-235,60,6278.86,30/12/2019,true, C ,"75,79",Completado,N/A,N/A
+306,Usuario_306,-5,3977.0,2021-08-14,1, b ,97.7,Completado,N/A,N/A
+1668,Usuario_1668,-5,5342.0,2020-02-21,1,Z,54.26,Completado,N/A,N/A
+611, François-611 ,27,4100.73,2020-07-11T00:00:00,True,A,"49,35",Completado,N/A,N/A
+962,François_962,64,6362.0,2025-08-03,True,A,67.29,Completado,N/A,N/A
+1995,O'Connor_1995,45,5955.0,10/07/2021,SI, B ,77.23,Completado,N/A,N/A
+906, Sofía-906 ,34,0.0,2024-02-04,NO,C,37.19,Completado,N/A,N/A
+524, Müller-524 ,63,3159.0,31/02/2022,F,,57.11,Completado,N/A,N/A
+1485,Ana-1485,28,7247.0,2024-04-05T00:00:00,True,Z,46.75,Completado,N/A,N/A
+672,Ñandú 672,40,2508.0,2023-07-20,0, B ,57.57,Completado,N/A,N/A
+66, María-66 ,46,8050.76,2020-11-17,0, B ,37.87,Completado,N/A,N/A
+1288,Usuario_1288,59,6771.0,2019-10-10,SI,D,85.51,Completado,N/A,N/A
+926,Tech–Labs-926,57,0.0,2019-01-12,NO,B,"42,14",Completado,N/A,N/A
+1857,José_1857,68,0.0,02-11-2022,True, b ,39.16,Completado,N/A,N/A
+1669, María_1669 ,37,2636.0,2025/08/18,NO, A ,78.55,Completado,N/A,N/A
+368, Tech–Labs_368 ,61,2341.0,2022-02-27,1,D ,"109,53",Completado,N/A,N/A
+416,François-416,21,0.0,0000-00-00,True,A,"33,36",Completado,N/A,N/A
+1373,María 1373,49,6975.46,10/10/2020,1,,38.15,Completado,N/A,N/A
+429,García-429,42,0.0,28-12-2019,True, a ,74.64,Completado,N/A,N/A
+84,Renée 84,30,0.0,2021-01-23T00:00:00,True,A,84.64,Completado,N/A,N/A
+1951, María-1951 ,21,0.0,2019-12-02T00:00:00,True,A,65.52,Completado,N/A,N/A
+1252,Niño-1252,33,7666.0,16/09/2019,T, D ,50.86,Completado,N/A,N/A
+817,Usuario-817,42,5258.0,16/12/2022,F,,98.38,Completado,N/A,N/A
+1711,Niño-1711,-5,8264.0,2022-05-05,F, b ,"93,39",Completado,N/A,N/A
+1833,José_1833,18,5185.0,2019-01-26,F, N/A ,86.41,Completado,N/A,N/A
+1986," Compañía ""ACME"" 1986 ",19,3760.29,2021-03-29,NO,A,62.3,Completado,N/A,N/A
+1746,Ñandú_1746,26,0.0,01/08/2019,False, ,85.42,Completado,N/A,N/A
+1375, Ana_1375 ,66,0.0,2019-06-18,True,D,"91,05",Completado,N/A,N/A
+1887,María-1887,-5,7775.0,2020/09/17,false,D ,"93,75",Completado,N/A,N/A
+1840,Ñandú_1840,28,0.0,2023-07-19,NO,Z,56.5,Completado,N/A,N/A
+685,"Compañía ""ACME"" 685",22,5104.0,2022-09-03,1,D,36.71,Completado,N/A,N/A
+1235," Compañía ""ACME""-1235 ",29,8593.0,08/08/2020,True,D,71.8,Completado,N/A,N/A
+532,José 532,37,6033.0,2022-09-09,0,a,60.71,Completado,N/A,N/A
+1666,André_1666,63,0.0,23/04/2021,1,,35.76,Completado,N/A,N/A
+201,Müller-201,25,0.0,,True,,94.43,Completado,N/A,N/A
+1768,Ana 1768,69,4503.0,16/07/2022,True,c,61.32,Completado,N/A,N/A
+1024,O'Connor 1024,26,0.0,23/10/2019,True,A,78.81,Completado,N/A,N/A
+392,Lía-392,48,2456.0,2021-09-09,False,a,49.13,Completado,N/A,N/A
+69,Usuario-69,23,0.0,,False, c ,71.3,Completado,N/A,N/A
+284,André 284,0,0.0,2020-06-10,F,B,68.52,Completado,N/A,N/A
+1483,Usuario 1483,52,3763.91,2023-04-08T00:00:00,SI,,57.91,Completado,N/A,N/A
+915,Renée-915,69,8584.0,2019-05-28,T,,83.85,Completado,N/A,N/A
+1761,François 1761,28,7554.0,,False,C,41.29,Completado,N/A,N/A
+21,José-21,61,3570.0,18/08/2021,False,,60.63,Completado,N/A,N/A
+1427,Ana 1427,45,6078.0,08/10/2023,0, a ,47.24,Completado,N/A,N/A
+1307,Lía_1307,39,7731.0,28/08/2025,NO,a,34.38,Completado,N/A,N/A
+707,Lía_707,56,0.0,0000-00-00,SI, N/A ,32.36,Completado,N/A,N/A
+487,Tech–Labs_487,37,0.0,2019-08-15T00:00:00,F,A,44.99,Completado,N/A,N/A
+280,O'Connor 280,55,3980.0,30/01/2024,NO,Z,99.45,Completado,N/A,N/A
+125,Müller-125,20,0.0,2021-12-13,T,C,107.44,Completado,N/A,N/A
+912, Niño 912 ,39,2949.0,2019-02-14,SI, N/A ,57.0,Completado,N/A,N/A
+910,"Compañía ""ACME""-910",69,6713.0,2019-03-05,True,,53.71,Completado,N/A,N/A
+530, García 530 ,65,0.0,2020-06-03T00:00:00,SI, Z ,"99,03",Completado,N/A,N/A
+624,Usuario-624,32,2277.0,21/08/2019,true,c,46.4,Completado,N/A,N/A
+1513,Ana-1513,20,6293.0,15-12-2021,false,c,51.41,Completado,N/A,N/A
+1452, Ana 1452 ,59,3736.0,2021-11-12,T,a,"104,84",Completado,N/A,N/A
+1345,O'Connor_1345,29,0.0,0000-00-00,False, B ,41.95,Completado,N/A,N/A
+229,Müller 229,43,7657.0,2019-02-16T00:00:00,NO,Z,33.53,Completado,N/A,N/A
+41, José 41 ,50,8694.0,2025/07/13,F,B,"97,02",Completado,N/A,N/A
+1502,François-1502,31,6846.0,18/09/2020,T,C,98.35,Completado,N/A,N/A
+939,Müller-939,49,6259.0,28/05/2019,NO, D ,105.67,Completado,N/A,N/A
+849, Müller-849 ,57,6247.0,2021-10-25,True, A ,"39,18",Completado,N/A,N/A
+1771,André-1771,52,4514.0,29/01/2022,True, b ,"94,26",Completado,N/A,N/A
+1756,Lía_1756,21,8750.0,2019-08-11,false,D ,37.36,Completado,N/A,N/A
+1685,María 1685,28,0.0,2022-12-11,False,,57.89,Completado,N/A,N/A
+31,Müller_31,26,0.0,0000-00-00,False,A,43.46,Completado,N/A,N/A
+293, José-293 ,50,2917.0,19/02/2025,1,D ,108.2,Completado,N/A,N/A
+1950,Sofía-1950,69,0.0,2020-10-08,SI, b ,36.33,Completado,N/A,N/A
+1834,Tech–Labs_1834,50,7934.0,29-08-2020,0,,32.49,Completado,N/A,N/A
+1821,Ana 1821,58,0.0,19/02/2025,True, C ,51.85,Completado,N/A,N/A
+938,Renée 938,39,4895.0,2022/10/11,True, c ,"78,44",Completado,N/A,N/A
+1766,García 1766,53,4523.0,2022-12-11T00:00:00,1,,75.2,Completado,N/A,N/A
+930," Compañía ""ACME"" 930 ",33,2184.0,2020/04/12,false,B,86.11,Completado,N/A,N/A
+318,Lía 318,20,0.0,2023-06-17T00:00:00,False,,56.96,Completado,N/A,N/A
+618,Ñandú-618,50,0.0,0000-00-00,False,,83.04,Completado,N/A,N/A
+477, Tech–Labs_477 ,36,6874.0,2025-05-04T00:00:00,true,C,71.87,Completado,N/A,N/A
+179, André 179 ,54,0.0,2021-01-14,1, b ,66.34,Completado,N/A,N/A
+415,François_415,57,5009.0,2021-08-20T00:00:00,0,,39.71,Completado,N/A,N/A
+1980,Tech–Labs-1980,39,0.0,0000-00-00,True,c,"66,76",Completado,N/A,N/A
+8,Sofía_8,20,0.0,23-01-2025,False,Z,31.06,Completado,N/A,N/A
+188, Müller 188 ,60,0.0,20/04/2022,NO,c,44.11,Completado,N/A,N/A
+1290,François-1290,59,3717.66,2024-08-15,T,Z,76.3,Completado,N/A,N/A
+1572,Niño-1572,20,6949.0,28/01/2023,NO,B,51.93,Completado,N/A,N/A
+1388,André-1388,55,8085.0,2019/04/13,1, A ,57.1,Completado,N/A,N/A
+370, François_370 ,69,0.0,2024-02-12,False, C ,80.8,Completado,N/A,N/A
+592,García-592,32,0.0,13/05/2022,0,,103.34,Completado,N/A,N/A
+1016,André_1016,33,3366.0,16-10-2021,False,C,"109,72",Completado,N/A,N/A
+397,Lía-397,52,0.0,30/03/2023,true, C ,44.15,Completado,N/A,N/A
+281,"Compañía ""ACME""_281",41,7390.0,2025-03-05,SI,Z,73.46,Completado,N/A,N/A
+1921,García 1921,57,8683.0,2023-10-08T00:00:00,True,A,45.35,Completado,N/A,N/A
+191,Niño 191,66,0.0,2019-05-28T00:00:00,1, b ,"63,17",Completado,N/A,N/A
+1563,Ana-1563,58,0.0,,False,A,54.51,Completado,N/A,N/A
+246,André_246,41,3868.0,2025-03-23T00:00:00,0, b ,43.36,Completado,N/A,N/A
+1396,"Compañía ""ACME""-1396",66,4147.0,16-09-2021,T,,54.01,Completado,N/A,N/A
+1028, François-1028 ,121,7622.0,31/02/2022,T,A,37.31,Completado,N/A,N/A
+996, André 996 ,46,5589.0,20/11/2022,0, D ,61.82,Completado,N/A,N/A
+1808,Niño-1808,32,2438.18,2019/05/07,true,C,58.11,Completado,N/A,N/A
+1217,Usuario 1217,26,4990.0,2019-09-15,false,B,"66,00",Completado,N/A,N/A
+982,Ñandú-982,18,0.0,18/01/2022,F, Z ,"44,17",Completado,N/A,N/A
+705,Lía-705,32,4426.72,2022-06-25,0,,48.33,Completado,N/A,N/A
+202,O'Connor 202,41,5191.0,2020-03-27,NO,,105.55,Completado,N/A,N/A
+715,Lía-715,35,8996.0,20-03-2020,0,D ,99.9,Completado,N/A,N/A
+502,Tech–Labs-502,25,7778.0,0000-00-00,0,C,38.86,Completado,N/A,N/A
+1450,O'Connor_1450,41,0.0,2022-01-21,true,D ,50.55,Completado,N/A,N/A
+1206,Müller-1206,36,7965.0,12/10/2021,True,D,"101,46",Completado,N/A,N/A
+1993,García-1993,44,0.0,23/09/2020,SI,Z,89.17,Completado,N/A,N/A
+899,André-899,121,4950.0,2023-01-11T00:00:00,True,Z,52.39,Completado,N/A,N/A
+1564,André_1564,121,2680.0,2021-08-30,False,c,88.63,Completado,N/A,N/A
+1884,Renée-1884,37,7352.0,20-04-2022,true,A,95.24,Completado,N/A,N/A
+935,Lía_935,31,2526.0,2024-12-12,T, B ,"31,97",Completado,N/A,N/A
+1979,Ñandú_1979,50,0.0,2021-10-15,False,D ,53.45,Completado,N/A,N/A
+1120,Ñandú_1120,54,3552.72,2019-06-06T00:00:00,False,Z,57.11,Completado,N/A,N/A
+501,Ana 501,40,3377.0,22/05/2019,NO,,99.17,Completado,N/A,N/A
+252,"Compañía ""ACME"" 252",49,0.0,04/07/2025,1,a,101.59,Completado,N/A,N/A
+695,Niño_695,36,4414.0,2022-12-08,0,Z,81.33,Completado,N/A,N/A
+627,García_627,45,3072.0,04-08-2019,False, b ,88.0,Completado,N/A,N/A
+812,Lía 812,26,5109.0,19/05/2022,true, b ,82.65,Completado,N/A,N/A
+1505, Ñandú-1505 ,28,6833.0,2019/07/21,False, C ,"50,67",Completado,N/A,N/A
+457,O'Connor 457,30,2840.44,05/06/2022,False, b ,32.69,Completado,N/A,N/A
+1275,Müller_1275,-5,2688.0,22-01-2020,false,c,"68,23",Completado,N/A,N/A
+199,André-199,-5,3823.0,2022-04-16,false,C,99.36,Completado,N/A,N/A
+1135, Ana-1135 ,40,0.0,2025-06-09,False,C,74.05,Completado,N/A,N/A
+953,José_953,61,0.0,2023-08-30,True,,99.83,Completado,N/A,N/A
+103,Niño_103,56,7977.0,08/02/2019,1,A,64.76,Completado,N/A,N/A
+888,Lía 888,32,2607.0,01-04-2020,0,A,54.68,Completado,N/A,N/A
+161,Ñandú-161,32,0.0,23-01-2022,SI, N/A ,"104,36",Completado,N/A,N/A
+1709, Renée_1709 ,35,8452.0,2021-02-13,F,,70.29,Completado,N/A,N/A
+1504,Ñandú 1504,46,4855.48,2019-02-26,false,A,105.56,Completado,N/A,N/A
+290,García_290,68,0.0,23-08-2023,False,D ,31.47,Completado,N/A,N/A
+1534,"Compañía ""ACME""-1534",41,6132.0,19-06-2024,false,a,30.31,Completado,N/A,N/A
+45,André_45,22,6090.0,2024/08/18,False, b ,52.31,Completado,N/A,N/A
+231,Ñandú-231,32,6232.0,02-03-2023,T, b ,"63,74",Completado,N/A,N/A
+213,O'Connor-213,51,0.0,11-06-2023,False,,38.53,Completado,N/A,N/A
+118, José_118 ,43,5925.0,19-11-2020,F,Z,97.07,Completado,N/A,N/A
+1061, Ana-1061 ,34,3412.0,2023-05-03,NO,c,"96,37",Completado,N/A,N/A
+129,François 129,47,4482.0,2020/03/22,SI, D ,88.11,Completado,N/A,N/A
+1956,Müller 1956,45,0.0,22-08-2023,0,,82.44,Completado,N/A,N/A
+1663,Renée 1663,29,4047.0,2021-06-20,0,,38.49,Completado,N/A,N/A
+1271,María-1271,52,5483.0,0000-00-00,1,,65.13,Completado,N/A,N/A
+963,André-963,42,3893.0,16/03/2024,False,,"56,98",Completado,N/A,N/A
+711, Sofía-711 ,55,7283.58,24-06-2025,False,D,73.54,Completado,N/A,N/A
+1740,Lía_1740,20,7873.0,2025-04-03,True,D,"40,30",Completado,N/A,N/A
+1922, André 1922 ,53,7594.0,2019-07-26,True, b ,51.6,Completado,N/A,N/A
+295, Renée-295 ,121,2316.0,09-06-2024,T,D,101.7,Completado,N/A,N/A
+1707,José-1707,30,8391.0,2023-05-24,F, b ,106.63,Completado,N/A,N/A
+1843,O'Connor-1843,33,7938.0,07/04/2019,T, A ,63.26,Completado,N/A,N/A
+1628,André 1628,38,2179.0,12-02-2023,1,A,79.92,Completado,N/A,N/A
+1070,André-1070,54,5639.0,06-12-2019,0, a ,63.78,Completado,N/A,N/A
+300,François 300,58,6109.0,28-08-2021,1,A,"87,99",Completado,N/A,N/A
+314,François-314,64,4278.0,01/07/2024,True,D ,"83,01",Completado,N/A,N/A
+784,Usuario_784,35,8837.0,0000-00-00,SI,D,104.0,Completado,N/A,N/A
+1587,André 1587,47,4877.78,18-07-2022,SI, b ,"45,91",Completado,N/A,N/A
+940,Niño 940,20,6218.0,2022-11-24,F, A ,47.43,Completado,N/A,N/A
+1930,Lía_1930,57,8109.0,2020/12/30,T,B,71.81,Completado,N/A,N/A
+1220,María_1220,42,2203.0,2025/02/21,T,,78.26,Completado,N/A,N/A
+1703,José_1703,68,3440.0,,SI,c,54.68,Completado,N/A,N/A
+1114, François-1114 ,27,4223.0,2020-03-02T00:00:00,F, b ,36.97,Completado,N/A,N/A
+1103,Lía 1103,50,4668.0,20/07/2020,True,,61.38,Completado,N/A,N/A
+1445,Lía-1445,21,0.0,2022-12-09,true,C,80.83,Completado,N/A,N/A
+498,García 498,38,5700.0,2021-08-06,F,,82.25,Completado,N/A,N/A
+301,Ana-301,29,4956.24,2022-08-17,NO,,79.26,Completado,N/A,N/A
+1559,Usuario-1559,59,4492.69,2023-07-05,SI,A,104.52,Completado,N/A,N/A
+1078,Renée 1078,50,0.0,,0,Z,38.64,Completado,N/A,N/A
+1952,Usuario_1952,47,2513.0,2024-07-22,false,C,98.89,Completado,N/A,N/A
+1613, André 1613 ,18,0.0,31/02/2022,1,A,30.72,Completado,N/A,N/A
+374,Renée-374,61,2285.0,2019-05-29,SI, b ,"37,43",Completado,N/A,N/A
+1545,Niño 1545,35,6372.64,2023-12-12,T, N/A ,55.27,Completado,N/A,N/A
+1149,José 1149,25,5338.0,2021-10-22,False, C ,72.29,Completado,N/A,N/A
+1942,Tech–Labs_1942,25,0.0,05-01-2025,true,C,"80,81",Completado,N/A,N/A
+1659,María 1659,49,7062.41,2020-07-13,False,D,35.74,Completado,N/A,N/A
+480,María 480,19,8530.0,2019-09-16,false,A,101.77,Completado,N/A,N/A
+1077,Niño 1077,21,5153.0,03/09/2023,true,A,89.52,Completado,N/A,N/A
+177,Ñandú 177,22,0.0,2020-12-12,0,,63.89,Completado,N/A,N/A
+1680, Niño-1680 ,57,8076.0,2023/07/31,False,a,76.33,Completado,N/A,N/A
+1332," Compañía ""ACME""_1332 ",59,3507.0,25-03-2020,NO, ,49.9,Completado,N/A,N/A
+1686,José-1686,24,6092.0,2020-11-18,0,,94.82,Completado,N/A,N/A
+1773,Ana-1773,53,2827.0,06/03/2020,SI, D ,105.58,Completado,N/A,N/A
+196,José 196,19,7232.0,2024-12-01,SI,Z,69.76,Completado,N/A,N/A
+1716,Ñandú-1716,50,0.0,16/06/2021,NO, a ,50.76,Completado,N/A,N/A
+363,Tech–Labs_363,63,0.0,2025/05/24,False,c,51.93,Completado,N/A,N/A
+419, José 419 ,32,0.0,2023-08-16,0,,60.08,Completado,N/A,N/A
+110,Ana-110,20,7131.73,2021-08-25,false,a,61.56,Completado,N/A,N/A
+400,Usuario_400,18,0.0,2025-07-13,True,a,35.17,Completado,N/A,N/A
+826, Sofía 826 ,121,2327.0,0000-00-00,0, C ,49.05,Completado,N/A,N/A
+81,Usuario 81,66,8303.0,01/05/2021,NO,C,"76,04",Completado,N/A,N/A
+1751,François-1751,56,6522.0,2020-04-30T00:00:00,false, A ,87.52,Completado,N/A,N/A
+10,María 10,19,7486.0,2023-01-18,0, c ,78.8,Completado,N/A,N/A
+1803,Ana-1803,18,6656.0,24/01/2022,true,D ,91.52,Completado,N/A,N/A
+660, María-660 ,58,0.0,11/09/2022,False,B,34.37,Completado,N/A,N/A
+1312, Niño_1312 ,37,0.0,31/02/2022,False, b ,95.37,Completado,N/A,N/A
+535, Sofía 535 ,58,3842.74,19/06/2024,False,A,30.81,Completado,N/A,N/A
+644, Renée 644 ,54,6444.0,2023-08-04,0,c,30.04,Completado,N/A,N/A
+1891,Lía-1891,56,8333.0,22/07/2023,1, N/A ,49.22,Completado,N/A,N/A
+165, Usuario_165 ,38,4898.0,2019-03-19,true, Z ,71.85,Completado,N/A,N/A
+1646,O'Connor_1646,28,4291.0,2019-11-23T00:00:00,1,a,102.98,Completado,N/A,N/A
+511,Tech–Labs-511,46,0.0,0000-00-00,T,D ,51.42,Completado,N/A,N/A
+508,Ana_508,42,6916.98,09/07/2025,true,D,89.46,Completado,N/A,N/A
+877,Sofía-877,121,4091.0,2024-03-10,F,B,55.57,Completado,N/A,N/A
+755, Ñandú-755 ,34,0.0,2019-02-13T00:00:00,F, b ,89.38,Completado,N/A,N/A
+744,Tech–Labs-744,58,0.0,31/02/2022,F, b ,44.68,Completado,N/A,N/A
+933,François 933,51,6155.0,31-07-2020,True,A,64.11,Completado,N/A,N/A
+1614,André 1614,49,2780.0,2021-10-16,T,D ,53.81,Completado,N/A,N/A
+1755,José-1755,31,2781.67,28/07/2024,False,c,"57,22",Completado,N/A,N/A
+1694,Müller-1694,68,6686.0,2024-06-09,F, a ,34.41,Completado,N/A,N/A
+1624,Niño-1624,43,7647.0,2019-10-05,True, B ,52.25,Completado,N/A,N/A
+689,André 689,27,0.0,2023-05-17,False,,71.5,Completado,N/A,N/A
+794,Lía_794,24,2954.0,2022/06/16,False,B,84.68,Completado,N/A,N/A
+437,José 437,54,6917.0,16/07/2024,false, A ,44.27,Completado,N/A,N/A
+91,Usuario 91,52,0.0,2024-10-10T00:00:00,False,c,69.72,Completado,N/A,N/A
+1765," Compañía ""ACME""_1765 ",69,0.0,31/02/2022,1,a,65.66,Completado,N/A,N/A
+63,García_63,42,8971.0,2023-03-10T00:00:00,1,a,30.41,Completado,N/A,N/A
+1082,María-1082,68,6961.0,05/04/2021,SI,a,33.02,Completado,N/A,N/A
+1683,María_1683,30,2904.0,21/07/2024,NO,Z,70.15,Completado,N/A,N/A
+1886,Niño_1886,48,5820.0,2025/07/28,F, D ,44.34,Completado,N/A,N/A
+388, Renée-388 ,21,6223.0,2019/04/02,0,,54.95,Completado,N/A,N/A
+1851,Tech–Labs_1851,19,0.0,13/02/2020,false, c ,93.51,Completado,N/A,N/A
+1046,Niño_1046,42,0.0,2022-02-03,1,,88.09,Completado,N/A,N/A
+1165,André_1165,43,0.0,13/06/2023,1,a,52.82,Completado,N/A,N/A
+1323,Niño 1323,26,6674.0,2020-06-25,true,D,47.06,Completado,N/A,N/A
+1314,"Compañía ""ACME""_1314",34,0.0,16-02-2024,False,,106.23,Completado,N/A,N/A
+1305,François_1305,60,8500.0,06/02/2025,False, c ,73.6,Completado,N/A,N/A
+706, Müller-706 ,60,0.0,09/03/2025,1,D ,46.32,Completado,N/A,N/A
+1321, Ñandú_1321 ,55,2886.0,20-01-2022,False, c ,48.94,Completado,N/A,N/A
+931,"Compañía ""ACME""_931",44,0.0,31/02/2022,T,D,104.31,Completado,N/A,N/A
+1246,José 1246,44,7539.0,03/11/2023,T, N/A ,"48,59",Completado,N/A,N/A
+123,Sofía 123,30,6544.0,,SI,,58.65,Completado,N/A,N/A
+1191,O'Connor-1191,59,0.0,0000-00-00,True,a,63.55,Completado,N/A,N/A
+1446,Niño-1446,40,7199.0,2019-01-22,false, D ,63.13,Completado,N/A,N/A
+1592,François 1592,42,8389.0,14/04/2022,0,a,98.37,Completado,N/A,N/A
+53,Sofía_53,-5,2562.0,05-12-2023,SI, A ,80.49,Completado,N/A,N/A
+1911,García-1911,-5,0.0,2022-07-28,False, b ,67.63,Completado,N/A,N/A
+42,Sofía_42,28,8616.0,2024-05-23,False,D,103.98,Completado,N/A,N/A
+813,André-813,52,4959.0,2023-01-02,False,A,85.88,Completado,N/A,N/A
+1622,Müller-1622,21,0.0,2025/08/25,SI,C,75.75,Completado,N/A,N/A
+1182,Müller 1182,63,0.0,2021-12-01,True, c ,64.29,Completado,N/A,N/A
+1122, François-1122 ,30,2996.0,2025-04-13,True,c,89.51,Completado,N/A,N/A
+774,Renée-774,52,5471.0,2025-04-19,SI, b ,55.45,Completado,N/A,N/A
+1747,Usuario 1747,33,8476.76,01-10-2021,0,,55.78,Completado,N/A,N/A
+1553,Usuario_1553,20,5531.0,2021-03-12,0,D,108.02,Completado,N/A,N/A
+682,Sofía-682,19,0.0,0000-00-00,F,D ,55.03,Completado,N/A,N/A
+787,O'Connor 787,29,5825.0,03-04-2019,True, b ,105.9,Completado,N/A,N/A
+220,Müller-220,39,7408.0,2023-11-21,SI,,32.49,Completado,N/A,N/A
+1829, García_1829 ,69,8305.0,2019-03-02,0,a,92.12,Completado,N/A,N/A
+830, García_830 ,47,7290.0,2024-06-27,1,,91.03,Completado,N/A,N/A
+1915,María-1915,69,7668.52,13/06/2020,True, Z ,70.78,Completado,N/A,N/A
+1257,Usuario-1257,44,0.0,2025-03-11,true, C ,80.27,Completado,N/A,N/A
+1374,François_1374,40,0.0,06/10/2021,0,Z,85.74,Completado,N/A,N/A
+1577,Lía 1577,26,2076.0,26/03/2021,T,D ,81.05,Completado,N/A,N/A
+292," Compañía ""ACME"" 292 ",67,2001.96,2023-11-04T00:00:00,1,A,58.05,Completado,N/A,N/A
+1873,Lía 1873,64,0.0,2020-07-23,False,D ,94.34,Completado,N/A,N/A
+561, François-561 ,18,3303.0,2021-06-27,T, B ,80.1,Completado,N/A,N/A
+571,Ana 571,64,0.0,07/02/2024,False,a,98.32,Completado,N/A,N/A
+811,José_811,34,6135.0,10/01/2022,0, B ,67.67,Completado,N/A,N/A
+1725,Tech–Labs 1725,29,0.0,2025-07-17,0,D ,37.52,Completado,N/A,N/A
+346,Müller-346,32,2714.0,2019/02/20,True,Z,34.82,Completado,N/A,N/A
+1163,Ñandú_1163,35,4135.0,15/04/2023,1,A,59.34,Completado,N/A,N/A
+1509,Ñandú_1509,52,7435.0,29-10-2019,SI,A,43.73,Completado,N/A,N/A
+1671,García_1671,34,7595.0,2019-08-02T00:00:00,True,Z,47.17,Completado,N/A,N/A
+1335,"Compañía ""ACME""_1335",121,6376.0,31/02/2022,NO,,57.47,Completado,N/A,N/A
+5,José 5,50,0.0,2020-04-19T00:00:00,F, b ,78.95,Completado,N/A,N/A
+988,García-988,35,7540.0,24/04/2022,False,,65.41,Completado,N/A,N/A
+24,Müller-24,30,2863.0,2020-07-17,0,A,75.06,Completado,N/A,N/A
+737,"Compañía ""ACME""_737",68,0.0,2019-04-03,NO,B,72.6,Completado,N/A,N/A
+299, María-299 ,21,2021.25,2021-06-13,true,A,81.49,Completado,N/A,N/A
+1889,Usuario-1889,37,0.0,31/02/2022,False,D ,91.71,Completado,N/A,N/A
+50,Renée_50,52,0.0,10/06/2019,T, c ,31.45,Completado,N/A,N/A
+947,François 947,37,0.0,08-06-2024,False,D ,78.57,Completado,N/A,N/A
+1897,André_1897,54,4386.0,2022-09-21,SI,C,86.34,Completado,N/A,N/A
+781,François-781,0,0.0,31/02/2022,False,,"109,65",Completado,N/A,N/A
+1615, María_1615 ,36,4647.0,0000-00-00,False, b ,52.64,Completado,N/A,N/A
+621,Usuario 621,21,5996.0,2020-05-03,True, N/A ,104.99,Completado,N/A,N/A
+840,Müller_840,28,5220.0,2023-01-13T00:00:00,T,C,83.43,Completado,N/A,N/A
+28,Ñandú-28,61,3981.0,16/09/2022,False,A,55.95,Completado,N/A,N/A
+176,Niño-176,62,2094.0,,SI, b ,50.14,Completado,N/A,N/A
+1336,Tech–Labs_1336,25,7018.0,2020-07-05,true,,80.57,Completado,N/A,N/A
+990,Ñandú-990,51,0.0,2020/01/18,NO,B,80.52,Completado,N/A,N/A
+568,Ana_568,61,6677.0,25-11-2020,true,B,60.03,Completado,N/A,N/A
+1777,Ñandú 1777,61,2480.0,2022/03/13,false,c,94.05,Completado,N/A,N/A
+803,O'Connor 803,27,2636.0,31/02/2022,F,Z,43.61,Completado,N/A,N/A
+1277,José_1277,25,6366.0,2019-05-03,NO,C,38.2,Completado,N/A,N/A
+850, José_850 ,44,2270.0,2022-04-01,F,Z,47.0,Completado,N/A,N/A
+1399,Ana 1399,40,4930.0,22-04-2021,T,B,67.71,Completado,N/A,N/A
+286,François-286,26,0.0,10-10-2021,True, C ,56.07,Completado,N/A,N/A
+1602,Usuario 1602,53,5688.0,11-10-2022,True, A ,76.86,Completado,N/A,N/A
+1079,José 1079,51,4921.0,2020-04-16,0,c,33.12,Completado,N/A,N/A
+1142,Müller_1142,32,8085.0,2022-03-23,T,B,"33,32",Completado,N/A,N/A
+124,Müller_124,25,2249.0,2020-11-04,0,Z,68.1,Completado,N/A,N/A
+1409, François_1409 ,32,3872.95,,False,c,31.76,Completado,N/A,N/A
+11,O'Connor_11,25,8349.0,09/05/2024,True,D ,"44,58",Completado,N/A,N/A
+730,José 730,62,5687.0,2020-08-19,1,c,87.5,Completado,N/A,N/A
+542,Ñandú 542,35,5500.0,31/02/2022,true,D,54.51,Completado,N/A,N/A
+549,García-549,22,5759.0,2023-01-03T00:00:00,1,a,109.04,Completado,N/A,N/A
+1471,Ñandú-1471,40,5189.0,2023-07-25,False,C,48.43,Completado,N/A,N/A
+783, Usuario 783 ,55,7834.0,15-10-2019,True,,66.38,Completado,N/A,N/A
+1334,O'Connor_1334,47,0.0,2022-07-11,NO,c,100.56,Completado,N/A,N/A
+1608,Sofía_1608,67,3409.0,2019/01/14,1,a,"74,47",Completado,N/A,N/A
+1718, Ana 1718 ,49,6180.38,2025-08-28T00:00:00,False, D ,58.08,Completado,N/A,N/A
+1841,O'Connor-1841,58,5937.0,2021-04-26,False, b ,72.63,Completado,N/A,N/A
+101,Niño-101,39,2510.0,05-08-2019,False, C ,77.35,Completado,N/A,N/A
+664,Ñandú-664,67,6964.0,2022-02-09,False,A,95.34,Completado,N/A,N/A
+698, Müller 698 ,19,3088.0,2022-03-23,F,,65.93,Completado,N/A,N/A
+1433, Tech–Labs-1433 ,57,0.0,03/06/2025,F,a,66.18,Completado,N/A,N/A
+975,Ana-975,51,2643.0,02/03/2020,false,D ,85.86,Completado,N/A,N/A
+724,Sofía-724,69,7868.0,27-08-2022,1, c ,47.28,Completado,N/A,N/A
+596,García-596,67,0.0,07/06/2021,True, ,"36,62",Completado,N/A,N/A
+339, François-339 ,36,0.0,2019-11-01,false, b ,73.65,Completado,N/A,N/A
+1171,Usuario_1171,43,0.0,2021-07-24T00:00:00,False,a,89.69,Completado,N/A,N/A
+1779,Ana 1779,,7467.29,0000-00-00,T,A,31.67,Completado,N/A,N/A
+427,José_427,30,0.0,2022-10-08,False, Z ,70.67,Completado,N/A,N/A
+145,García 145,64,0.0,2024-03-21,NO, b ,49.4,Completado,N/A,N/A
+1367,André 1367,23,7442.0,2021-03-29,T,C,98.8,Completado,N/A,N/A
+1455,François_1455,30,7976.0,2022-10-26,False,a,49.73,Completado,N/A,N/A
+761,André-761,47,4347.1,2022-09-21,1,D,36.16,Completado,N/A,N/A
+1057,"Compañía ""ACME""-1057",62,0.0,2022-08-28,T,c,81.75,Completado,N/A,N/A
+80,Tech–Labs-80,22,0.0,2019-12-02T00:00:00,true,Z,81.39,Completado,N/A,N/A
+470, María_470 ,57,0.0,2020/09/02,True,a,34.16,Completado,N/A,N/A
+491, Usuario_491 ,47,5348.0,12/01/2025,SI, C ,96.08,Completado,N/A,N/A
+332, Ñandú_332 ,29,6440.45,2024/06/10,true, c ,84.12,Completado,N/A,N/A
+1041,García-1041,26,4314.0,23/06/2023,false, c ,102.26,Completado,N/A,N/A
+1880, Niño_1880 ,52,3915.0,24/10/2023,True,A,30.85,Completado,N/A,N/A
+1743,André-1743,67,8485.0,2024/02/12,SI,D,94.95,Completado,N/A,N/A
+1654,Renée-1654,46,0.0,16/03/2024,1,D,"102,32",Completado,N/A,N/A
+1116,Niño_1116,54,0.0,2024-08-05,True, C ,39.86,Completado,N/A,N/A
+171,Renée-171,64,4035.93,2022-06-08,True,,75.85,Completado,N/A,N/A
+273,François 273,52,4507.0,2021-10-27,False,c,"35,25",Completado,N/A,N/A
+859,Ñandú-859,27,0.0,22/07/2019,0,,94.08,Completado,N/A,N/A
+1100,André 1100,23,4920.0,09/05/2019,SI,a,42.46,Completado,N/A,N/A
+1576,Ana 1576,65,2435.0,0000-00-00,False,B,33.16,Completado,N/A,N/A
+325, María-325 ,66,3035.0,2020-05-04,NO,D,61.79,Completado,N/A,N/A
+1495,Tech–Labs 1495,39,3699.0,2021/10/26,True,C,85.76,Completado,N/A,N/A
+1164,"Compañía ""ACME""_1164",27,2176.0,19/05/2019,1,D ,"99,48",Completado,N/A,N/A
+57,Lía 57,52,0.0,31/02/2022,True,B,75.78,Completado,N/A,N/A
+1415,Renée-1415,45,0.0,16/05/2025,NO,B,84.54,Completado,N/A,N/A
+1899,Sofía 1899,23,3900.0,2025-01-26,1, b ,"92,86",Completado,N/A,N/A
+108,Ñandú_108,33,0.0,2022-06-04T00:00:00,false,,85.63,Completado,N/A,N/A
+537,"Compañía ""ACME"" 537",23,5585.0,2023-06-17T00:00:00,True,,35.32,Completado,N/A,N/A
+237,Tech–Labs 237,61,2310.98,29/06/2020,1,A,31.7,Completado,N/A,N/A
+1221,André 1221,26,3687.0,2019-01-14,0,a,53.63,Completado,N/A,N/A
+1818,Niño 1818,58,3461.0,2024-12-14,False, b ,79.24,Completado,N/A,N/A
+270,O'Connor_270,49,6826.63,06-11-2021,false,C,91.68,Completado,N/A,N/A
+985, André 985 ,47,2904.0,2022-06-23T00:00:00,1, ,36.89,Completado,N/A,N/A
+462,André 462,38,5670.0,2023-10-20,0,c,45.3,Completado,N/A,N/A
+75,Tech–Labs_75,54,0.0,28-05-2022,False,c,33.68,Completado,N/A,N/A
+60,Niño-60,20,5863.0,2020-09-17,True, b ,79.2,Completado,N/A,N/A
+405,Renée_405,121,2571.0,07-09-2024,False, b ,52.35,Completado,N/A,N/A
+493,Renée-493,35,4326.0,2021-06-14,True,a,"58,19",Completado,N/A,N/A
+572, Renée_572 ,34,8880.95,19-04-2021,0,,35.0,Completado,N/A,N/A
+1193,O'Connor-1193,66,2246.0,26-08-2025,True,A,33.07,Completado,N/A,N/A
+1449,Sofía_1449,121,6534.0,2022/10/30,True, A ,35.19,Completado,N/A,N/A
+740,Niño 740,66,7433.0,27/03/2021,False,C,106.12,Completado,N/A,N/A
+1562,François 1562,43,0.0,15/01/2025,False,D ,36.22,Completado,N/A,N/A
+12,Renée_12,21,0.0,03/02/2022,False,Z,75.42,Completado,N/A,N/A
+1237,Sofía-1237,68,0.0,,F,D ,35.13,Completado,N/A,N/A
+228,Ñandú_228,,8609.0,2022-01-17,1,B,"81,73",Completado,N/A,N/A
+1860, Lía_1860 ,33,6114.0,03-06-2022,false, b ,"69,31",Completado,N/A,N/A
+1699,André 1699,60,0.0,2022-02-19T00:00:00,0, b ,"51,43",Completado,N/A,N/A
+27,François_27,62,5060.0,06/03/2021,SI,D,"94,29",Completado,N/A,N/A
+160, Ana 160 ,37,7732.0,31/02/2022,true,c,39.34,Completado,N/A,N/A
+528, Lía_528 ,,0.0,2019-01-01,1, Z ,61.19,Completado,N/A,N/A
+243,"Compañía ""ACME"" 243",18,8094.0,03-02-2020,0,Z,60.75,Completado,N/A,N/A
+728,Usuario_728,34,8557.0,2022-08-01,1,D ,66.74,Completado,N/A,N/A
+1906,Tech–Labs_1906,42,0.0,31/02/2022,NO,D,86.31,Completado,N/A,N/A
+1026,García_1026,34,0.0,2019-02-27,SI, C ,30.52,Completado,N/A,N/A
+1102,Tech–Labs 1102,40,6486.0,2021/12/03,SI,B,107.57,Completado,N/A,N/A
+878, José-878 ,34,0.0,30/07/2025,F,a,58.39,Completado,N/A,N/A
+471,François-471,66,8534.0,2025-05-13,true,c,43.18,Completado,N/A,N/A
+72, Müller-72 ,18,0.0,24-01-2022,NO,D ,73.94,Completado,N/A,N/A
+1814,Tech–Labs_1814,24,7655.0,2021-01-25T00:00:00,true, c ,108.55,Completado,N/A,N/A
+1270,Ñandú-1270,44,7230.0,0000-00-00,true,Z,"81,79",Completado,N/A,N/A
+1256, Renée 1256 ,29,7676.0,01-07-2025,SI, ,86.61,Completado,N/A,N/A
+506,François-506,26,0.0,2020-02-02,1, B ,47.48,Completado,N/A,N/A
+212,Tech–Labs-212,35,4089.0,11-10-2022,False, a ,69.85,Completado,N/A,N/A
+1528,Niño 1528,37,0.0,10/07/2020,True,Z,37.88,Completado,N/A,N/A
+1072,Renée_1072,0,8054.97,,false,a,54.93,Completado,N/A,N/A
+1350,María-1350,20,0.0,2021-08-22,False,B,107.83,Completado,N/A,N/A
+620,Renée-620,28,5030.88,19/01/2023,NO,,46.57,Completado,N/A,N/A
+1650,André_1650,27,8686.0,2023-08-19T00:00:00,0,,67.87,Completado,N/A,N/A
+1811, Renée_1811 ,61,0.0,20/08/2023,False, D ,57.66,Completado,N/A,N/A
+1524,Tech–Labs-1524,46,8131.0,07/03/2022,false,,93.21,Completado,N/A,N/A
+514,Sofía 514,34,4527.0,28/10/2021,F,D ,"71,40",Completado,N/A,N/A
+355,José_355,38,0.0,2020-06-04,T,Z,81.73,Completado,N/A,N/A
+1173,Niño-1173,27,0.0,10/08/2025,True,B,54.78,Completado,N/A,N/A
+1617,María-1617,61,0.0,12/01/2021,T,D ,"101,18",Completado,N/A,N/A
+488,Renée 488,46,0.0,2020-10-07,NO,C,86.82,Completado,N/A,N/A
+895,O'Connor_895,64,0.0,31/02/2022,0,,"42,82",Completado,N/A,N/A
+802,Müller 802,40,0.0,22/06/2021,True, Z ,47.58,Completado,N/A,N/A
+364,José_364,63,7860.0,2019-12-19,0,a,"77,66",Completado,N/A,N/A
+1126, Müller-1126 ,20,6662.0,2020-10-27,False,c,59.06,Completado,N/A,N/A
+1525, Sofía-1525 ,31,8697.0,,SI,,82.95,Completado,N/A,N/A
+1469,Ñandú_1469,,3909.0,01-02-2022,True,Z,"64,48",Completado,N/A,N/A
+1300,Tech–Labs_1300,29,5609.0,2025-01-17,True,A,"38,28",Completado,N/A,N/A
+865,O'Connor_865,51,3587.0,2023-05-31T00:00:00,True,a,71.89,Completado,N/A,N/A
+1590,García-1590,41,0.0,02/02/2019,true,C,104.79,Completado,N/A,N/A
+1610,O'Connor 1610,61,3244.0,21-04-2022,0,D ,57.03,Completado,N/A,N/A
+1262,José-1262,55,5739.0,25/07/2025,True,C,83.35,Completado,N/A,N/A
+1011, Ana 1011 ,64,5182.0,20/11/2023,NO, b ,81.8,Completado,N/A,N/A
+2000,Niño-2000,52,6356.0,2023-04-01T00:00:00,F,c,34.62,Completado,N/A,N/A
+1401,María 1401,67,3737.98,0000-00-00,NO,A,43.99,Completado,N/A,N/A
+285,O'Connor 285,31,5965.0,13/06/2022,false,c,49.8,Completado,N/A,N/A
+1423,O'Connor 1423,24,8598.0,2025-08-10,True,,47.69,Completado,N/A,N/A
+366,"Compañía ""ACME""_366",21,0.0,2021/08/13,0,c,"94,03",Completado,N/A,N/A
+1394,André-1394,26,6415.0,07/02/2024,True,,51.2,Completado,N/A,N/A
+970,"Compañía ""ACME"" 970",20,4547.0,2020/11/15,True,,39.21,Completado,N/A,N/A
+1988,Tech–Labs-1988,25,0.0,2023-12-17T00:00:00,true,D ,60.87,Completado,N/A,N/A
+1722,Niño_1722,35,8883.0,2025-04-30,true,D ,72.46,Completado,N/A,N/A
+710,Müller-710,33,3327.0,2023-03-07,True,C,97.08,Completado,N/A,N/A
+1827,García 1827,19,7621.0,31/02/2022,NO, b ,"46,50",Completado,N/A,N/A
+874,"Compañía ""ACME"" 874",-5,8928.0,26/06/2022,True,Z,87.18,Completado,N/A,N/A
+1892,Renée-1892,22,5883.0,23-10-2020,T,a,44.29,Completado,N/A,N/A
+691, François 691 ,35,0.0,0000-00-00,F,a,51.14,Completado,N/A,N/A
+1904,Niño 1904,27,0.0,2025/04/01,NO,a,"101,37",Completado,N/A,N/A
+336,Niño_336,55,3637.18,0000-00-00,False,D ,64.85,Completado,N/A,N/A
+1918,José-1918,22,0.0,17/01/2023,True,D,40.43,Completado,N/A,N/A
+203,María 203,38,2822.0,2021-08-01,NO,D ,"36,95",Completado,N/A,N/A
+790,André_790,43,5020.0,01/02/2024,true,B,75.81,Completado,N/A,N/A
+1255, André-1255 ,23,8559.0,23-05-2024,NO,,65.69,Completado,N/A,N/A
+1710,Ñandú-1710,66,4503.0,26/01/2023,true,C,"73,43",Completado,N/A,N/A
+958,Ñandú-958,65,6875.0,2022-05-15,0,D ,73.55,Completado,N/A,N/A
+1266,Müller-1266,32,8703.0,2019-12-17,true,D ,"75,77",Completado,N/A,N/A
+771, André 771 ,25,3205.0,2021-06-11,F, A ,35.38,Completado,N/A,N/A
+1548, François_1548 ,18,2782.0,23/06/2020,F,a,106.93,Completado,N/A,N/A
+233,Usuario 233,35,2614.0,2022-07-20,false,,82.01,Completado,N/A,N/A
+663,Ana-663,53,3988.0,2024-04-16,false,B,63.81,Completado,N/A,N/A
+1507,Lía 1507,62,0.0,2020-03-09,SI, b ,88.28,Completado,N/A,N/A
+342,O'Connor 342,46,2011.0,2022-03-02T00:00:00,False, N/A ,61.91,Completado,N/A,N/A
+909, José-909 ,54,5982.0,2019-08-16,False, D ,"85,50",Completado,N/A,N/A
+1157,Müller 1157,41,7137.0,04-04-2021,SI,B,"66,55",Completado,N/A,N/A
+255,André-255,0,0.0,2021-09-10,1,c,50.21,Completado,N/A,N/A
+1071,"Compañía ""ACME"" 1071",39,8449.0,31/02/2022,F,D,"52,15",Completado,N/A,N/A
+1308, François-1308 ,64,6917.0,2020-08-24,NO,D,66.45,Completado,N/A,N/A
+1549,Ana-1549,65,0.0,08/01/2024,F, b ,59.22,Completado,N/A,N/A
+83, Sofía 83 ,54,0.0,02/12/2021,False,,"45,66",Completado,N/A,N/A
+1089, Lía 1089 ,47,0.0,13/12/2024,NO,A,69.44,Completado,N/A,N/A
+678,Usuario-678,31,0.0,2021-06-20,False,,73.71,Completado,N/A,N/A
+676, Lía-676 ,43,0.0,25/02/2022,True,A,102.53,Completado,N/A,N/A
+1331,André 1331,41,2810.0,2025-02-13,T,a,77.63,Completado,N/A,N/A
+632, O'Connor_632 ,63,3757.0,2024-08-12,True,a,43.26,Completado,N/A,N/A
+1118,Lía_1118,47,3738.84,25-11-2020,NO, D ,52.59,Completado,N/A,N/A
+1667,André 1667,67,8200.0,2021-08-21,NO, N/A ,62.19,Completado,N/A,N/A
+1158,André 1158,29,4330.0,29/05/2023,0, N/A ,70.39,Completado,N/A,N/A
+665, Usuario_665 ,31,6591.0,2024-03-24,0,c,62.46,Completado,N/A,N/A
+1778,Usuario-1778,,4892.0,13/04/2022,false,A,39.22,Completado,N/A,N/A
+1493,José_1493,18,4513.0,2021-03-09T00:00:00,1,D ,59.3,Completado,N/A,N/A
+379, Ñandú-379 ,35,3442.0,2020-02-10T00:00:00,0,,69.76,Completado,N/A,N/A
+769,André 769,63,4949.0,25-05-2022,true, A ,101.83,Completado,N/A,N/A
+1692,José-1692,60,3648.43,,false,Z,79.3,Completado,N/A,N/A
+122,François-122,34,8600.0,31/02/2022,T,A,106.32,Completado,N/A,N/A
+1063,Müller_1063,48,0.0,,True, c ,54.5,Completado,N/A,N/A
+1717,Ana-1717,38,8958.0,06/07/2021,1, B ,70.02,Completado,N/A,N/A
+466,Sofía_466,58,6272.16,2023-06-22,False,D,36.54,Completado,N/A,N/A
+1970,Niño_1970,28,3721.0,03-12-2021,0,A,76.71,Completado,N/A,N/A
+1593, François-1593 ,32,3154.0,30-01-2022,False, N/A ,"42,77",Completado,N/A,N/A
+1968,Ñandú-1968,54,4504.0,2023-01-04,0,B,69.71,Completado,N/A,N/A
+920,Usuario_920,48,7953.0,2019-07-06,1,B,62.9,Completado,N/A,N/A
+1935,Tech–Labs_1935,44,0.0,2025-07-19,1,,74.45,Completado,N/A,N/A
+1404, André-1404 ,39,2371.0,,True,C,88.39,Completado,N/A,N/A
+694,Müller_694,44,8373.19,07-08-2021,NO, b ,85.66,Completado,N/A,N/A
+922, José_922 ,48,0.0,05/06/2021,False,,37.96,Completado,N/A,N/A
+507,María-507,53,2285.0,31/02/2022,F,,67.5,Completado,N/A,N/A
+218,Ñandú_218,38,4058.0,10-02-2022,NO,Z,87.72,Completado,N/A,N/A
+1224,Müller 1224,26,0.0,2024-08-06,F,Z,71.11,Completado,N/A,N/A
+390,Usuario 390,60,0.0,0000-00-00,NO,Z,75.16,Completado,N/A,N/A
+426,Niño-426,32,0.0,2022-12-01,SI,Z,97.26,Completado,N/A,N/A
+1989,"Compañía ""ACME"" 1989",24,0.0,03-06-2020,false, b ,64.09,Completado,N/A,N/A
+1866,María-1866,24,3980.0,09/12/2024,False,A,56.42,Completado,N/A,N/A
+330,O'Connor-330,39,0.0,16/06/2024,1,c,31.4,Completado,N/A,N/A
+350,"Compañía ""ACME"" 350",30,5416.0,16/12/2019,0,c,44.49,Completado,N/A,N/A
+1994,José_1994,39,6654.0,2019/08/10,True,c,83.71,Completado,N/A,N/A
+23,Niño_23,56,0.0,25/02/2024,True, N/A ,32.03,Completado,N/A,N/A
+35,François-35,50,7757.0,2022-02-27,True, Z ,72.47,Completado,N/A,N/A
+1301,José 1301,32,8014.7,2023-07-26,true,D,"73,65",Completado,N/A,N/A
+822,"Compañía ""ACME"" 822",69,0.0,2021-02-04T00:00:00,SI,,"71,61",Completado,N/A,N/A
+371,O'Connor 371,64,0.0,24/09/2020,0, D ,95.74,Completado,N/A,N/A
+1184, André-1184 ,55,2220.0,01/07/2019,False, N/A ,52.62,Completado,N/A,N/A
+288,O'Connor 288,47,3389.0,29-08-2020,False,,87.75,Completado,N/A,N/A
+184,García 184,18,6662.39,18/04/2024,true,C,61.92,Completado,N/A,N/A
+1581,Ñandú 1581,37,6640.0,2025-01-08,false,B,40.92,Completado,N/A,N/A
+533, García-533 ,53,3774.0,24/07/2021,false,A,90.09,Completado,N/A,N/A
+1797,Lía-1797,64,6925.0,2024-07-17T00:00:00,SI,C,52.02,Completado,N/A,N/A
+1478, Müller-1478 ,33,7009.0,01-08-2021,SI,c,96.94,Completado,N/A,N/A
+1162,François 1162,50,2595.0,2020-03-10,T, b ,76.21,Completado,N/A,N/A
+1539,José-1539,61,5688.0,31/03/2022,0,,109.94,Completado,N/A,N/A
+1185,"Compañía ""ACME""_1185",121,5985.0,2021-04-27,false,,87.41,Completado,N/A,N/A
+741, François_741 ,18,0.0,2019/09/08,T,D ,67.94,Completado,N/A,N/A
+1601,Usuario 1601,62,3645.0,2025-02-21,F, B ,"60,68",Completado,N/A,N/A
+1152,Ñandú 1152,67,5732.49,2020-04-22,True, b ,104.63,Completado,N/A,N/A
+7,Tech–Labs_7,64,3899.0,2022/06/21,0,C,77.39,Completado,N/A,N/A
+942,Lía-942,31,0.0,2025/06/22,F,C,57.42,Completado,N/A,N/A
+582,François-582,21,0.0,28/06/2021,NO,B,"94,66",Completado,N/A,N/A
+1105,José-1105,33,5225.0,27/10/2024,NO,a,"80,29",Completado,N/A,N/A
+905,Ana_905,57,2140.42,17-01-2019,False, A ,"47,74",Completado,N/A,N/A
+1783,André_1783,52,0.0,2019-11-13,true,B,64.95,Completado,N/A,N/A
+1463,O'Connor-1463,56,2223.0,,false, c ,101.0,Completado,N/A,N/A
+1741,Ana-1741,44,0.0,06/07/2020,SI,C,65.06,Completado,N/A,N/A
+365,Lía_365,26,3914.0,2021/12/29,T,c,"58,40",Completado,N/A,N/A
+193,"Compañía ""ACME""-193",30,4482.0,0000-00-00,True,c,"57,95",Completado,N/A,N/A
+182,Ana_182,57,8922.0,2022/12/01,False,a,39.82,Completado,N/A,N/A
+215,François 215,29,8964.0,,true,B,103.15,Completado,N/A,N/A
+486,Lía_486,44,8274.0,28-07-2025,1, C ,32.35,Completado,N/A,N/A
+1523, Ana 1523 ,46,7685.0,2022-08-11T00:00:00,NO,c,53.79,Completado,N/A,N/A
+649,Lía 649,43,5699.0,13/07/2022,1,D,97.19,Completado,N/A,N/A
+1147,Tech–Labs-1147,30,7204.0,2019-08-02,T,Z,101.87,Completado,N/A,N/A
+1530,Ana_1530,26,0.0,2021-02-22,False,,91.78,Completado,N/A,N/A
+359,María 359,51,8804.0,2020-10-23,False, b ,31.89,Completado,N/A,N/A
+560, O'Connor 560 ,61,2138.0,2019-12-25,False,B,73.59,Completado,N/A,N/A
+417,Usuario 417,67,5747.0,0000-00-00,NO,D ,"108,40",Completado,N/A,N/A
+873,Ñandú 873,0,0.0,25/01/2020,SI,,42.9,Completado,N/A,N/A
+1309, Usuario_1309 ,33,7362.0,01/01/2022,False, b ,63.98,Completado,N/A,N/A
+1982, Ñandú-1982 ,54,0.0,03-11-2024,True, b ,35.42,Completado,N/A,N/A
+1634,José 1634,23,3879.0,31/02/2022,true, D ,"95,43",Completado,N/A,N/A
+1356,Tech–Labs-1356,68,3564.0,2022-05-03,F,A,82.01,Completado,N/A,N/A
+775,José-775,52,5770.0,13/05/2020,0, b ,62.48,Completado,N/A,N/A
+431,Renée_431,52,6969.0,2022/11/29,T, A ,88.65,Completado,N/A,N/A
+448,María-448,121,2836.6,2019-05-18,NO, a ,56.76,Completado,N/A,N/A
+102,François-102,53,5486.0,2023/12/16,T,Z,92.17,Completado,N/A,N/A
+1863,Renée_1863,43,2822.0,31/02/2022,True,A,48.88,Completado,N/A,N/A
+208,Lía-208,61,5577.0,31/02/2022,SI,c,99.48,Completado,N/A,N/A
+789,Sofía-789,29,0.0,0000-00-00,True,,81.12,Completado,N/A,N/A
+1896,O'Connor 1896,44,0.0,13/03/2019,True,a,73.48,Completado,N/A,N/A
+1119,Renée 1119,27,4321.0,2023/04/27,SI, A ,43.3,Completado,N/A,N/A
+289,Sofía-289,28,0.0,2022-11-16,false,a,87.94,Completado,N/A,N/A
+1734,Niño_1734,33,0.0,2021-01-16,F,Z,53.67,Completado,N/A,N/A
+845,Niño 845,45,6305.0,2021-08-25,1, ,105.12,Completado,N/A,N/A
+1859, Tech–Labs-1859 ,68,0.0,,true,D ,62.18,Completado,N/A,N/A
+917,María-917,54,3859.0,2023-12-31,True,,32.4,Completado,N/A,N/A
+1167, García-1167 ,33,0.0,31/02/2022,SI,D ,68.85,Completado,N/A,N/A
+1457,Ñandú_1457,67,2391.0,2021/12/11,True,c,90.01,Completado,N/A,N/A
+1772,André_1772,52,6233.0,31/07/2020,True,D ,80.6,Completado,N/A,N/A
+1384,Lía_1384,44,2444.0,,F,D ,"54,57",Completado,N/A,N/A
+805,María 805,40,0.0,04/07/2024,True,A,79.38,Completado,N/A,N/A
+965,O'Connor-965,30,0.0,2024-12-03T00:00:00,NO, Z ,84.05,Completado,N/A,N/A
+1786, Lía 1786 ,31,7922.12,2023/04/28,0,,"67,18",Completado,N/A,N/A
+1864,François 1864,68,0.0,2023-09-07,SI,a,30.54,Completado,N/A,N/A
+1431,André 1431,61,7988.0,0000-00-00,True,D,97.96,Completado,N/A,N/A
+254,François_254,121,3355.0,2019/06/19,0,D ,94.76,Completado,N/A,N/A
+1696,Renée_1696,61,8610.0,31/02/2022,SI, b ,"52,37",Completado,N/A,N/A
+937,Ana_937,29,7573.0,2019-02-05,False,c,109.32,Completado,N/A,N/A
+456,José 456,52,0.0,2024-07-07,True, C ,65.98,Completado,N/A,N/A
+539,José 539,29,3856.0,2024-06-21,1,c,33.5,Completado,N/A,N/A
+875,Renée-875,30,0.0,2019-01-19,T,Z,91.89,Completado,N/A,N/A
+269,Renée 269,0,7084.0,2019-10-05,SI, Z ,104.98,Completado,N/A,N/A
+1088,Müller_1088,24,5768.0,2021-08-08,false,C,"47,91",Completado,N/A,N/A
+1315,Müller 1315,59,7024.99,2019-04-10,false,Z,100.05,Completado,N/A,N/A
+766,Ana-766,32,0.0,2024-06-30,False,Z,37.07,Completado,N/A,N/A
+546,Ñandú-546,41,8583.0,31/02/2022,SI,A,"101,21",Completado,N/A,N/A
+1552,Renée 1552,54,8499.0,13-12-2021,0, C ,104.86,Completado,N/A,N/A
+1850,Ana_1850,60,7741.0,2019-10-05,False, Z ,56.48,Completado,N/A,N/A
+1596,Müller 1596,36,4396.14,0000-00-00,true,a,30.02,Completado,N/A,N/A
+119,Sofía-119,51,0.0,2020-02-09T00:00:00,true,D ,34.51,Completado,N/A,N/A
+1674,Tech–Labs-1674,21,6568.3,,1,,85.51,Completado,N/A,N/A
+414,"Compañía ""ACME""-414",64,0.0,2022-05-31T00:00:00,SI,D,92.6,Completado,N/A,N/A
+1546,François-1546,37,4152.0,,false,a,98.05,Completado,N/A,N/A
+175,Ana 175,69,0.0,2024-09-25,True,,62.72,Completado,N/A,N/A
+1969, André 1969 ,0,0.0,2025-04-16,False,Z,47.1,Completado,N/A,N/A
+401,Lía 401,49,0.0,2020/12/03,NO, ,69.95,Completado,N/A,N/A
+1567,Tech–Labs 1567,27,3890.0,2020-01-17,true, Z ,105.46,Completado,N/A,N/A
+94,José_94,69,7486.0,24/05/2019,NO,Z,65.88,Completado,N/A,N/A
+1923,Niño-1923,62,0.0,2021/10/02,0,Z,50.91,Completado,N/A,N/A
+1008, García_1008 ,121,2903.0,2023-03-22T00:00:00,True,B,88.29,Completado,N/A,N/A
+312,"Compañía ""ACME""-312",65,5369.0,2021/07/28,True,,59.83,Completado,N/A,N/A
+519, José-519 ,20,2193.0,2024-06-30,SI,D ,78.05,Completado,N/A,N/A
+1481,García_1481,42,2233.0,2022-05-17,True,D,107.04,Completado,N/A,N/A
+154,García 154,-5,0.0,2023-01-04,False,D ,87.48,Completado,N/A,N/A
+1141, Ñandú 1141 ,32,0.0,31/02/2022,T,,72.83,Completado,N/A,N/A
+921,José_921,19,0.0,2019-01-16,NO,Z,46.12,Completado,N/A,N/A
+1826,Sofía 1826,53,7109.0,2019-05-08T00:00:00,False,D ,91.78,Completado,N/A,N/A
+444, Usuario_444 ,47,3206.0,0000-00-00,false,A,47.65,Completado,N/A,N/A
+1568,O'Connor_1568,0,0.0,2020-03-25T00:00:00,SI,,82.75,Completado,N/A,N/A
+1085,Ñandú-1085,31,7550.0,2024-02-11,True,C,106.32,Completado,N/A,N/A
+1963,Renée-1963,45,0.0,2023-05-15T00:00:00,true,,78.36,Completado,N/A,N/A
+1048,Müller 1048,39,3490.0,0000-00-00,SI,,103.72,Completado,N/A,N/A
+1055, Tech–Labs-1055 ,55,0.0,19-07-2020,SI,D,"82,99",Completado,N/A,N/A
+226, O'Connor_226 ,66,0.0,2019-08-04,1,D ,90.67,Completado,N/A,N/A
+1025,Tech–Labs_1025,30,5731.0,,NO,D ,"63,53",Completado,N/A,N/A
+1578, José_1578 ,55,8694.0,2024-11-05,SI,,105.81,Completado,N/A,N/A
+714,García 714,56,4843.0,14-09-2023,NO, N/A ,"98,79",Completado,N/A,N/A
+436,Sofía_436,21,8679.0,2021-10-10,false,C,77.44,Completado,N/A,N/A
+180,Ana-180,0,7959.0,,SI,A,91.7,Completado,N/A,N/A
+1928,Usuario 1928,44,2114.0,14-11-2022,False,D,37.65,Completado,N/A,N/A
+1140, André_1140 ,23,0.0,18/03/2020,false,C,84.43,Completado,N/A,N/A
+509,María_509,21,2987.0,,SI,D,83.42,Completado,N/A,N/A
+33,Niño 33,69,0.0,31/02/2022,true,c,"109,82",Completado,N/A,N/A
+1691,Tech–Labs_1691,21,0.0,2023-04-06,False,C,85.03,Completado,N/A,N/A
+1661,Renée-1661,50,6505.76,2022-12-11,SI,D ,72.2,Completado,N/A,N/A
+39,Ñandú_39,23,0.0,2024/05/09,0, a ,31.33,Completado,N/A,N/A
+25,Renée_25,21,8374.0,06-08-2023,True,D,"90,44",Completado,N/A,N/A
+30,Müller-30,69,3282.0,2020-12-10,NO,D,70.86,Completado,N/A,N/A
+200,José-200,25,4806.0,2024-02-02T00:00:00,NO,D ,48.49,Completado,N/A,N/A
+1230,Lía 1230,-5,4594.0,2020/08/16,true,D,"49,81",Completado,N/A,N/A
+833,André_833,50,4696.0,2023/09/14,T, b ,109.71,Completado,N/A,N/A
+1503,Niño_1503,47,6798.0,2024-08-21,F,c,"50,16",Completado,N/A,N/A
+1320,Tech–Labs_1320,59,0.0,2019-04-22,true, D ,"109,95",Completado,N/A,N/A
+1574,Ana-1574,52,5181.74,2021-08-05,0,c,60.35,Completado,N/A,N/A
+181,García-181,48,7109.0,2019/02/20,false,C,88.92,Completado,N/A,N/A
+824,Niño_824,67,0.0,2019-12-03,False,,42.16,Completado,N/A,N/A
+1283,Niño 1283,63,7368.92,17/08/2023,false,D,"90,25",Completado,N/A,N/A
+1941, O'Connor_1941 ,38,3478.0,04/09/2024,False,C,69.01,Completado,N/A,N/A
+1948,Tech–Labs-1948,60,4318.0,2025/06/03,false, D ,84.36,Completado,N/A,N/A
+265,García-265,53,0.0,2023-03-28,false,,30.51,Completado,N/A,N/A
+127,Usuario 127,32,0.0,2024-10-23,False,D ,47.04,Completado,N/A,N/A
+1484," Compañía ""ACME"" 1484 ",54,3103.96,20-11-2022,False, b ,32.44,Completado,N/A,N/A
+720," Compañía ""ACME""_720 ",0,7460.0,04/10/2021,False,D ,71.31,Completado,N/A,N/A
+296,Ana_296,0,4270.0,10-12-2022,False,,53.91,Completado,N/A,N/A
+795,Usuario_795,44,0.0,31/02/2022,SI,c,101.79,Completado,N/A,N/A
+653,María-653,62,0.0,2025-01-10,true,a,101.4,Completado,N/A,N/A
+661,Usuario_661,27,0.0,2019-07-31T00:00:00,True,c,48.43,Completado,N/A,N/A
+1660, María_1660 ,34,8203.0,2019-09-14,True, b ,109.41,Completado,N/A,N/A
+106,María_106,66,2928.0,31/02/2022,False,B,107.06,Completado,N/A,N/A
+1096,Usuario-1096,45,2585.0,2023-09-24,F,D ,102.74,Completado,N/A,N/A
+1259,François_1259,39,4180.0,2022/04/04,NO, N/A ,36.82,Completado,N/A,N/A
+348,Sofía-348,21,5635.0,2023-08-20,T,,94.24,Completado,N/A,N/A
+746,François-746,35,0.0,2025-02-10,1, b ,89.45,Completado,N/A,N/A
+923,André_923,24,2305.0,0000-00-00,false,A,67.68,Completado,N/A,N/A
+420,María_420,31,5697.0,2024-06-26,False,D,39.72,Completado,N/A,N/A
+403, Müller_403 ,35,7864.0,31/02/2022,False, N/A ,66.76,Completado,N/A,N/A
+510,André-510,63,0.0,2022-07-02,False, B ,"36,32",Completado,N/A,N/A
+1846,François_1846,20,0.0,2019-09-11,false, ,39.08,Completado,N/A,N/A
+1074, Lía 1074 ,54,8852.41,2024-02-01,False, ,30.02,Completado,N/A,N/A
+1411, Tech–Labs-1411 ,35,5959.0,,True,C,92.62,Completado,N/A,N/A
+1327, Ana_1327 ,58,6126.0,2019-02-16T00:00:00,SI, Z ,104.3,Completado,N/A,N/A
+1664,Renée-1664,42,2489.0,2024-09-27,False,,82.25,Completado,N/A,N/A
+1204, Sofía_1204 ,68,0.0,0000-00-00,True,c,80.87,Completado,N/A,N/A
+1226,Renée_1226,64,0.0,13/04/2019,false,D,70.89,Completado,N/A,N/A
+670, Müller_670 ,55,0.0,31/02/2022,False,D,65.91,Completado,N/A,N/A
+916,Müller-916,21,5588.19,2024-02-22,0,A,89.04,Completado,N/A,N/A
+1971,García-1971,51,6227.0,2024-03-22T00:00:00,F,D ,46.28,Completado,N/A,N/A
+1626,André 1626,56,8229.0,11/06/2022,F, c ,"103,42",Completado,N/A,N/A
+232,Usuario-232,46,7085.0,16/08/2025,True,c,97.56,Completado,N/A,N/A
+731,Renée_731,23,7725.0,,false,A,36.68,Completado,N/A,N/A
+1475, García 1475 ,40,0.0,03/05/2020,true,a,87.12,Completado,N/A,N/A
+1459,"Compañía ""ACME""-1459",59,7695.92,2024-08-29T00:00:00,False,B,106.82,Completado,N/A,N/A
+1222,André_1222,,2779.0,18/05/2022,T,A,59.68,Completado,N/A,N/A
+704,Ana 704,67,3364.0,03-12-2022,F,D,64.72,Completado,N/A,N/A
+870,François_870,63,2071.0,2020/10/16,0, c ,95.89,Completado,N/A,N/A
+1830,Ana-1830,24,5947.0,2025-04-09,False,c,49.65,Completado,N/A,N/A
+1573,O'Connor-1573,31,0.0,2024-07-08,NO,,46.05,Completado,N/A,N/A
+1322,Lía 1322,25,0.0,2023-05-24,true, ,108.2,Completado,N/A,N/A
+1678,Usuario 1678,62,4422.0,2024/10/11,0,a,86.36,Completado,N/A,N/A
+1556,Ñandú-1556,61,0.0,23/07/2024,0,D,38.49,Completado,N/A,N/A
+717,Müller-717,45,0.0,2022/03/08,F, c ,77.91,Completado,N/A,N/A
+126,François 126,47,3848.0,0000-00-00,F, D ,32.3,Completado,N/A,N/A
+688,Renée_688,36,0.0,2023-12-21,false,D,52.11,Completado,N/A,N/A
+1781, Usuario_1781 ,48,0.0,0000-00-00,F,,75.34,Completado,N/A,N/A
+552,André-552,43,8133.0,2019-12-29,T, C ,"61,04",Completado,N/A,N/A
+748, Niño_748 ,30,4382.0,2020-06-15,True, Z ,109.77,Completado,N/A,N/A
+608," Compañía ""ACME""-608 ",26,7923.0,10-05-2025,T,D,88.97,Completado,N/A,N/A
+1893,Lía_1893,36,8850.0,2019-12-09,T,D ,68.14,Completado,N/A,N/A
+1045, André 1045 ,48,2787.0,28-07-2019,1,c,44.6,Completado,N/A,N/A
+809,O'Connor 809,42,5442.0,2021-08-29,F,D,92.16,Completado,N/A,N/A
+1033,García_1033,50,3462.0,2022-11-26,T, b ,"54,51",Completado,N/A,N/A
+541,José-541,41,3819.0,2025-05-13,False,,85.4,Completado,N/A,N/A
+1302,Niño_1302,53,3356.0,2024-10-04,False, D ,35.68,Completado,N/A,N/A
+578,O'Connor 578,57,4694.0,01/08/2020,True,A,"89,03",Completado,N/A,N/A
+797, Sofía-797 ,47,0.0,2023/07/13,F,D,61.68,Completado,N/A,N/A
+1543,Usuario-1543,39,2818.0,2024-11-21T00:00:00,false, b ,"42,55",Completado,N/A,N/A
+1281,María-1281,25,0.0,2020-04-30T00:00:00,True,,38.15,Completado,N/A,N/A
+399, François 399 ,55,8793.0,26/03/2024,False,D ,72.82,Completado,N/A,N/A
+564,Renée-564,62,2582.0,2023/06/02,True,D ,57.7,Completado,N/A,N/A
+1961,André 1961,19,0.0,03/08/2023,True,,90.72,Completado,N/A,N/A
+1236, Niño-1236 ,,0.0,2019-11-14,true, b ,30.22,Completado,N/A,N/A
+1632,François-1632,23,6563.0,15/05/2021,True, C ,35.61,Completado,N/A,N/A
+90, María-90 ,49,5440.0,29/03/2023,0,B,89.19,Completado,N/A,N/A
+1429,"Compañía ""ACME""-1429",35,0.0,13/05/2024,False, B ,101.96,Completado,N/A,N/A
+889, María_889 ,37,8519.0,22/03/2020,1,D ,51.76,Completado,N/A,N/A
+192,Ñandú 192,45,7479.0,23/11/2019,False, D ,77.63,Completado,N/A,N/A
+1570,Renée 1570,66,3849.0,2019-07-05T00:00:00,False,B,55.6,Completado,N/A,N/A
+1603,García 1603,58,0.0,24/02/2023,T,C,42.29,Completado,N/A,N/A
+1648,García_1648,-5,8216.0,2023-07-07,False,B,105.79,Completado,N/A,N/A
+1978,"Compañía ""ACME"" 1978",21,8006.0,2019-04-11,NO,D,78.5,Completado,N/A,N/A
+898,Niño-898,52,3801.98,2023/01/22,False, B ,"31,90",Completado,N/A,N/A
+1499,Renée_1499,41,4322.0,28/07/2025,False, b ,103.01,Completado,N/A,N/A
+1882,José 1882,25,8711.0,0000-00-00,False, ,90.67,Completado,N/A,N/A
+1728,Ñandú 1728,38,8152.72,2023-12-24,True,c,"72,76",Completado,N/A,N/A
+1052,Tech–Labs_1052,62,4593.35,01-06-2020,true, D ,"85,23",Completado,N/A,N/A
+1248,O'Connor_1248,45,4521.0,22-10-2022,True, a ,40.96,Completado,N/A,N/A
+1241,Renée_1241,30,0.0,02/04/2023,false,c,51.69,Completado,N/A,N/A
+249,Usuario_249,121,0.0,02/12/2023,SI,,"80,38",Completado,N/A,N/A
+1214,Ñandú-1214,121,7490.0,08-01-2020,T,A,75.67,Completado,N/A,N/A
+1643,Niño_1643,58,0.0,07/05/2022,0, b ,90.82,Completado,N/A,N/A
+1416,Lía-1416,62,8243.0,31/02/2022,True,,"94,25",Completado,N/A,N/A
+71,O'Connor 71,43,2116.61,31/02/2022,F,,85.08,Completado,N/A,N/A
+800,María_800,67,7001.0,0000-00-00,1, c ,41.78,Completado,N/A,N/A
+853,Müller 853,42,5970.0,31/02/2022,true,Z,99.05,Completado,N/A,N/A
+700,André-700,51,8124.0,2019-10-11,SI,D ,"80,20",Completado,N/A,N/A
+1947,André-1947,63,0.0,2022-03-12,True,B,106.77,Completado,N/A,N/A
+1558,O'Connor-1558,67,0.0,2021-05-27,True,a,"45,49",Completado,N/A,N/A
+1998, Renée-1998 ,57,3245.0,2019-02-21,True,D,"55,56",Completado,N/A,N/A
+1131,María-1131,43,0.0,2019-10-28,False,Z,60.44,Completado,N/A,N/A
+881, García-881 ,21,0.0,2025/04/03,True,,86.81,Completado,N/A,N/A
+1272,José-1272,20,0.0,06-05-2019,false, D ,86.12,Completado,N/A,N/A
+1244, O'Connor-1244 ,54,2309.0,11/02/2023,SI, b ,51.42,Completado,N/A,N/A
+1258,Tech–Labs 1258,32,5932.71,2019-02-18,SI,B,81.71,Completado,N/A,N/A
+772,José 772,65,3675.0,26/10/2019,False,C,104.69,Completado,N/A,N/A
+1439, Sofía-1439 ,64,0.0,30/12/2023,F, a ,104.67,Completado,N/A,N/A
+1313,"Compañía ""ACME"" 1313",21,0.0,01-11-2021,SI,D,54.83,Completado,N/A,N/A
+378,Tech–Labs 378,18,7299.0,0000-00-00,NO,Z,105.39,Completado,N/A,N/A
+952, O'Connor-952 ,68,8331.0,2023-08-26,1,Z,83.33,Completado,N/A,N/A
+673,Tech–Labs-673,51,4524.72,10/03/2022,True,,47.07,Completado,N/A,N/A
+1263,Tech–Labs 1263,33,5446.0,2022-01-20,T,c,99.44,Completado,N/A,N/A
+367,Tech–Labs 367,44,0.0,05-05-2023,T,D,84.41,Completado,N/A,N/A
+987, Sofía_987 ,56,2273.0,2025/04/25,True,D ,"45,14",Completado,N/A,N/A
+860, José_860 ,22,0.0,04-10-2024,NO,B,37.37,Completado,N/A,N/A
+515, Tech–Labs 515 ,64,8581.0,2025/01/30,False,c,"91,91",Completado,N/A,N/A
+1551," Compañía ""ACME"" 1551 ",67,3936.0,2020-07-13,0,c,68.17,Completado,N/A,N/A
+1598,O'Connor-1598,58,0.0,2025-05-15,NO,Z,31.68,Completado,N/A,N/A
+1839,Tech–Labs-1839,24,2144.83,31-01-2021,1,A,49.27,Completado,N/A,N/A
+852,Müller_852,29,0.0,2025-02-08,False,D ,"38,56",Completado,N/A,N/A
+1589,Usuario 1589,28,3725.0,2021-09-11,False,A,58.29,Completado,N/A,N/A
+1619, Ana_1619 ,37,3158.0,2019-04-15,False,,"49,58",Completado,N/A,N/A
+607, María 607 ,39,0.0,2022/04/11,True, a ,32.88,Completado,N/A,N/A
+334, María_334 ,45,2703.0,28-07-2020,F, A ,108.17,Completado,N/A,N/A
+1828,"Compañía ""ACME""-1828",40,4195.0,2021-08-27,1,A,62.84,Completado,N/A,N/A
+1129,Ñandú_1129,27,2143.57,01/05/2020,false,D,58.56,Completado,N/A,N/A
+1153,"Compañía ""ACME""-1153",41,7248.0,2020-02-14T00:00:00,False,D ,88.97,Completado,N/A,N/A
+1905, Lía_1905 ,46,6952.0,20/11/2023,False,Z,95.02,Completado,N/A,N/A
+564,Ana-564,53,4046.0,2024-10-12T00:00:00,True,A,77.44,Completado,N/A,N/A
+1249,André-1249,20,6537.11,2020-12-28T00:00:00,False,,102.78,Completado,N/A,N/A
+242,O'Connor_242,47,0.0,2019-10-20,F,c,33.37,Completado,N/A,N/A
+846,Ana 846,0,5563.0,2021-07-11,False, A ,37.39,Completado,N/A,N/A
+1031,O'Connor-1031,51,3761.0,09/08/2019,0,c,94.81,Completado,N/A,N/A
+1637,María_1637,21,0.0,2020-12-08,0,Z,48.25,Completado,N/A,N/A
+1428,André_1428,27,7141.0,2023-11-30,T,a,45.25,Completado,N/A,N/A
+223,Sofía_223,42,3639.0,20/09/2024,SI,B,66.77,Completado,N/A,N/A
+550,O'Connor-550,18,7744.0,15-03-2024,true, b ,107.76,Completado,N/A,N/A
+1644,André-1644,69,0.0,02/08/2024,True,c,99.77,Completado,N/A,N/A
+1645,José-1645,62,4597.0,11/11/2020,False, B ,78.93,Completado,N/A,N/A
+893,Sofía-893,28,7634.0,2022-11-17,False, a ,78.28,Completado,N/A,N/A
+1086,"Compañía ""ACME"" 1086",68,4579.87,2022-12-05,1,Z,30.05,Completado,N/A,N/A
+527,Usuario 527,38,0.0,31/02/2022,True,A,84.03,Completado,N/A,N/A
+446,Ñandú-446,34,2659.0,2023-11-11,False, b ,44.26,Completado,N/A,N/A
+1087, O'Connor 1087 ,121,5440.0,2020-06-19,False, D ,73.01,Completado,N/A,N/A
+944,Sofía 944,51,5866.0,07/01/2020,false,D,81.59,Completado,N/A,N/A
+1062, Sofía 1062 ,0,2610.0,,false,a,83.68,Completado,N/A,N/A
+1847,O'Connor 1847,69,2331.0,22/11/2022,true,Z,60.89,Completado,N/A,N/A
+641,Renée_641,37,0.0,2019-03-27T00:00:00,F, N/A ,78.25,Completado,N/A,N/A
+626, André_626 ,62,2460.0,2021-12-27,F, c ,61.05,Completado,N/A,N/A
+15, Tech–Labs 15 ,57,0.0,02/03/2021,1, ,58.54,Completado,N/A,N/A
+166,Niño-166,21,0.0,2025-06-01T00:00:00,false, b ,66.16,Completado,N/A,N/A
+619,O'Connor 619,-5,8766.0,2019-11-03,true,a,31.89,Completado,N/A,N/A
+1544,Usuario_1544,54,6945.0,2023-03-26,False, C ,34.38,Completado,N/A,N/A
+1907, Tech–Labs-1907 ,45,6443.0,2020-02-02,0,a,65.91,Completado,N/A,N/A
+1575,Niño-1575,44,0.0,2019-04-04,1,c,104.75,Completado,N/A,N/A
+1789, Ñandú_1789 ,36,6801.0,22-08-2019,True,a,62.84,Completado,N/A,N/A
+1425,Renée 1425,65,0.0,2024-12-06,SI,B,52.97,Completado,N/A,N/A
+1492,Lía 1492,35,6234.96,2022-09-18,1,Z,68.7,Completado,N/A,N/A
+1627,María 1627,62,0.0,0000-00-00,F, D ,"82,50",Completado,N/A,N/A
+1037,O'Connor-1037,57,7256.0,2025-01-10,SI,D,104.62,Completado,N/A,N/A
+1183,Sofía_1183,50,0.0,2023/09/03,False,D,93.84,Completado,N/A,N/A
+1688,Ñandú 1688,43,0.0,05/05/2023,1,Z,"80,08",Completado,N/A,N/A
+440,Sofía 440,54,7174.0,2019-06-11,1,B,77.95,Completado,N/A,N/A
+1311,José-1311,,4918.0,2024-05-31,False,c,49.49,Completado,N/A,N/A
+1169,O'Connor_1169,43,8841.0,2022/06/27,F,c,90.14,Completado,N/A,N/A
+406,Ñandú-406,67,4279.0,2021-02-27,false,D,96.01,Completado,N/A,N/A
+594,Lía-594,28,7560.0,17-09-2021,0,B,45.12,Completado,N/A,N/A
+1438,Ana_1438,57,8891.0,2024-04-02,F, b ,58.94,Completado,N/A,N/A
+1819,Ñandú_1819,52,2007.0,2019-11-16,True, D ,"92,56",Completado,N/A,N/A
+1726,García_1726,69,0.0,,True,D ,47.9,Completado,N/A,N/A
+478,"Compañía ""ACME"" 478",41,7416.35,2020-04-29,False, b ,80.77,Completado,N/A,N/A
+1695,Renée 1695,59,0.0,31/02/2022,false, D ,64.53,Completado,N/A,N/A
+1806,María 1806,68,7186.0,31/02/2022,T, B ,91.8,Completado,N/A,N/A
+26,O'Connor_26,121,3722.0,2023-12-25,True,D ,104.38,Completado,N/A,N/A
+590,Tech–Labs 590,49,7575.0,2023/05/09,False,D,35.74,Completado,N/A,N/A
+1106,García_1106,46,0.0,10/09/2024,1,Z,"85,72",Completado,N/A,N/A
+362,Tech–Labs-362,20,8780.0,2021/09/25,false,B,"57,29",Completado,N/A,N/A
+134,Ñandú_134,68,8991.0,12-11-2024,False,c,62.02,Completado,N/A,N/A
+2, Renée 2 ,38,2466.0,2022-05-23,True,C,34.65,Completado,N/A,N/A
+294,Sofía-294,43,6238.97,16-04-2019,true, B ,43.4,Completado,N/A,N/A
+1044,Ñandú-1044,56,5740.77,28-06-2019,True,,100.9,Completado,N/A,N/A
+1054,Renée_1054,63,0.0,2022-07-31T00:00:00,0, b ,94.19,Completado,N/A,N/A
+1359,Ana-1359,23,0.0,31/02/2022,true,c,83.79,Completado,N/A,N/A
+887,André_887,61,0.0,2019-10-15T00:00:00,SI,c,64.7,Completado,N/A,N/A
+1526,María 1526,59,2669.0,2020-01-11,0,,89.63,Completado,N/A,N/A
+1064,José 1064,67,0.0,,NO,c,80.51,Completado,N/A,N/A
+584,Ana 584,33,7776.0,2025-08-19,true, c ,"97,37",Completado,N/A,N/A
+351, Renée_351 ,48,7158.0,2025-01-15T00:00:00,False,,86.72,Completado,N/A,N/A
+1108, Sofía-1108 ,23,4630.0,2019/08/14,T,A,"85,10",Completado,N/A,N/A
+882,María_882,20,0.0,2019-06-20,False,Z,"50,99",Completado,N/A,N/A
+897,García_897,63,6470.0,2024-05-14,F,B,"34,19",Completado,N/A,N/A
+496,Lía-496,26,0.0,04/05/2021,True,B,36.17,Completado,N/A,N/A
+331,François-331,35,5719.0,2019-10-30,False,C,75.65,Completado,N/A,N/A
+54,Niño_54,51,0.0,17/08/2021,1,D,99.13,Completado,N/A,N/A
+192,Lía_192,59,2990.0,2019/11/30,true,,76.81,Completado,N/A,N/A
+791,Renée-791,55,3610.0,2024/05/13,SI,a,77.53,Completado,N/A,N/A
+1198, Usuario-1198 ,38,0.0,26-07-2019,False, b ,95.82,Completado,N/A,N/A
+914,Müller-914,69,0.0,2024-04-22,false,A,81.85,Completado,N/A,N/A
+1461,Ñandú_1461,121,3625.3,2020-05-17,False, b ,61.68,Completado,N/A,N/A
+489,Renée_489,,7569.0,2022-10-19,True,B,66.74,Completado,N/A,N/A
+770,Müller 770,57,0.0,2019/08/18,False,D,37.55,Completado,N/A,N/A
+1595,Ñandú-1595,64,6890.0,07-07-2023,false,c,59.5,Completado,N/A,N/A
+1869, François_1869 ,33,6997.0,2021-06-09,True,B,62.59,Completado,N/A,N/A
+1936,André_1936,24,0.0,2019-11-03,True,C,54.75,Completado,N/A,N/A
+1909,Ñandú-1909,51,0.0,,F,a,55.92,Completado,N/A,N/A
+1491,García_1491,47,7272.0,31/02/2022,False,D ,"70,22",Completado,N/A,N/A
+1962,Lía_1962,46,8644.0,2020-01-20,true,,97.56,Completado,N/A,N/A
+1868,Ana-1868,43,0.0,02/05/2024,True, b ,"85,12",Completado,N/A,N/A
+1448,Usuario 1448,59,2089.0,2025-03-29,True, A ,"106,40",Completado,N/A,N/A
+545,Lía_545,65,3141.0,2023-06-24T00:00:00,False,C,61.44,Completado,N/A,N/A
+150,Renée 150,51,0.0,2022/08/05,True, N/A ,30.6,Completado,N/A,N/A
+517,García 517,68,6600.0,28/06/2019,False,,"48,99",Completado,N/A,N/A
+886,François_886,40,3975.0,16/07/2023,True, b ,48.97,Completado,N/A,N/A
+1243,José_1243,-5,2954.0,15/02/2023,false, Z ,"94,01",Completado,N/A,N/A
+752, María-752 ,66,0.0,2023-02-14,True, B ,91.82,Completado,N/A,N/A
+1621, García_1621 ,20,5534.0,31/02/2022,false,,102.65,Completado,N/A,N/A
+1007,José-1007,49,4528.0,2021/03/24,True,,109.08,Completado,N/A,N/A
+495,José-495,33,6578.0,0000-00-00,NO,A,43.99,Completado,N/A,N/A
+640,García-640,49,7725.0,28/11/2021,False,c,92.51,Completado,N/A,N/A
+465,André_465,50,2572.0,06/09/2024,True,,87.83,Completado,N/A,N/A
+144,André 144,68,3646.0,2021/07/07,NO,a,70.93,Completado,N/A,N/A
+1151,Lía-1151,65,8620.0,31/02/2022,T,Z,82.66,Completado,N/A,N/A
+1177,José 1177,62,6314.0,2023-02-19,true,a,"46,73",Completado,N/A,N/A
+239,Ñandú 239,69,0.0,14-11-2019,SI, b ,68.39,Completado,N/A,N/A
+753,Niño_753,32,3955.07,2019-09-07,False, D ,73.84,Completado,N/A,N/A
+593,Niño_593,25,0.0,2021-04-29,0,,"95,90",Completado,N/A,N/A
+630,García_630,44,0.0,2022-02-19,false,Z,84.37,Completado,N/A,N/A
+925,Lía-925,59,7737.0,0000-00-00,True,C,"40,08",Completado,N/A,N/A
+831,Ana_831,65,0.0,2019-05-23,False,Z,102.85,Completado,N/A,N/A
+1560,María-1560,34,7298.0,2024-02-05,NO, B ,56.16,Completado,N/A,N/A
+1977, Sofía 1977 ,28,6496.53,2022/08/22,0,c,76.84,Completado,N/A,N/A
+248,André_248,62,6321.0,04/04/2021,True,a,47.64,Completado,N/A,N/A
+1014,Niño 1014,45,0.0,0000-00-00,NO,,35.44,Completado,N/A,N/A
+574,Tech–Labs-574,48,3137.0,2019-01-22T00:00:00,F,A,"85,02",Completado,N/A,N/A
+1133,Sofía-1133,66,0.0,,T,Z,65.74,Completado,N/A,N/A
+384,François_384,27,2792.0,19/04/2025,False,B,98.96,Completado,N/A,N/A
+1000,Lía 1000,30,0.0,2021-04-18,False, D ,"33,53",Completado,N/A,N/A
+338,"Compañía ""ACME""-338",32,6089.0,11/12/2020,NO,D ,"75,08",Completado,N/A,N/A
+340, Renée_340 ,52,0.0,2021-08-19,T,Z,67.08,Completado,N/A,N/A
+605,Ana-605,58,4788.0,01/02/2020,T,a,"63,26",Completado,N/A,N/A
+1069,André-1069,42,0.0,15-06-2025,0,D ,67.92,Completado,N/A,N/A
+819,García_819,33,8565.0,2025-04-13,False,c,75.7,Completado,N/A,N/A
+602,Usuario_602,121,0.0,2023-10-13,NO,D,81.53,Completado,N/A,N/A
+1430,François_1430,47,5438.0,31/02/2022,T,A,96.84,Completado,N/A,N/A
+745,O'Connor_745,19,0.0,25-06-2020,T, c ,81.82,Completado,N/A,N/A
+216,María_216,43,0.0,,F,C,43.3,Completado,N/A,N/A
+1531,Sofía 1531,54,0.0,2022-09-22,0, D ,"76,01",Completado,N/A,N/A
+1349,Renée 1349,20,2328.0,27/10/2022,F,a,"106,98",Completado,N/A,N/A
+1908,García 1908,68,6403.0,2019-04-09,False,B,67.51,Completado,N/A,N/A
+169,O'Connor_169,57,3970.0,2019-07-17,true,c,105.19,Completado,N/A,N/A
+138, José 138 ,39,0.0,,T,c,101.54,Completado,N/A,N/A
+902,Sofía 902,33,7483.0,2020-05-05,True,c,54.51,Completado,N/A,N/A
+423,José 423,-5,2301.0,2025-04-04,False, B ,92.12,Completado,N/A,N/A
+221,Niño_221,37,0.0,2019-12-31,1,A,42.37,Completado,N/A,N/A
+979," Compañía ""ACME""-979 ",46,2558.0,26-04-2025,SI, b ,79.15,Completado,N/A,N/A
+1704,Renée 1704,48,0.0,2023-05-07,0,Z,83.39,Completado,N/A,N/A
+1250,García_1250,,3832.0,2024-01-23,SI,c,82.99,Completado,N/A,N/A
+455,Müller 455,53,3431.29,2022-09-27,False, ,"50,94",Completado,N/A,N/A
+520,María 520,58,3110.0,2025-03-11,1,,50.35,Completado,N/A,N/A
+1346,O'Connor_1346,42,8376.09,2023/03/05,True, a ,"54,19",Completado,N/A,N/A
+1652,"Compañía ""ACME""_1652",19,8975.7,0000-00-00,F,Z,96.04,Completado,N/A,N/A
+1604, Sofía-1604 ,37,7524.0,22-12-2023,SI,Z,70.46,Completado,N/A,N/A
+356, O'Connor_356 ,41,3660.0,2025-01-08,true, c ,58.27,Completado,N/A,N/A
+1306,Usuario 1306,0,0.0,27/01/2023,False,a,82.47,Completado,N/A,N/A
+993,María 993,66,6524.0,22/02/2025,False,,91.1,Completado,N/A,N/A
+758,"Compañía ""ACME"" 758",53,7876.0,2023/02/02,False, b ,90.66,Completado,N/A,N/A
+1161, Müller 1161 ,24,7332.0,24-04-2025,T,B,50.99,Completado,N/A,N/A
+1749,Ana-1749,-5,0.0,2021-09-09,True,B,"104,36",Completado,N/A,N/A
+1872,García_1872,33,3275.0,,F, b ,75.03,Completado,N/A,N/A
+195,Tech–Labs_195,36,8733.0,2022-10-26,F,D ,66.26,Completado,N/A,N/A
+1932, José_1932 ,0,0.0,21/06/2019,1,,"40,94",Completado,N/A,N/A
+402,Ana-402,43,2545.0,07/05/2023,0,,49.48,Completado,N/A,N/A
+666, Ñandú_666 ,33,0.0,2024-06-14,T, c ,82.88,Completado,N/A,N/A
+1117,Tech–Labs_1117,66,0.0,,SI,c,39.95,Completado,N/A,N/A
+1926,Niño-1926,52,4703.0,2019-08-03,1,D,84.85,Completado,N/A,N/A
+1318,García 1318,66,2719.0,16/03/2019,SI, Z ,82.18,Completado,N/A,N/A
+1966,García 1966,52,4754.0,18-11-2022,F,B,"70,39",Completado,N/A,N/A
+1720, O'Connor_1720 ,63,0.0,2023-10-23,False,,33.73,Completado,N/A,N/A
+732,Ana-732,34,8559.0,,NO,c,39.72,Completado,N/A,N/A
+792,Müller 792,37,6391.0,2021-07-14,true,Z,103.25,Completado,N/A,N/A
+1035,Usuario-1035,56,3033.29,02/08/2024,SI, b ,47.12,Completado,N/A,N/A
+323,Niño 323,19,3316.19,09-10-2019,False,A,33.15,Completado,N/A,N/A
+1565,Niño_1565,49,0.0,2019-10-24T00:00:00,T,A,68.26,Completado,N/A,N/A
+1276,Ana 1276,63,0.0,2025-04-21,True, D ,51.45,Completado,N/A,N/A
+1232,O'Connor_1232,29,4765.21,2021-03-26,false, b ,88.92,Completado,N/A,N/A
+1418, Niño-1418 ,54,4686.0,2024-05-12,SI, ,59.34,Completado,N/A,N/A
+637,José-637,40,0.0,,T,,"45,21",Completado,N/A,N/A
+1094,Ana-1094,23,2178.0,2021/06/15,False, b ,49.76,Completado,N/A,N/A
+674,María-674,-5,3538.8,2020-07-14T00:00:00,True,D ,88.16,Completado,N/A,N/A
+998,Ana-998,37,3714.0,0000-00-00,False,C,35.69,Completado,N/A,N/A
+1219," Compañía ""ACME"" 1219 ",24,8567.0,04-03-2020,NO,C,34.46,Completado,N/A,N/A
+650," Compañía ""ACME""_650 ",58,0.0,2022-11-25T00:00:00,True, D ,41.85,Completado,N/A,N/A
+573, Ana-573 ,55,8980.0,02-11-2021,NO, b ,107.72,Completado,N/A,N/A
+313,André_313,19,8980.0,,NO, B ,37.79,Completado,N/A,N/A
+1137,André_1137,57,0.0,2023-03-13,true,B,71.25,Completado,N/A,N/A
+326,André_326,-5,2125.0,2019-08-05,False,Z,81.13,Completado,N/A,N/A
+901,Müller-901,33,3553.98,2021-10-09,SI,,88.49,Completado,N/A,N/A
+613, O'Connor-613 ,42,4661.0,2024-08-26T00:00:00,False,c,102.49,Completado,N/A,N/A
+856,André 856,42,2888.0,18/10/2024,False,B,102.19,Completado,N/A,N/A
+984,Tech–Labs-984,54,4080.0,16/06/2024,1,c,94.77,Completado,N/A,N/A
+1337,María-1337,44,3919.0,2019-06-16T00:00:00,1,,89.71,Completado,N/A,N/A
+433,François_433,69,4281.89,2019-11-10T00:00:00,True,Z,"32,82",Completado,N/A,N/A
+1527,O'Connor-1527,69,6897.0,31/02/2022,SI,D,93.88,Completado,N/A,N/A
+956,André_956,60,4035.71,2021-05-07,False,,38.64,Completado,N/A,N/A
+1366, Ana-1366 ,55,0.0,2023-07-15,NO, N/A ,91.21,Completado,N/A,N/A
+719,Ñandú 719,21,2822.0,2021-08-31,True, ,30.92,Completado,N/A,N/A
+1636,Tech–Labs_1636,45,0.0,18/07/2024,False,A,55.98,Completado,N/A,N/A
+260,García-260,62,0.0,2025-07-11,True,,82.68,Completado,N/A,N/A
+1532,Ñandú_1532,39,2956.0,2020-01-16T00:00:00,true,A,106.92,Completado,N/A,N/A
+623,García-623,121,0.0,2021-09-06,NO, c ,73.56,Completado,N/A,N/A
+442,José-442,41,2541.0,30/08/2022,True,D ,86.61,Completado,N/A,N/A
+796,Sofía-796,64,8968.0,2022-05-15,true,C,"97,79",Completado,N/A,N/A
+282,Usuario-282,63,0.0,2020-06-03,True,Z,91.67,Completado,N/A,N/A
+408,García 408,34,0.0,31/02/2022,T,,65.46,Completado,N/A,N/A
+1212,Müller_1212,38,0.0,2022-03-22,True,A,65.17,Completado,N/A,N/A
+443,"Compañía ""ACME""_443",48,4066.0,2020-03-07T00:00:00,F,,59.88,Completado,N/A,N/A
+635, Müller 635 ,23,6675.0,2024-03-05,T,B,69.86,Completado,N/A,N/A
+1801,"Compañía ""ACME"" 1801",61,0.0,03-12-2022,True, b ,94.89,Completado,N/A,N/A
+900,Ana_900,0,0.0,2024-10-02,NO, N/A ,47.1,Completado,N/A,N/A
+460,Müller_460,-5,5726.0,2021-08-01,False,B,104.95,Completado,N/A,N/A
+93, François 93 ,58,6360.0,2023-12-25T00:00:00,F,a,106.0,Completado,N/A,N/A
+1435,Sofía-1435,42,2701.0,2019-06-01,False, a ,59.74,Completado,N/A,N/A
+1676, Sofía_1676 ,60,0.0,0000-00-00,False, D ,69.7,Completado,N/A,N/A
+1732, Müller 1732 ,22,6050.0,2020-11-20,True, a ,76.42,Completado,N/A,N/A
+575,François_575,60,0.0,,False, D ,81.56,Completado,N/A,N/A
+978,Tech–Labs_978,60,3869.0,2020-01-12,F,,61.71,Completado,N/A,N/A
+229,O'Connor_229,35,5164.0,2024-05-17,False, C ,50.66,Completado,N/A,N/A
+504,Ana-504,40,6088.0,2019-03-24,T,c,107.82,Completado,N/A,N/A
+687,Sofía-687,,7203.0,03-08-2019,false, D ,45.92,Completado,N/A,N/A
+476,Sofía_476,52,3814.0,2025-08-23T00:00:00,False,A,60.43,Completado,N/A,N/A
+1555,Sofía_1555,59,0.0,,True, B ,37.12,Completado,N/A,N/A
+932,Niño-932,57,3881.0,2019-07-20,true,,79.82,Completado,N/A,N/A
+558, Ana_558 ,39,4390.0,2021/08/04,1,,58.49,Completado,N/A,N/A
+659,Ñandú-659,40,0.0,2020/08/03,true,D ,61.35,Completado,N/A,N/A
+1155,Renée-1155,68,2919.0,2023-05-06,False,Z,36.83,Completado,N/A,N/A
+1931,Ana_1931,121,8613.44,18-03-2019,0, b ,38.83,Completado,N/A,N/A
+563,Lía_563,41,0.0,31/02/2022,0,,68.04,Completado,N/A,N/A
+610,Renée 610,53,0.0,29-03-2023,0, b ,34.65,Completado,N/A,N/A
+198,Ana_198,49,3901.0,2025-01-18,0, b ,62.7,Completado,N/A,N/A
+1240, François 1240 ,68,4379.0,2020/11/18,True,Z,47.61,Completado,N/A,N/A
+751,Müller_751,28,0.0,2021-06-16,T,c,82.93,Completado,N/A,N/A
+1113,Usuario_1113,40,4494.0,12/09/2021,False,c,55.29,Completado,N/A,N/A
+18, Ana_18 ,68,0.0,2025-05-25,True,,78.48,Completado,N/A,N/A
+1914, André_1914 ,59,4428.0,23/08/2024,SI, D ,66.36,Completado,N/A,N/A
+482,María 482,54,2687.0,2020/09/04,true,B,65.23,Completado,N/A,N/A
+576,Sofía 576,29,5735.0,2020-11-26,True,c,72.29,Completado,N/A,N/A
+472,Renée-472,21,0.0,2025-08-20T00:00:00,True,c,40.1,Completado,N/A,N/A
+1465,Renée 1465,121,0.0,2024-11-13,True, D ,69.43,Completado,N/A,N/A
+1836,Ñandú_1836,49,5916.91,2024-08-10T00:00:00,F,a,58.67,Completado,N/A,N/A
+1706, Ñandú-1706 ,51,6562.0,21/08/2020,true,C,87.32,Completado,N/A,N/A
+1784,María_1784,21,6255.0,11-02-2022,0,B,95.09,Completado,N/A,N/A
+1282,Tech–Labs_1282,68,0.0,05/09/2019,F,A,"33,90",Completado,N/A,N/A
+764,Renée-764,20,7248.0,2024-07-08T00:00:00,False,Z,45.27,Completado,N/A,N/A
+1453,André 1453,65,2664.0,2022-09-18,false,c,87.45,Completado,N/A,N/A
+782,María-782,29,7877.0,2022-02-10,false,Z,66.89,Completado,N/A,N/A
+136, Müller_136 ,49,6188.0,,True,C,78.15,Completado,N/A,N/A
+1522, Niño 1522 ,63,8730.0,04/08/2021,SI, B ,31.41,Completado,N/A,N/A
+636,José-636,43,0.0,31/02/2022,true,,103.55,Completado,N/A,N/A
+1515,"Compañía ""ACME""_1515",67,0.0,2020-08-16,1, ,55.65,Completado,N/A,N/A
+1690,O'Connor_1690,53,6311.0,2020-10-18T00:00:00,T,Z,37.16,Completado,N/A,N/A
+461,García-461,59,0.0,29-12-2024,True,D,88.47,Completado,N/A,N/A
+1101,André-1101,23,2901.0,2024-09-23,0, ,44.88,Completado,N/A,N/A
+553,María-553,59,4309.0,2024/01/25,T,Z,"41,76",Completado,N/A,N/A
+1895, Lía-1895 ,40,6696.0,2020-04-19,false,D,43.75,Completado,N/A,N/A
+1902,Müller_1902,50,0.0,2019-04-18,False,D,99.76,Completado,N/A,N/A
+1090, François-1090 ,58,8080.0,2023-04-16,False, C ,"57,15",Completado,N/A,N/A
+1940,Tech–Labs 1940,35,0.0,0000-00-00,1,Z,69.13,Completado,N/A,N/A
+1231, Ana 1231 ,45,8310.0,17-08-2021,SI,,65.48,Completado,N/A,N/A
+9, Renée-9 ,-5,2241.0,03/08/2024,True,,54.37,Completado,N/A,N/A
+78,García 78,47,0.0,31/02/2022,SI,,100.93,Completado,N/A,N/A
+1518,Lía 1518,18,0.0,2020-04-15,SI,c,54.46,Completado,N/A,N/A
+59,Sofía_59,20,3816.0,25/10/2023,T,,97.54,Completado,N/A,N/A
+960,José 960,51,3471.0,,False,B,82.24,Completado,N/A,N/A
+763, André-763 ,66,5877.0,27/08/2019,true,C,80.94,Completado,N/A,N/A
+885,André-885,67,0.0,20/06/2019,true,a,101.49,Completado,N/A,N/A
+1497,María-1497,37,0.0,2019/05/29,False, D ,107.98,Completado,N/A,N/A
+425, José_425 ,0,5868.0,2021-02-08,True,C,40.54,Completado,N/A,N/A
+1402,Müller-1402,61,7812.0,23/07/2021,True, b ,35.03,Completado,N/A,N/A
+481,O'Connor_481,,4976.91,2021-10-11,true, b ,44.74,Completado,N/A,N/A
+497,Ñandú_497,20,0.0,04-01-2024,False,,58.83,Completado,N/A,N/A
+1656,Usuario-1656,0,0.0,2019-03-11,SI,C,95.36,Completado,N/A,N/A
+1985,Usuario 1985,45,0.0,2021-04-28T00:00:00,1, b ,84.62,Completado,N/A,N/A
+1344, Ñandú-1344 ,46,0.0,2021-02-12,False, a ,"68,95",Completado,N/A,N/A
+1389,"Compañía ""ACME""-1389",121,0.0,2019-08-25,F, c ,98.2,Completado,N/A,N/A
+413,Usuario 413,22,0.0,2022-09-05T00:00:00,False,D ,63.94,Completado,N/A,N/A
+1166,François-1166,36,6957.0,11/08/2021,False,A,90.62,Completado,N/A,N/A
+89, Renée-89 ,35,4143.0,2023-08-15T00:00:00,True,Z,99.37,Completado,N/A,N/A
+999,"Compañía ""ACME"" 999",40,5266.0,18/08/2024,NO, Z ,74.63,Completado,N/A,N/A
+1672,Sofía 1672,48,0.0,2024/09/10,True, b ,74.29,Completado,N/A,N/A
+820,García_820,23,0.0,22-01-2020,F, Z ,101.52,Completado,N/A,N/A
+1837, Renée-1837 ,25,0.0,2024-01-05,F,D ,80.54,Completado,N/A,N/A
+324,Usuario 324,52,5828.0,2021-12-18,F,A,55.29,Completado,N/A,N/A
+767,O'Connor_767,54,2160.0,2020-01-27T00:00:00,SI,B,32.49,Completado,N/A,N/A
+322,Ñandú-322,23,2956.0,2024-04-23T00:00:00,false,D ,51.58,Completado,N/A,N/A
+61,Ana-61,39,0.0,2021-02-23,1,,97.89,Completado,N/A,N/A
+1511,O'Connor-1511,53,7920.0,,true,D ,105.83,Completado,N/A,N/A
+927,José_927,44,0.0,2020/10/17,1,c,30.43,Completado,N/A,N/A
+837,Lía 837,68,0.0,31/02/2022,1, b ,75.26,Completado,N/A,N/A
+980,García_980,0,6057.0,2022-07-25,NO,,"68,15",Completado,N/A,N/A
+1410,André 1410,34,8514.0,2022-09-29T00:00:00,SI,,40.85,Completado,N/A,N/A
+1444, José 1444 ,53,4265.0,03/04/2021,true,D,43.46,Completado,N/A,N/A
+1793, Renée_1793 ,60,5367.0,01-07-2021,false,C,72.84,Completado,N/A,N/A
+1458,García-1458,63,0.0,2022-03-05,False, a ,65.25,Completado,N/A,N/A
+1326,Ana 1326,52,3416.0,2023-07-24,True,,35.61,Completado,N/A,N/A
+1997,Renée_1997,23,2857.0,08-07-2022,1,A,48.45,Completado,N/A,N/A
+297,Lía_297,29,3713.0,,NO,D ,92.67,Completado,N/A,N/A
+1340,Usuario-1340,43,5022.0,31/02/2022,SI, a ,73.3,Completado,N/A,N/A
+272, Müller-272 ,35,6799.46,2019-10-12,0,A,"65,68",Completado,N/A,N/A
+47, María 47 ,50,6682.0,2023-07-07T00:00:00,True,a,42.93,Completado,N/A,N/A
+1111,O'Connor 1111,49,2666.27,,true,D,67.7,Completado,N/A,N/A
+1134,María-1134,43,7091.39,21/05/2023,NO,B,31.77,Completado,N/A,N/A
+361,François 361,,7922.0,2019/09/20,SI,c,85.61,Completado,N/A,N/A
+1670,Müller 1670,51,5159.0,2020-12-13,true,,49.68,Completado,N/A,N/A
+17,Ñandú 17,26,4027.0,2023-02-04,False,a,31.13,Completado,N/A,N/A
+494, Ana 494 ,22,4909.0,2021-07-19,SI,C,32.49,Completado,N/A,N/A
+816,Renée 816,31,5203.0,05-08-2024,NO, c ,74.21,Completado,N/A,N/A
+194,O'Connor_194,47,0.0,2019/10/13,False,,96.93,Completado,N/A,N/A
+1976,François-1976,45,0.0,31/02/2022,SI,A,94.65,Completado,N/A,N/A
+1653, François-1653 ,47,5006.78,2021-12-24,True,B,"94,99",Completado,N/A,N/A
+868, Ana 868 ,33,0.0,,false, c ,46.72,Completado,N/A,N/A
+1867,Müller-1867,48,7392.0,2022-08-22,true,a,56.8,Completado,N/A,N/A
+1426,Ana_1426,44,3214.0,0000-00-00,True,D,32.98,Completado,N/A,N/A
+807,María 807,61,0.0,,NO,,95.79,Completado,N/A,N/A
+540,"Compañía ""ACME"" 540",38,3150.0,2019-08-11,False,D ,"67,33",Completado,N/A,N/A
+439,Lía-439,37,4630.0,09-06-2020,False,A,87.87,Completado,N/A,N/A
+141,Müller_141,43,4055.0,2020-09-16,True,A,77.78,Completado,N/A,N/A
+1223,Niño_1223,41,0.0,2020-10-02,False, b ,57.76,Completado,N/A,N/A
+890,Renée-890,28,7507.0,16-08-2021,NO,a,"61,61",Completado,N/A,N/A
+468,María 468,39,5137.0,2019/04/08,False,c,98.96,Completado,N/A,N/A
+1039,José-1039,37,0.0,2021/07/26,F, b ,88.87,Completado,N/A,N/A
+1112,Sofía-1112,19,0.0,2024-08-22,T,A,"57,43",Completado,N/A,N/A
+266,José 266,49,0.0,2019-12-26,SI, D ,50.78,Completado,N/A,N/A
+263,María-263,-5,0.0,2021-11-20,True,,96.07,Completado,N/A,N/A
+1247,Renée 1247,34,5832.0,2019-06-29,True, ,48.07,Completado,N/A,N/A
+1017,O'Connor_1017,33,6514.0,2020-03-19T00:00:00,SI,B,109.53,Completado,N/A,N/A
+756,Ñandú-756,24,0.0,2024-04-09,true,,90.0,Completado,N/A,N/A
+1284,Usuario 1284,33,4933.36,2022-09-27,false, N/A ,105.82,Completado,N/A,N/A
+4,"Compañía ""ACME""_4",41,0.0,2022/04/30,True,D ,109.38,Completado,N/A,N/A
+1379, Sofía_1379 ,121,4445.92,14-01-2025,false, b ,97.86,Completado,N/A,N/A
+1514, Tech–Labs_1514 ,32,2603.0,2022-03-07,false, N/A ,45.16,Completado,N/A,N/A
+1640,Lía-1640,65,5574.0,28/09/2023,false, B ,40.49,Completado,N/A,N/A
+474, Lía 474 ,58,5867.0,2021/05/30,True,a,"32,17",Completado,N/A,N/A
+662,María 662,68,0.0,23/04/2021,NO,c,47.94,Completado,N/A,N/A
+140,Renée 140,39,0.0,17/02/2019,False,,34.89,Completado,N/A,N/A
+1092,Niño-1092,32,0.0,0000-00-00,T,Z,56.1,Completado,N/A,N/A
+516, Renée 516 ,58,6915.0,10/02/2020,1, b ,"78,57",Completado,N/A,N/A
+343,Lía 343,54,0.0,12/02/2019,true,,91.19,Completado,N/A,N/A
+1081,María_1081,56,7072.0,2022-01-07,0, Z ,91.85,Completado,N/A,N/A
+1329,O'Connor 1329,27,0.0,,True,c,80.98,Completado,N/A,N/A
+1770,Lía_1770,46,2796.0,2020-07-13,false, B ,103.9,Completado,N/A,N/A
+1910,José-1910,41,8795.0,2021-01-03,T,,74.99,Completado,N/A,N/A
+941,Müller_941,21,7874.0,2023-01-25,0,D,65.39,Completado,N/A,N/A
+52, Lía_52 ,50,0.0,2021-11-11,SI,,49.52,Completado,N/A,N/A
+1538,Niño 1538,39,5286.0,30/12/2021,True, c ,"43,94",Completado,N/A,N/A
+1490,José-1490,21,5696.56,2019/06/14,NO,B,56.91,Completado,N/A,N/A
+531,"Compañía ""ACME""-531",63,0.0,2020/12/27,1,a,33.24,Completado,N/A,N/A
+1805,Renée 1805,24,6511.0,24/03/2024,0,D ,36.37,Completado,N/A,N/A
+1330,"Compañía ""ACME""_1330",24,0.0,2020-02-01T00:00:00,True,D ,32.75,Completado,N/A,N/A
+1849,Renée 1849,53,7364.0,14/10/2021,SI,Z,54.42,Completado,N/A,N/A
+435, Ñandú-435 ,23,3124.0,28/11/2020,True,,59.46,Completado,N/A,N/A
+538,François_538,,8401.0,2022-01-09,T,C,85.59,Completado,N/A,N/A
+696,Sofía_696,-5,3742.0,30/07/2022,F, b ,84.08,Completado,N/A,N/A
+1382,O'Connor_1382,34,0.0,04/09/2020,0,a,"72,22",Completado,N/A,N/A
+1211, O'Connor_1211 ,46,3216.0,2025-04-03,False,Z,34.4,Completado,N/A,N/A
+556,Usuario-556,66,6154.0,04-03-2023,True,,32.48,Completado,N/A,N/A
+1154,Usuario-1154,61,7961.0,,False,Z,33.97,Completado,N/A,N/A
+951,Müller 951,18,0.0,2019-01-08,True,B,55.22,Completado,N/A,N/A
+360,Tech–Labs-360,32,3546.09,2021-08-26,True,a,61.27,Completado,N/A,N/A
+1269,García-1269,28,4068.0,2022-01-30T00:00:00,true,c,108.05,Completado,N/A,N/A
+256,François-256,55,5972.0,2022-04-14T00:00:00,F,B,"69,67",Completado,N/A,N/A
+1807, Tech–Labs 1807 ,50,0.0,2023-02-03,true,a,77.74,Completado,N/A,N/A
+391,Niño_391,51,6737.0,2025-08-26T00:00:00,False,Z,"109,59",Completado,N/A,N/A
+721,García 721,66,4068.0,30/08/2019,1,Z,100.54,Completado,N/A,N/A
+1179,Lía 1179,33,6969.0,2025-06-05,SI,B,65.67,Completado,N/A,N/A
+372,André-372,29,3931.0,2023/08/07,False,D,60.6,Completado,N/A,N/A
+62,Usuario-62,0,6666.0,15/12/2020,True,Z,37.59,Completado,N/A,N/A
+1607,Ñandú_1607,22,0.0,2020-06-04,F,C,69.24,Completado,N/A,N/A
+1973,O'Connor-1973,0,0.0,0000-00-00,True, c ,82.3,Completado,N/A,N/A
+159,García-159,27,0.0,2024-08-22,True,A,84.77,Completado,N/A,N/A
+1790,Ana 1790,30,4538.0,2021/06/08,False,B,53.19,Completado,N/A,N/A
+412,Tech–Labs_412,36,8683.0,2020-07-16,0,D ,43.93,Completado,N/A,N/A
+1004, Ana_1004 ,,0.0,31/02/2022,false,Z,41.4,Completado,N/A,N/A
+1296,Tech–Labs_1296,33,5642.0,2024-06-23,False,Z,50.27,Completado,N/A,N/A
+485,O'Connor-485,30,2923.0,,False,Z,64.2,Completado,N/A,N/A
+147, Ana 147 ,56,2125.0,2020/06/20,F,a,101.24,Completado,N/A,N/A
+1742,José 1742,54,6863.0,25/05/2024,False,c,"77,34",Completado,N/A,N/A
+1815,Ñandú 1815,46,0.0,24/05/2020,0, D ,32.62,Completado,N/A,N/A
+1419,Renée-1419,45,4100.0,30/04/2020,True,,108.87,Completado,N/A,N/A
+827,François 827,30,3520.0,2019-06-05,F,D,90.85,Completado,N/A,N/A
+1443, André 1443 ,27,6272.0,14-03-2025,SI, b ,"87,37",Completado,N/A,N/A
+844, Ana_844 ,63,8395.0,10-10-2022,1,A,41.38,Completado,N/A,N/A
+577,José_577,47,6114.0,2025-04-30T00:00:00,NO,B,109.57,Completado,N/A,N/A
+838, Ñandú 838 ,0,6437.0,,0,D ,31.53,Completado,N/A,N/A
+1386, O'Connor-1386 ,0,0.0,,True, b ,74.79,Completado,N/A,N/A
+1924,Niño_1924,31,3677.0,2020-03-24,T,Z,92.85,Completado,N/A,N/A
+1705,María_1705,27,6684.0,0000-00-00,NO,c,57.44,Completado,N/A,N/A
+589,Lía_589,36,0.0,2025-07-12,SI,,87.58,Completado,N/A,N/A
+291,Sofía 291,39,4720.0,2020/12/14,T, c ,92.06,Completado,N/A,N/A
+1436,Renée_1436,39,7127.0,2021-03-17,True, N/A ,"68,82",Completado,N/A,N/A
+863,María-863,25,7564.0,2023-01-01T00:00:00,F,,63.88,Completado,N/A,N/A
+1655,Usuario_1655,27,0.0,2023-05-11T00:00:00,T,Z,33.51,Completado,N/A,N/A
+214,Ñandú_214,39,2645.0,2020-12-31,1,C,77.79,Completado,N/A,N/A
+1890,Müller_1890,29,4727.53,2022-04-16,SI,Z,96.28,Completado,N/A,N/A
+1383,Sofía_1383,42,7321.0,10/12/2019,false,c,105.94,Completado,N/A,N/A
+1205,María-1205,47,0.0,2023-08-29,SI,a,"66,56",Completado,N/A,N/A
+1885,Sofía 1885,28,2713.0,2020-11-18,False,C,43.08,Completado,N/A,N/A
+381,Tech–Labs_381,35,5229.87,2023-08-21,SI,B,"87,71",Completado,N/A,N/A
+100,O'Connor-100,54,5719.0,28/02/2023,1,a,99.05,Completado,N/A,N/A
+1898,Lía-1898,38,3382.0,23/07/2024,NO,,89.55,Completado,N/A,N/A
+1160,François-1160,51,0.0,21/04/2020,true,C,87.53,Completado,N/A,N/A
+1201,François 1201,24,7236.0,2020-08-02,False,Z,60.07,Completado,N/A,N/A
+505,Renée-505,20,0.0,2025-01-29T00:00:00,T,c,107.02,Completado,N/A,N/A
+1584, Niño_1584 ,33,4224.0,2024-10-11,F,a,60.01,Completado,N/A,N/A
+597,André 597,45,4624.0,2023-07-01,1,C,51.63,Completado,N/A,N/A
+865,José-865,31,2839.0,2019-01-03T00:00:00,T,a,"66,16",Completado,N/A,N/A
+40,O'Connor-40,20,5219.0,01/10/2023,True,,43.95,Completado,N/A,N/A
+341,García 341,20,8471.0,2023-01-13,SI,Z,68.33,Completado,N/A,N/A
+3,Sofía 3,41,4919.0,,0,B,"34,51",Completado,N/A,N/A
+452,Usuario-452,22,3625.03,2020-09-29,True,c,88.24,Completado,N/A,N/A
+1848," Compañía ""ACME""-1848 ",60,0.0,12/02/2022,True, a ,64.23,Completado,N/A,N/A
+1842,García-1842,59,0.0,2023/07/08,NO,Z,38.44,Completado,N/A,N/A
+1093, Renée_1093 ,51,0.0,30-03-2021,0, A ,99.17,Completado,N/A,N/A
+1233,Lía-1233,55,2087.88,0000-00-00,F, c ,55.25,Completado,N/A,N/A
+609,José-609,23,0.0,2021-04-01,T,,45.94,Completado,N/A,N/A
+421,Ana_421,49,4160.0,09/12/2024,true,Z,95.28,Completado,N/A,N/A
+1278,Lía 1278,33,2947.0,2024-09-25,False,C,101.27,Completado,N/A,N/A
+847,Ana-847,33,5358.0,30/10/2022,0, a ,"107,45",Completado,N/A,N/A
+1364,Müller-1364,19,6634.0,2021-05-20,False,B,77.95,Completado,N/A,N/A
+1434,Lía_1434,40,0.0,2022/08/26,True,,99.45,Completado,N/A,N/A
+112,François-112,43,2539.0,2021-05-18,False,a,107.95,Completado,N/A,N/A
+225,Renée 225,51,3636.0,2021-11-06,false,A,106.02,Completado,N/A,N/A
+943, Renée-943 ,49,5472.0,,NO,D,103.47,Completado,N/A,N/A
+1569,Renée_1569,58,0.0,05-04-2025,1, b ,90.47,Completado,N/A,N/A
+74,García_74,22,4294.0,2019-06-03,T,B,"58,48",Completado,N/A,N/A
+48, Ñandú 48 ,55,0.0,2023-02-05,False,C,83.08,Completado,N/A,N/A
+639,François-639,-5,0.0,2025-08-06,SI,D,68.15,Completado,N/A,N/A
+114,Ñandú_114,46,5324.0,2020-01-25,true,a,105.98,Completado,N/A,N/A
+97,José_97,48,7334.0,02/01/2021,T,D,58.07,Completado,N/A,N/A
+1762,François-1762,25,4383.0,16/11/2023,true,D ,"103,17",Completado,N/A,N/A
+1239,"Compañía ""ACME""-1239",54,8082.0,11/03/2025,0, b ,84.17,Completado,N/A,N/A
+1594,Renée 1594,53,0.0,2019-01-10,NO, A ,57.65,Completado,N/A,N/A
+1148,Müller-1148,35,0.0,,True,c,77.34,Completado,N/A,N/A
+107,María_107,-5,8316.0,2024-01-27T00:00:00,1,B,55.81,Completado,N/A,N/A
+1620, Ana_1620 ,-5,8811.0,2022-03-27T00:00:00,NO, c ,"46,96",Completado,N/A,N/A
+1042,Müller-1042,59,0.0,02/07/2020,True,,49.13,Completado,N/A,N/A
+1767,Niño-1767,63,8588.0,2021-11-07,False,D,101.35,Completado,N/A,N/A
+1123,José-1123,69,3177.0,2019/06/03,NO,B,50.94,Completado,N/A,N/A
+1828,Lía-1828,59,0.0,2020-10-22,NO, B ,34.9,Completado,N/A,N/A
+1347,Niño-1347,26,0.0,,0, b ,86.83,Completado,N/A,N/A
+1407, Ñandú-1407 ,68,4896.0,,False,D,"72,16",Completado,N/A,N/A
+1390,Müller_1390,31,5782.45,2021-02-05T00:00:00,T,a,87.81,Completado,N/A,N/A
+1535,Tech–Labs_1535,0,0.0,30-01-2023,1,B,93.2,Completado,N/A,N/A

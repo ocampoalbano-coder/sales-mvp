@@ -1,0 +1,43 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>Generar Reporte</h1>
+
+<form class="form card" method="post" enctype="multipart/form-data">
+  <div class="field">
+    <label>Archivo CSV</label>
+    <input type="file" name="archivo" accept=".csv" required>
+  </div>
+  <div class="field">
+    <label>Delimitador (opcional)</label>
+    <input type="text" name="delimiter" placeholder=", ; | tab">
+  </div>
+  <div class="field">
+    <label>Columna de categoría (opcional)</label>
+    <input type="text" name="columna_categoria" placeholder="Ej: Categoria">
+  </div>
+  <div class="field inline">
+    <label><input type="checkbox" name="generar_pdf"> Generar PDF</label>
+  </div>
+  <button class="btn" type="submit">Ejecutar</button>
+</form>
+
+{% if generado %}
+<section class="card">
+  <h2>Resultado</h2>
+  <p><strong>Archivo:</strong> {{ generado.archivo }}</p>
+  <p>
+    <a class="btn" href="{{ url_for('main.descargar', filename=generado.xlsx) }}">Descargar Excel</a>
+    {% if generado.pdf %}
+      <a class="btn secondary" href="{{ url_for('main.descargar', filename=generado.pdf) }}">Descargar PDF</a>
+    {% endif %}
+  </p>
+  {% if generado.cols %}
+  <div class="chips">
+    {% for c in generado.cols %}
+      <span class="chip">{{ c }}</span>
+    {% endfor %}
+  </div>
+  {% endif %}
+</section>
+{% endif %}
+{% endblock %}

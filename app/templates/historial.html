@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>Historial de Reportes</h1>
+<section class="card">
+  {% if not items %}
+    <p>No hay reportes aún.</p>
+  {% else %}
+  <table class="table">
+    <thead>
+      <tr>
+        <th>Excel</th>
+        <th>PDF</th>
+        <th>Fecha</th>
+        <th>Tamaño (MB)</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for it in items %}
+      <tr>
+        <td><a href="{{ url_for('main.descargar', filename=it.xlsx) }}">{{ it.xlsx }}</a></td>
+        <td>
+          {% if it.pdf %}
+            <a href="{{ url_for('main.descargar', filename=it.pdf) }}">{{ it.pdf }}</a>
+          {% else %}
+            —
+          {% endif %}
+        </td>
+        <td>{{ it.ctime.strftime("%Y-%m-%d %H:%M:%S") }}</td>
+        <td>{{ '%.2f'|format(it.size_mb) }}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+  {% endif %}
+</section>
+{% endblock %}

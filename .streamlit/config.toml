@@ -1,7 +1,12 @@
-﻿[theme]
+@"
+[theme]
 base = "dark"
 
 [server]
 maxUploadSize = 200
 enableXsrfProtection = true
 enableCORS = false
+"@ | Set-Content -Encoding ASCII .\.streamlit\config.toml
+
+# Comprobar que NO hay BOM (no debe mostrar "239 187 191")
+(Get-Content .\.streamlit\config.toml -Encoding Byte -TotalCount 3) -join ' '

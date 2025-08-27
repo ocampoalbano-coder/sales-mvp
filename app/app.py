@@ -1,493 +1,490 @@
-# app/app.py
-# Sales MVP — Streamlit App (EN default, ES optional)
-# - Bilingual UI (English default). Switch with the header select.
-# - Column mapping (Date / Category / Revenue).
-# - Date policy: drop | median | const.
-# - Clean table, metrics, category summary.
-# - Excel / PDF exports (Unicode-safe).
-# - Works with CSVs in English or Spanish headers.
-
-from __future__ import annotations
-import os
+# -*- coding: utf-8 -*-
 import io
-import sys
-import math
-from datetime import datetime
-from typing import Dict, Any, Tuple
+import os
+import csv
+from datetime import datetime, date, time, timedelta
+from pathlib import Path
 
-import pandas as pd
 import numpy as np
+import pandas as pd
 import streamlit as st
 from fpdf import FPDF
 
 
-# ------------------------------
-# Page config
-# ------------------------------
-st.set_page_config(
-    page_title="Sales MVP",
-    page_icon="📊",
-    layout="wide",
-)
+# --------------------------
+# Config & i18n
+# --------------------------
+st.set_page_config(page_title="Sales MVP – Web", layout="wide")
 
-# ------------------------------
-# Translations (EN default)
-# ------------------------------
-TR: Dict[str, Dict[str, str]] = {
+TR = {
     "en": {
-        "app_title": "Sales MVP — CSV Analyzer",
-        "intro": "Upload a CSV, map columns, choose a date policy, and export Excel/PDF.",
-        "lang_label": "Language",
-        "uploader": "Upload CSV file",
-        "adv_title": "Advanced",
-        "delimiter": "Delimiter",
-        "encoding": "Encoding",
-        "col_map_title": "Column mapping",
-        "col_date": "Date column",
-        "col_category": "Category column",
-        "col_revenue": "Revenue column",
-        "date_policy": "Date policy",
-        "policy_help": "How to handle invalid dates (NaT) after parsing the date column.",
-        "policy_drop": "drop (remove rows with invalid dates)",
-        "policy_median": "median (impute with median date)",
-        "policy_const": "const (impute with a specific date)",
-        "const_date": "Impute date",
-        "process_btn": "Process dataset",
-        "metrics_title": "Metrics",
-        "metric_orders": "Orders",
-        "metric_total_rev": "Total revenue",
-        "metric_avg_rev": "Average revenue",
-        "dq_title": "Data quality",
-        "dq_nat": "Invalid dates (NaT)",
-        "clean_title": "Clean data",
-        "summary_title": "Summary by category",
-        "download_title": "Downloads",
-        "dl_excel": "Download Excel",
-        "dl_pdf": "Download PDF",
-        "sample_title": "Samples",
-        "sample_en": "Download sample (English)",
-        "sample_es": "Download sample (Spanish)",
-        "excel_sheet_clean": "clean_data",
-        "excel_sheet_summary": "summary_by_category",
-        "excel_sheet_metrics": "metrics",
-        "pdf_title": "Sales report – Summary",
-        "pdf_orders": "Orders",
-        "pdf_total_rev": "Total revenue",
-        "pdf_avg_rev": "Average revenue",
-        "pdf_invalid": "Invalid dates (NaT)",
-        "no_data": "Load a CSV to continue.",
-        "label_policy": "Date policy",
-        "policy_note": "Default is 'median' to preserve rows.",
-        "map_tip": "If your headers differ, pick the right ones below.",
-        "policy_warning_label": "Date policy",  # label for accessibility
-        "info_revenue_parse": "Revenue column was parsed to numeric (non-numeric set to NaN).",
+        "title": "Sales MVP - Web",
+        "lang": "Language / Idioma",
+        "upload": "Upload your CSV/XLSX",
+        "map": "Map the correct columns if names differ. Columns are shown exactly as in your file.",
+        "date_col": "Date column",
+        "cat_col": "Category column",
+        "rev_col": "Revenue column",
+        "run": "Run",
+        "policy": "Policy for invalid dates",
+        "drop": "Drop rows",
+        "median": "Impute median (keep rows)",
+        "const": "Impute constant date (keep rows)",
+        "const_date": "Constant date (YYYY-MM-DD)",
+        "kpis": "KPIs",
+        "orders": "Orders",
+        "tot_rev": "Total revenue",
+        "avg_rev": "Average revenue",
+        "dq": "Data Quality",
+        "nat_before": "NaT dates (before)",
+        "policy_used": "Policy",
+        "imputed_value": "Imputed value",
+        "rows_before_after": "Original rows / Final rows",
+        "rev_recalc_rows": "Revenue recalculated (rows)",
+        "dl_excel": "⬇️ Download Excel",
+        "dl_pdf": "⬇️ Download PDF",
+        "templates": "Download templates / Descargar plantillas",
+        "dl_csv_en": "⬇️ Download English CSV",
+        "dl_csv_es": "⬇️ Descargar CSV Español",
+        "sep": "Separator",
+        "enc": "Encoding",
+        "auto": "Auto-detect (default)",
+        "comma": "Comma ,",
+        "semicolon": "Semicolon ;",
+        "tab": "Tab \\t",
+        "pipe": "Pipe |",
+        "choose_cols": "Load a file to choose columns",
+        "auth_title": "Access",
+        "auth_desc": "This app is protected by a password.",
+        "password": "Password",
+        "auth_btn": "Enter",
+        "auth_bad": "Invalid password.",
     },
     "es": {
-        "app_title": "MVP de Ventas — Analizador CSV",
-        "intro": "Sube un CSV, mapea columnas, elige una política de fechas y exporta Excel/PDF.",
-        "lang_label": "Idioma",
-        "uploader": "Subir archivo CSV",
-        "adv_title": "Avanzado",
-        "delimiter": "Delimitador",
-        "encoding": "Codificación",
-        "col_map_title": "Mapeo de columnas",
-        "col_date": "Columna de fecha",
-        "col_category": "Columna de categoría",
-        "col_revenue": "Columna de ingresos",
-        "date_policy": "Política de fechas",
-        "policy_help": "Cómo tratar fechas inválidas (NaT) tras parsear la columna de fecha.",
-        "policy_drop": "drop (eliminar filas con fecha inválida)",
-        "policy_median": "median (imputar con fecha mediana)",
-        "policy_const": "const (imputar con fecha específica)",
-        "const_date": "Fecha a imputar",
-        "process_btn": "Procesar dataset",
-        "metrics_title": "Métricas",
-        "metric_orders": "Pedidos",
-        "metric_total_rev": "Ingresos totales",
-        "metric_avg_rev": "Ingresos promedio",
-        "dq_title": "Calidad de datos",
-        "dq_nat": "Fechas inválidas (NaT)",
-        "clean_title": "Datos limpios",
-        "summary_title": "Resumen por categoría",
-        "download_title": "Descargas",
-        "dl_excel": "Descargar Excel",
-        "dl_pdf": "Descargar PDF",
-        "sample_title": "Ejemplos",
-        "sample_en": "Descargar ejemplo (Inglés)",
-        "sample_es": "Descargar ejemplo (Español)",
-        "excel_sheet_clean": "datos_limpios",
-        "excel_sheet_summary": "resumen_por_categoria",
-        "excel_sheet_metrics": "metricas",
-        "pdf_title": "Reporte de ventas - Resumen",
-        "pdf_orders": "Pedidos",
-        "pdf_total_rev": "Ingresos totales",
-        "pdf_avg_rev": "Ingresos promedio",
-        "pdf_invalid": "Fechas inválidas (NaT)",
-        "no_data": "Carga un CSV para continuar.",
-        "label_policy": "Política de fechas",
-        "policy_note": "Por defecto 'median' para conservar filas.",
-        "map_tip": "Si tus encabezados difieren, elige los correctos abajo.",
-        "policy_warning_label": "Política de fechas",
-        "info_revenue_parse": "La columna de ingresos se convirtió a numérico (no numéricos quedaron en NaN).",
+        "title": "Sales MVP - Web",
+        "lang": "Language / Idioma",
+        "upload": "Sube tu CSV/XLSX",
+        "map": "Mapea las columnas si difieren. Los nombres se muestran tal cual están en tu archivo.",
+        "date_col": "Columna de fecha",
+        "cat_col": "Columna de categoría",
+        "rev_col": "Columna de ingresos",
+        "run": "Ejecutar",
+        "policy": "Política para fechas inválidas",
+        "drop": "Eliminar filas",
+        "median": "Imputar mediana (mantener filas)",
+        "const": "Imputar fecha constante (mantener filas)",
+        "const_date": "Fecha constante (YYYY-MM-DD)",
+        "kpis": "KPIs",
+        "orders": "Pedidos",
+        "tot_rev": "Ingreso total",
+        "avg_rev": "Ingreso promedio",
+        "dq": "Calidad de Datos",
+        "nat_before": "Fechas NaT (antes)",
+        "policy_used": "Política",
+        "imputed_value": "Valor imputado",
+        "rows_before_after": "Filas originales / finales",
+        "rev_recalc_rows": "Revenue recalculado (filas)",
+        "dl_excel": "⬇️ Descargar Excel",
+        "dl_pdf": "⬇️ Descargar PDF",
+        "templates": "Download templates / Descargar plantillas",
+        "dl_csv_en": "⬇️ Descargar CSV Inglés",
+        "dl_csv_es": "⬇️ Descargar CSV Español",
+        "sep": "Separador",
+        "enc": "Codificación",
+        "auto": "Auto-detectar (por defecto)",
+        "comma": "Coma ,",
+        "semicolon": "Punto y coma ;",
+        "tab": "Tabulación \\t",
+        "pipe": "Barra |",
+        "choose_cols": "Carga un archivo para elegir columnas",
+        "auth_title": "Acceso",
+        "auth_desc": "Esta app está protegida con contraseña.",
+        "password": "Contraseña",
+        "auth_btn": "Ingresar",
+        "auth_bad": "Contraseña inválida.",
     },
 }
 
 def tr(lang: str, key: str) -> str:
     return TR.get(lang, TR["en"]).get(key, key)
 
-# Default language = English
-if "lang" not in st.session_state:
-    st.session_state.lang = "en"
 
-# Header bar with language selector
-left, mid, right = st.columns([1,1,1])
-with left:
-    st.title(tr(st.session_state.lang, "app_title"))
-with right:
-    st.selectbox(
-        tr(st.session_state.lang, "lang_label"),
-        options=["en", "es"],
-        index=0,  # English default
-        key="lang",
-    )
+# --------------------------
+# Auth (password mode)
+# --------------------------
+def _auth_gate() -> None:
+    mode = st.secrets.get("LIC_MODE", "open").lower()
+    if mode != "password":
+        return
 
-st.caption(tr(st.session_state.lang, "intro"))
-
-# ------------------------------
-# License gate (optional simple password)
-# ------------------------------
-if st.secrets.get("LIC_MODE", "").lower() == "password":
-    pwd_ok = st.session_state.get("_pwd_ok", False)
-    if not pwd_ok:
-        with st.expander("Access", expanded=True):
-            pwd = st.text_input("Password", type="password")
-            if st.button("Enter"):
-                if pwd and pwd == st.secrets.get("ACCESS_PASSWORD"):
-                    st.session_state["_pwd_ok"] = True
-                    st.rerun()
-                else:
-                    st.error("Invalid password")
-        st.stop()
-
-# ------------------------------
-# Sidebar: upload + advanced
-# ------------------------------
-st.sidebar.header(tr(st.session_state.lang, "uploader"))
-uploaded = st.sidebar.file_uploader(tr(st.session_state.lang, "uploader"), type=["csv"])
-
-with st.sidebar.expander(tr(st.session_state.lang, "adv_title"), expanded=False):
-    delim = st.selectbox(
-        tr(st.session_state.lang, "delimiter"),
-        options=[",", ";", "\t", "|"],
-        index=0,
-        key="delim",
-    )
-    enc = st.selectbox(
-        tr(st.session_state.lang, "encoding"),
-        options=["utf-8", "latin-1", "cp1252"],
-        index=0,
-        key="enc",
-    )
-
-# ------------------------------
-# Try to read CSV
-# ------------------------------
-df_raw: pd.DataFrame | None = None
-if uploaded is not None:
+    hours = st.secrets.get("SESSION_HOURS", 0)
     try:
-        df_raw = pd.read_csv(uploaded, sep=st.session_state.delim, encoding=st.session_state.enc, dtype=str)
-    except UnicodeDecodeError:
-        df_raw = pd.read_csv(uploaded, sep=st.session_state.delim, encoding="latin-1", dtype=str)
-    except Exception as e:
-        st.error(f"Failed to read CSV: {e}")
+        hours = int(hours)
+    except Exception:
+        hours = 0
 
-if df_raw is None:
-    st.info(tr(st.session_state.lang, "no_data"))
-    st.divider()
-    # Sample downloads
-    st.subheader(tr(st.session_state.lang, "sample_title"))
-    col_a, col_b = st.columns(2)
-    # English sample
-    with io.StringIO() as s:
-        sample_en = pd.DataFrame({
-            "order_id": [f"OD{10000+i}" for i in range(8)],
-            "order_date": pd.to_datetime(
-                ["2024-01-06","2024-01-15","","2024-02-07","2024-03-01","","2024-05-22","2024-06-10"],
-                errors="coerce"
-            ).astype(str),
-            "customer_id": ["C1001","C1002","C1003","C1004","C1005","C1006","C1007","C1008"],
-            "region": ["North","LATAM","LATAM","South","Center","Center","North","South"],
-            "product_id": ["P201","P202","P203","P204","P205","P206","P207","P208"],
-            "product_name": ["Mouse","Keyboard","Headset","Printer","Router","Dock","Webcam","Tablet"],
-            "category": ["Peripherals","Peripherals","Audio","Compute","Network","Audio","Peripherals","Compute"],
-            "unit_price": ["120.5","89.0","230.0","650.0","510.0","320.0","95.0","399.9"],
-            "quantity": ["3","2","5","1","7","2","4","1"],
-            "discount": ["0.1","0.0","0.0","0.0","0.05","0.1","0.2","0.0"],
-            "revenue": ["325.35","178.00","1150.00","650.00","3391.50","576.00","304.00","399.90"],
-            "status": ["Completed","Cancelled","Completed","Completed","Completed","Pending","Completed","Pending"],
-        })
-        sample_en.to_csv(s, index=False)
-        col_a.download_button(
-            tr(st.session_state.lang, "sample_en"),
-            data=s.getvalue().encode("utf-8"),
-            file_name="sample_en.csv",
-            mime="text/csv",
-        )
-    # Spanish sample
-    with io.StringIO() as s:
-        sample_es = pd.DataFrame({
-            "ID": [f"OD{10000+i}" for i in range(8)],
-            "Fecha_Registro": pd.to_datetime(
-                ["2024-01-06","2024-01-15","","2024-02-07","2024-03-01","","2024-05-22","2024-06-10"],
-                errors="coerce"
-            ).astype(str),
-            "Cliente": ["C1001","C1002","C1003","C1004","C1005","C1006","C1007","C1008"],
-            "Region": ["Norte","LATAM","LATAM","Sur","Centro","Centro","Norte","Sur"],
-            "Producto_ID": ["P201","P202","P203","P204","P205","P206","P207","P208"],
-            "Producto": ["Mouse","Teclado","Auricular","Impresora","Router","Dock","Webcam","Tablet"],
-            "Categoria": ["Periféricos","Periféricos","Audio","Cómputo","Redes","Audio","Periféricos","Cómputo"],
-            "Precio_Unitario": ["120.5","89.0","230.0","650.0","510.0","320.0","95.0","399.9"],
-            "Cantidad": ["3","2","5","1","7","2","4","1"],
-            "Descuento": ["0.1","0.0","0.0","0.0","0.05","0.1","0.2","0.0"],
-            "Ingreso_Mensual": ["325.35","178.00","1150.00","650.00","3391.50","576.00","304.00","399.90"],
-            "Estado": ["Completado","Cancelado","Completado","Completado","Completado","Pendiente","Completado","Pendiente"],
-        })
-        sample_es.to_csv(s, index=False, sep=";")
-        col_b.download_button(
-            tr(st.session_state.lang, "sample_es"),
-            data=s.getvalue().encode("utf-8"),
-            file_name="sample_es.csv",
-            mime="text/csv",
-        )
+    if "AUTH_OK" in st.session_state:
+        if hours <= 0:
+            return
+        if st.session_state.get("AUTH_UNTIL") and datetime.utcnow() < st.session_state["AUTH_UNTIL"]:
+            return
+        # expired
+        st.session_state.clear()
+
+    lang = st.session_state.get("ui_lang", "en")
+    st.header(tr(lang, "auth_title"))
+    st.info(tr(lang, "auth_desc"))
+    pwd = st.text_input(tr(lang, "password"), type="password")
+    if st.button(tr(lang, "auth_btn")):
+        if pwd == st.secrets.get("ACCESS_PASSWORD", ""):
+            st.session_state["AUTH_OK"] = True
+            if hours > 0:
+                st.session_state["AUTH_UNTIL"] = datetime.utcnow() + timedelta(hours=hours)
+            st.rerun()
+        else:
+            st.error(tr(lang, "auth_bad"))
     st.stop()
 
-# ------------------------------
-# Column mapping UI
-# ------------------------------
-st.subheader(tr(st.session_state.lang, "col_map_title"))
-st.caption(tr(st.session_state.lang, "map_tip"))
 
-cols = list(df_raw.columns)
+# --------------------------
+# Helpers
+# --------------------------
+def _sniff_sep_and_enc(raw_bytes: bytes):
+    """Try to guess separator and encoding quickly."""
+    # Encoding: try utf-8, then latin-1
+    encs = ["utf-8", "latin-1"]
+    enc_ok = None
+    text = None
+    for enc in encs:
+        try:
+            text = raw_bytes.decode(enc)
+            enc_ok = enc
+            break
+        except Exception:
+            continue
+    if enc_ok is None:
+        enc_ok = "utf-8"
+        text = raw_bytes.decode(enc_ok, errors="ignore")
 
-# Heuristic defaults
-date_guess = next((c for c in cols if c.lower() in ("order_date", "fecha_registro", "date")), cols[0])
-cat_guess = next((c for c in cols if c.lower() in ("category", "categoria")), cols[min(1, len(cols)-1)])
-rev_guess = next((c for c in cols if c.lower() in ("revenue", "ingreso_mensual", "income", "amount")), cols[min(2, len(cols)-1)])
+    # Separator sniff
+    try:
+        sample = text[:4096]
+        dialect = csv.Sniffer().sniff(sample, delimiters=[",", ";", "\t", "|"])
+        sep = dialect.delimiter
+    except Exception:
+        # fallback: guess by frequency
+        candidates = {",": text.count(","), ";": text.count(";"), "\t": text.count("\t"), "|": text.count("|")}
+        sep = max(candidates, key=candidates.get)
 
-c1, c2, c3 = st.columns(3)
-with c1:
-    col_date = st.selectbox(tr(st.session_state.lang, "col_date"), options=cols, index=cols.index(date_guess))
-with c2:
-    col_category = st.selectbox(tr(st.session_state.lang, "col_category"), options=cols, index=cols.index(cat_guess))
-with c3:
-    col_revenue = st.selectbox(tr(st.session_state.lang, "col_revenue"), options=cols, index=cols.index(rev_guess))
+    return sep, enc_ok
 
-st.divider()
 
-# ------------------------------
-# Policy selection
-# ------------------------------
-st.caption(tr(st.session_state.lang, "policy_note"))
-policy = st.radio(
-    label=tr(st.session_state.lang, "policy_warning_label"),  # not empty for accessibility
-    options=["drop", "median", "const"],
-    index=1,  # median default
-    horizontal=True,
-    label_visibility="collapsed",
-    help=tr(st.session_state.lang, "policy_help"),
-)
-const_date_str = None
-if policy == "const":
-    const_date_str = st.date_input(tr(st.session_state.lang, "const_date"), value=datetime(2023, 1, 1)).strftime("%Y-%m-%d")
+def load_file(uploaded, sep_choice: str, enc_choice: str) -> pd.DataFrame:
+    """Read CSV or Excel; support autodetect for CSV."""
+    if uploaded is None:
+        return pd.DataFrame()
 
-# Process button
-st.button(tr(st.session_state.lang, "process_btn"), type="primary")
+    name = uploaded.name.lower()
+    raw = uploaded.getvalue()
 
-# ------------------------------
-# Cleaning / conversions
-# ------------------------------
-df = df_raw.copy()
+    if name.endswith((".xlsx", ".xls")):
+        return pd.read_excel(io.BytesIO(raw))
 
-# Parse date
-df[col_date] = pd.to_datetime(df[col_date], errors="coerce")
-
-# Revenue numeric
-df[col_revenue] = (
-    df[col_revenue]
-    .astype(str)
-    .str.replace(",", ".", regex=False)
-    .str.replace(r"[^\d\.\-]", "", regex=True)
-    .replace("", np.nan)
-)
-df[col_revenue] = pd.to_numeric(df[col_revenue], errors="coerce")
-st.caption(tr(st.session_state.lang, "info_revenue_parse"))
-
-# Handle invalid dates
-invalid_mask = df[col_date].isna()
-invalid_count = int(invalid_mask.sum())
-
-if policy == "drop":
-    df_after = df.loc[~invalid_mask].copy()
-    imputed_value = None
-elif policy == "median":
-    # Median date among valid rows
-    if invalid_count > 0 and (df[col_date].notna().any()):
-        median_ts = df.loc[~invalid_mask, col_date].astype("int64").median()
-        imputed_value = pd.to_datetime(median_ts)
-        df_after = df.copy()
-        df_after.loc[invalid_mask, col_date] = imputed_value
+    # CSV
+    if sep_choice == "auto" or enc_choice == "auto":
+        sep_auto, enc_auto = _sniff_sep_and_enc(raw)
     else:
-        df_after = df.copy()
-        imputed_value = None
-elif policy == "const":
-    imputed_value = pd.to_datetime(const_date_str) if const_date_str else pd.to_datetime("2022-01-01")
-    df_after = df.copy()
-    df_after.loc[invalid_mask, col_date] = imputed_value
-else:
-    df_after = df.copy()
-    imputed_value = None
+        sep_auto, enc_auto = ",", "utf-8"
 
-# ------------------------------
-# Metrics
-# ------------------------------
-orders = int(len(df_after))
-total_revenue = float(df_after[col_revenue].sum(skipna=True)) if orders else 0.0
-avg_revenue = float(df_after[col_revenue].mean(skipna=True)) if orders else 0.0
+    sep = {"auto": sep_auto, ",": ",", ";": ";", "\\t": "\t", "|": "|"}[sep_choice]
+    enc = enc_choice if enc_choice != "auto" else enc_auto
 
-st.subheader(tr(st.session_state.lang, "metrics_title"))
-m1, m2, m3, m4 = st.columns(4)
-m1.metric(tr(st.session_state.lang, "metric_orders"), f"{orders:,}")
-m2.metric(tr(st.session_state.lang, "metric_total_rev"), f"{total_revenue:,.2f}")
-m3.metric(tr(st.session_state.lang, "metric_avg_rev"), f"{avg_revenue:,.2f}")
-m4.metric(tr(st.session_state.lang, "dq_nat"), f"{invalid_count:,}")
+    # Try strict, then permissive
+    try:
+        return pd.read_csv(io.BytesIO(raw), sep=sep, encoding=enc)
+    except Exception:
+        return pd.read_csv(io.BytesIO(raw), sep=sep, encoding=enc, engine="python", on_bad_lines="skip")
 
-# ------------------------------
-# Clean data table
-# ------------------------------
-st.subheader(tr(st.session_state.lang, "clean_title"))
-st.dataframe(df_after, use_container_width=True, height=400)
 
-# ------------------------------
-# Summary by category
-# ------------------------------
-st.subheader(tr(st.session_state.lang, "summary_title"))
+def _excel_bytes(df_clean: pd.DataFrame, meta: dict) -> bytes:
+    buf = io.BytesIO()
+    with pd.ExcelWriter(buf, engine="openpyxl") as xw:
+        df_clean.to_excel(xw, index=False, sheet_name="clean_data")
+        pd.DataFrame([meta]).T.rename(columns={0: "value"}).to_excel(xw, sheet_name="metrics")
+    buf.seek(0)
+    return buf.read()
 
-def resumen_categoria(df_: pd.DataFrame, cat_col: str, rev_col: str) -> pd.DataFrame:
-    g = df_.groupby(cat_col, dropna=False)[rev_col].agg(count="count", sum="sum", mean="mean")
-    # rename on DataFrame (not Series)
-    g = g.rename(columns={"count": "orders", "sum": "total_revenue", "mean": "avg_revenue"})
-    g = g.reset_index().sort_values("total_revenue", ascending=False)
-    return g
 
-summary_df = resumen_categoria(df_after, col_category, col_revenue)
-st.dataframe(summary_df, use_container_width=True, height=360)
+def _safe_text(s: str) -> str:
+    # Ensure text fits Helvetica if no Unicode font; replace unsupported chars
+    return s.encode("latin-1", errors="replace").decode("latin-1")
 
-# ------------------------------
-# Exports
-# ------------------------------
-st.subheader(tr(st.session_state.lang, "download_title"))
 
-def export_excel_bytes(df_clean: pd.DataFrame, summary: pd.DataFrame, lang: str) -> bytes:
-    out = io.BytesIO()
-    with pd.ExcelWriter(out, engine="openpyxl") as xw:
-        df_clean.to_excel(xw, index=False, sheet_name=tr(lang, "excel_sheet_clean"))
-        summary.to_excel(xw, index=False, sheet_name=tr(lang, "excel_sheet_summary"))
-        pd.DataFrame({
-            "metric": [
-                tr(lang, "metric_orders"),
-                tr(lang, "metric_total_rev"),
-                tr(lang, "metric_avg_rev"),
-                tr(lang, "dq_nat"),
-            ],
-            "value": [orders, total_revenue, avg_revenue, invalid_count],
-        }).to_excel(xw, index=False, sheet_name=tr(lang, "excel_sheet_metrics"))
-    out.seek(0)
-    return out.read()
+def _pdf_bytes(metrics: dict, lang: str) -> bytes:
+    # Try to use Unicode TTF if available
+    font_path = None
+    for candidate in ["app/fonts/DejaVuSans.ttf", "app/fonts/NotoSans-Regular.ttf"]:
+        if Path(candidate).exists():
+            font_path = candidate
+            break
 
-def _load_unicode_font(pdf: FPDF) -> Tuple[bool, str]:
-    """
-    Try to load a Unicode TTF from ./app/fonts or ./fonts.
-    Returns (ok, font_family)
-    """
-    candidates = [
-        os.path.join(os.path.dirname(__file__), "fonts", "DejaVuSans.ttf"),
-        os.path.join(os.path.dirname(__file__), "fonts", "NotoSans-Regular.ttf"),
-        os.path.join("app", "fonts", "DejaVuSans.ttf"),
-        os.path.join("app", "fonts", "NotoSans-Regular.ttf"),
-        "DejaVuSans.ttf",
-        "NotoSans-Regular.ttf",
-    ]
-    for path in candidates:
-        if os.path.exists(path):
-            try:
-                pdf.add_font("DejaVu", "", path, uni=True)
-                pdf.add_font("DejaVu", "B", path, uni=True)
-                return True, "DejaVu"
-            except Exception:
-                # try as Noto
-                try:
-                    pdf.add_font("Noto", "", path, uni=True)
-                    pdf.add_font("Noto", "B", path, uni=True)
-                    return True, "Noto"
-                except Exception:
-                    pass
-    return False, "helvetica"
-
-def sanitize_text(s: str) -> str:
-    # Replace en dash, em dash, etc. to ASCII hyphen to avoid Helvetica issues
-    if not isinstance(s, str):
-        s = str(s)
-    return s.replace("–", "-").replace("—", "-")
-
-def export_pdf_bytes(lang: str) -> bytes:
     pdf = FPDF(orientation="P", unit="mm", format="A4")
-    pdf.set_auto_page_break(auto=True, margin=15)
     pdf.add_page()
 
-    ok_font, fam = _load_unicode_font(pdf)
-    if ok_font:
-        pdf.set_font(fam, "B", 16)
+    if font_path:
+        pdf.add_font("DejaVu", "", font_path, uni=True)
+        pdf.set_font("DejaVu", size=22)
+        title = "Reporte de Ventas (MVP)" if lang == "es" else "Sales Report (MVP)"
+        pdf.cell(0, 10, title, ln=1, align="C")
+        pdf.set_font("DejaVu", size=12)
+        gen = "Generado" if lang == "es" else "Generated"
+        pdf.cell(0, 8, f"{gen}: {datetime.now():%Y-%m-%d %H:%M}", ln=1)
     else:
-        pdf.set_font("helvetica", "B", 16)
+        pdf.set_font("Helvetica", size=22)
+        title = "Reporte de Ventas (MVP)" if lang == "es" else "Sales Report (MVP)"
+        pdf.cell(0, 10, _safe_text(title), ln=1, align="C")
+        pdf.set_font("Helvetica", size=12)
+        gen = "Generado" if lang == "es" else "Generated"
+        pdf.cell(0, 8, _safe_text(f"{gen}: {datetime.now():%Y-%m-%d %H:%M}"), ln=1)
 
-    title = sanitize_text(tr(lang, "pdf_title"))
-    pdf.cell(0, 10, title, ln=1, align="C")
+    # Body
+    def line(txt: str):
+        if font_path:
+            pdf.cell(0, 8, txt, ln=1)
+        else:
+            pdf.cell(0, 8, _safe_text(txt), ln=1)
 
-    if ok_font:
-        pdf.set_font(fam, "", 12)
-    else:
-        pdf.set_font("helvetica", "", 12)
+    h1 = "KPIs:" if lang == "es" else "KPIs:"
+    pdf.set_font(pdf.font_family, size=14)
+    line(h1)
+    pdf.set_font(pdf.font_family, size=12)
 
-    lines = [
-        f"{tr(lang, 'pdf_orders')}: {orders:,}",
-        f"{tr(lang, 'pdf_total_rev')}: {total_revenue:,.2f}",
-        f"{tr(lang, 'pdf_avg_rev')}: {avg_revenue:,.2f}",
-        f"{tr(lang, 'pdf_invalid')}: {invalid_count:,}",
-    ]
-    for line in lines:
-        pdf.cell(0, 8, sanitize_text(line), ln=1)
+    orders_lbl = "Pedidos" if lang == "es" else "Orders"
+    total_lbl = "Ingreso total" if lang == "es" else "Total revenue"
+    avg_lbl = "Ingreso promedio" if lang == "es" else "Average revenue"
+
+    line(f"- {orders_lbl}: {metrics['orders']:,}")
+    line(f"- {total_lbl}: {metrics['total_revenue']:,.2f}")
+    line(f"- {avg_lbl}: {metrics['avg_revenue']:,.2f}")
+    line("")
+
+    h2 = "Calidad de Datos:" if lang == "es" else "Data Quality:"
+    pdf.set_font(pdf.font_family, size=14)
+    line(h2)
+    pdf.set_font(pdf.font_family, size=12)
+
+    nat_lbl = "Fechas NaT (antes)" if lang == "es" else "NaT dates (before)"
+    pol_lbl = "Política" if lang == "es" else "Policy"
+    imp_lbl = "Valor imputado" if lang == "es" else "Imputed value"
+    rows_lbl = "Filas originales / finales" if lang == "es" else "Original rows / Final rows"
+    rrc_lbl = "Revenue recalculado (filas)" if lang == "es" else "Revenue recalculated (rows)"
+
+    line(f"- {nat_lbl}: {metrics['nat_before']}")
+    line(f"- {pol_lbl}: {metrics['policy']}")
+    if metrics.get("imputed_value"):
+        line(f"- {imp_lbl}: {metrics['imputed_value']}")
+    line(f"- {rows_lbl}: {metrics['rows_before']} / {metrics['rows_after']}")
+    line(f"- {rrc_lbl}: {metrics['recalc_rows']}")
 
     out = pdf.output(dest="S")
-    # fpdf2>=2.7 returns bytearray here
-    if isinstance(out, (bytes, bytearray)):
-        return bytes(out)
-    else:
-        # Older versions might return str
-        return out.encode("latin-1", "ignore")
+    # fpdf2 suele devolver bytes; por si acaso convertimos bytearray/memoryview
+    if isinstance(out, (bytearray, memoryview)):
+        out = bytes(out)
+    return out
 
-# Buttons
-ex_bytes = export_excel_bytes(df_after, summary_df, st.session_state.lang)
-pdf_bytes = export_pdf_bytes(st.session_state.lang)
-cA, cB = st.columns(2)
-cA.download_button(
-    tr(st.session_state.lang, "dl_excel"),
-    data=ex_bytes,
+
+# --------------------------
+# Sidebar UI (lang, auth, upload, templates)
+# --------------------------
+with st.sidebar:
+    # Language first so gate can use it
+    ui_lang = st.selectbox(TR["en"]["lang"], ["English", "Español"], index=0)
+    st.session_state["ui_lang"] = "es" if ui_lang.startswith("Espa") else "en"
+
+_auth_gate()  # may stop the app
+
+lang = st.session_state.get("ui_lang", "en")
+st.title(tr(lang, "title"))
+
+with st.sidebar:
+    st.subheader(tr(lang, "upload"))
+
+    sep_label = tr(lang, "sep")
+    enc_label = tr(lang, "enc")
+    sep_choice = st.selectbox(
+        sep_label,
+        [tr(lang, "auto"), ",", ";", "\\t", "|"],
+        index=0,
+        help="CSV only. Excel is detected automatically.",
+    )
+    sep_key = "auto" if sep_choice.startswith("Auto") or sep_choice.startswith("Auto-") else sep_choice
+
+    enc_choice = st.selectbox(
+        enc_label,
+        [tr(lang, "auto"), "utf-8", "latin-1", "utf-16"],
+        index=0,
+        help="Encoding guess: utf-8 → latin-1 fallback.",
+    )
+    enc_key = "auto" if enc_choice.startswith("Auto") or enc_choice.startswith("Auto-") else enc_choice
+
+    uploaded = st.file_uploader("CSV/XLSX", type=["csv", "xlsx", "xls"])
+
+    # Templates (strings → no bytearray)
+    with st.expander(tr(lang, "templates")):
+        en_csv = (
+            "ID,Registration_Date,Category,Monthly_Income,Status\n"
+            "1,2024-07-10,Electronics,1200.50,Completed\n"
+            "2,,Clothing,845.90,Pending\n"
+            "3,2023-11-05,Home,560.00,Completed\n"
+            "4,2022-01-17,Electronics,2200.00,Canceled\n"
+            "5,2024-03-22,Clothing,1400.75,Completed\n"
+            "6,2025-08-01,Home,980.00,Pending\n"
+        )
+        es_csv = (
+            "ID;Fecha_Registro;Categoria;Ingreso_Mensual;Estado\n"
+            "1;2024-07-10;Electrónica;1200.50;Completado\n"
+            "2;;Ropa;845.90;Pendiente\n"
+            "3;2023-11-05;Hogar;560.00;Completado\n"
+            "4;2022-01-17;Electrónica;2200.00;Cancelado\n"
+            "5;2024-03-22;Ropa;1400.75;Completado\n"
+            "6;2025-08-01;Hogar;980.00;Pendiente\n"
+        )
+        st.download_button(tr(lang, "dl_csv_en"), data=en_csv, file_name="sample_en_web.csv", mime="text/csv")
+        st.download_button(tr(lang, "dl_csv_es"), data=es_csv, file_name="sample_es_web.csv", mime="text/csv")
+
+
+# --------------------------
+# Main UI
+# --------------------------
+st.caption(tr(lang, "map"))
+
+if uploaded is None:
+    st.info(tr(lang, "choose_cols"))
+    st.stop()
+
+df_raw = load_file(uploaded, sep_key, enc_key)
+cols = list(df_raw.columns)
+if not cols:
+    st.error("Empty file / Archivo vacío")
+    st.stop()
+
+c_date, c_cat, c_rev = st.columns(3)
+with c_date:
+    col_date = st.selectbox(tr(lang, "date_col"), options=cols, index=0)
+with c_cat:
+    col_cat = st.selectbox(tr(lang, "cat_col"), options=cols, index=min(1, len(cols)-1))
+with c_rev:
+    col_rev = st.selectbox(tr(lang, "rev_col"), options=cols, index=min(2, len(cols)-1))
+
+# Policy controls (label non-empty to avoid Streamlit warning)
+policy = st.radio(
+    tr(lang, "policy"),
+    options=["drop", "median", "const"],
+    format_func=lambda x: {"drop": tr(lang, "drop"), "median": tr(lang, "median"), "const": tr(lang, "const")}[x],
+    horizontal=True,
+    index=1,
+)
+const_date = None
+if policy == "const":
+    d: date = st.date_input(tr(lang, "const_date"), value=date(2022, 1, 1))
+    const_date = datetime.combine(d, time(12, 0, 0))
+
+run = st.button(tr(lang, "run"), use_container_width=True)
+if not run:
+    st.stop()
+
+# --------------------------
+# Processing
+# --------------------------
+df = df_raw.copy()
+
+# Parse date & revenue
+dates = pd.to_datetime(df[col_date], errors="coerce", utc=False, infer_datetime_format=True)
+nat_before = int(dates.isna().sum())
+
+rev = pd.to_numeric(df[col_rev], errors="coerce").astype(float)
+df["_date_"] = dates
+df["_rev_"] = rev
+
+# Apply policy
+imputed_value = ""
+if policy == "drop":
+    df_after = df.loc[df["_date_"].notna()].copy()
+elif policy == "median":
+    med = pd.to_datetime(df["_date_"].dropna().median())
+    imputed_value = med.strftime("%Y-%m-%d %H:%M:%S") if pd.notna(med) else ""
+    df_after = df.copy()
+    df_after["_date_"] = df_after["_date_"].fillna(med)
+else:  # const
+    if const_date is None:
+        const_date = datetime(2022, 1, 1, 12, 0, 0)
+    imputed_value = const_date.strftime("%Y-%m-%d %H:%M:%S")
+    df_after = df.copy()
+    df_after["_date_"] = df_after["_date_"].fillna(const_date)
+
+rows_before = len(df)
+rows_after = len(df_after)
+
+# KPIs
+orders = rows_after
+total_rev = float(np.nan_to_num(df_after["_rev_"]).sum())
+avg_rev = float(np.nan_to_num(df_after["_rev_"]).mean()) if orders > 0 else 0.0
+
+# Output dataframe (clean)
+out_cols = [col_date, col_cat, col_rev]
+df_out = df_after[[col_date, col_cat, col_rev]].copy()
+df_out.rename(columns={col_date: "Date", col_cat: "Category", col_rev: "Revenue"}, inplace=True)
+
+# --------------------------
+# UI Results
+# --------------------------
+st.subheader(tr(lang, "kpis"))
+m1, m2, m3 = st.columns(3)
+m1.metric(f"{tr(lang, 'orders')} / Pedidos", f"{orders:,}")
+m2.metric(f"{tr(lang, 'tot_rev')} / Ingreso total", f"{total_rev:,.2f}")
+m3.metric(f"{tr(lang, 'avg_rev')} / Ingreso promedio", f"{avg_rev:,.2f}")
+
+st.subheader(tr(lang, "dq"))
+st.write(
+    f"- {tr(lang, 'nat_before')} / {TR['es']['nat_before']}: **{nat_before}**  \n"
+    f"- {tr(lang, 'policy_used')} / {TR['es']['policy_used']}: **{tr(lang, policy)}**  \n"
+    + (f"- {tr(lang, 'imputed_value')} / {TR['es']['imputed_value']}: **{imputed_value}**  \n" if imputed_value else "")
+    + f"- {tr(lang, 'rows_before_after')} / {TR['es']['rows_before_after']}: **{rows_before} / {rows_after}**  \n"
+    f"- {tr(lang, 'rev_recalc_rows')} / {TR['es']['rev_recalc_rows']}: **0**"
+)
+
+st.dataframe(df_out.head(200), use_container_width=True)
+
+# --------------------------
+# Downloads
+# --------------------------
+metrics = {
+    "orders": orders,
+    "total_revenue": total_rev,
+    "avg_revenue": avg_rev,
+    "nat_before": nat_before,
+    "policy": tr(lang, policy),
+    "imputed_value": imputed_value,
+    "rows_before": rows_before,
+    "rows_after": rows_after,
+    "recalc_rows": 0,
+}
+
+excel_bytes = _excel_bytes(df_out, metrics)
+pdf_bytes = _pdf_bytes(metrics, lang)
+
+b1, b2 = st.columns(2)
+b1.download_button(
+    tr(lang, "dl_excel"),
+    data=excel_bytes,
     file_name="report.xlsx",
     mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    use_container_width=True,
 )
-cB.download_button(
-    tr(st.session_state.lang, "dl_pdf"),
-    data=pdf_bytes,
+b2.download_button(
+    tr(lang, "dl_pdf"),
+    data=pdf_bytes,  # bytes (no bytearray)
     file_name="report.pdf",
     mime="application/pdf",
+    use_container_width=True,
 )
